@@ -1,0 +1,30 @@
+# ===== Org / LaTeX exports =====
+*.tex
+*.log
+*.aux
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ===== Emacs =====
+*~
+\#*\#
+.#*
+.elc
+/.emacs.d/auto-save-list/
+
+# ===== Vim =====
+*.swp
+*.swo
+*.swn
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Export / build directories =====
+/build/
+/out/
+/exports/
