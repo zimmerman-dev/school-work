@@ -1,0 +1,92 @@
+#+title: Week 1 Notes
+#+author: John Zimmerman
+#+email: jzimmerman3@madisoncollege.edu
+#+date: 2026:01:21
+
+* Learning Unit 3-1: Conversions
+
+** Percents
+
+Like fractions and decimals, *percents* describe parts of a whole. The word /percent/ means "per 100", and the percent symbol (~%~) indicates hundreths (division by 100). Percents are the result of expressing numbers as part of 100.
+
+** Converting Decimals to Percents
+
+- Step 1 :: Move the decimal point two places to the right. This represents multiplying by 100. If necessary, add zeros. This rule is also used for whole numbers and mixed decimals.
+- Step 2 :: Add the percent symbol at the end of the number.
+
+*** Examples
+
+- $0.49 = 49%$
+- $0.80 = 80%$
+- $8.00 = 800%$
+- $0.007 = 0.7%$
+
+** Rounding Percents
+
+The rules for rounding percents isn't necessarily universal, but these will be the rules for this class:
+
+- Step 1 :: Only round once you a percentage. Make sure to convert from fractions or decimals first.
+- Step 2 :: When rounding, you want the digit to the right of the digit in question to be 5 or greater. Then, you can round that identified digit up.
+- Step 3 :: Delete digits to the right of the identified digit.
+
+*** Examples
+
+- $\frac{18}{55}$ = 32.727272... *rounded*: $32.73$
+- $\frac{2}{3}$ = .66666666... *rounded*: $.67$
+
+** Converting Percents to Decimals
+
+To convert percents to decimals, just reverse what we learned for converting decimals to percents.
+
+- Step 1 :: Drop the percent symbol
+- Step 2 :: Move the decimal point two places left. This is the same as dividing by 100. If necessary, add zeros.
+
+** Converting Fractions to Percents
+
+When fractions have denominators of 100, it's fairly simple to convert it a percent. If it doesn't here are the steps.
+
+- Step 1 :: Divide the numerator by the denominator to convert the fraction to a decimal.
+- Step 2 :: Move the decimal point two places to the right, don't forget to add the percent sign.
+
+** Converting Percents to Fractions
+
+You can write any percent as a fraction whose denominator is 100.
+
+- Step 1 :: Drop the percent symbol.
+- Step 2 :: Multiply the number by $\frac{1}{100}$.
+- Step 3 :: Reduce to lowest terms.
+
+*** Example
+
+Convert 76% to a fraction.
+
+- Step 1 :: 76% = $\frac{76}{100}$
+- Step 2 :: *Reduce*: $\frac{76}{100} = \frac{19}{25}$
+
+** Converting a Mixed or Decimal Percent to a Fraction
+
+- Step 1 :: Drop the percent symbol.
+- Step 2 :: Change the mixed percent to an improper fraction.
+- Step 3 :: Multiply the number by $\frac{1}{100}$
+
+*** Example
+
+Convert $12\frac{1}{2}$ % to a fraction:
+
+- Step 1 :: Convert $12\frac{1}{2}$ % to an improper fraction.
+  - $(2 * 12) + 1 = 25$
+  - $\frac{25}{2}$
+- Step 2 :: Multiply $\frac{25}{2} * $\frac{1}{100}$
+  - *Equals*: $\frac{25}{200}$
+- Step 3 :: *Reduce*: $\frac{25}{200}$ = $\frac{1}{8}$
+
+* Learning Unit 3-2: Application of Percents-Portion Formula
+
+- Base */(B)/* :: The *base* is the beginning whole quantity or value (100%).
+- Rate */(R)/* :: The *rate* is a percent, decimal, or fraction that indicates the part of the base that you must calculate. Look for the percent sign to identify the rate.
+- Portion */(P)/* :: The *portion* is the amount or part that results from $base * rate$.
+
+** Solving Percents with the Portion Formula
+
+*** TODO practice these word problems!!!! 
+SCHEDULED: <2026-01-21 Wed> DEADLINE: <2026-01-22 Thu>

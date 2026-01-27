@@ -1,0 +1,29 @@
+* Big Concepts
+
+** Coding Standards
+
+Standards are important for the following reasons:
+
+1. Foundation for professional web dev.
+2. In place to build well-structured HTML and CSS.
+3. Each company may have its own list of standards.
+4. Helps to support responsive web design, accessibility, and site performance.
+
+** Responsive Web Design
+
+The goal of responsive web design is to make a website work well all on all devices with different screens.
+
+** Accessibility
+
+Failing to make any service accessible is a form of discrimination. For main categories:
+
+1. Visual
+2. Motor
+3. Auditory
+4. Cognitive
+
+** Section 508
+
+If you are funded by the government, you must be in compliance or else possible loss of funding.
+
+** Performance tests

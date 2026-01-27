@@ -1,0 +1,123 @@
+% Created 2026-01-26 Mon 20:10
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{John Zimmerman}
+\date{2026:01:22}
+\title{Demo - Web Foundations}
+\hypersetup{
+ pdfauthor={John Zimmerman},
+ pdftitle={Demo - Web Foundations},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 30.2 (Org mode 9.7.11)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Demo - Web Foundations}
+\label{sec:org3c4655f}
+
+\subsection{The Beginning}
+\label{sec:orge9c3088}
+
+\textbf{Tim Berners-Lee}, a british scientist at CERN, invented to World Wide Web in 1989. Back then, the web was conceived and developed to meet the demand for automatic information-sharing between scientists in universities and institutions.
+\subsection{How the Internet Works}
+\label{sec:orgf5e9aa7}
+
+Very simply, On the client side there is a brower like Chrome of Firefox and it pushes requests to the server, and the server sends a response back to the browser. Somewhere down the line, the browser creates the \textbf{Document Object Model} (DOM) and the data (HTML/CSS) shows up visually on the screen.
+\subsection{The Trinity of Web Development}
+\label{sec:org9ed8df5}
+
+The three main components of web developnment is \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript}.
+
+\begin{description}
+\item[{HTML}] HyperText Markup Language
+\begin{itemize}
+\item Builds the \emph{structure} or skeleton of website
+\item Think of a frame on a house
+\end{itemize}
+\item[{CSS}] Cascadimg Style Sheets
+\begin{itemize}
+\item Builds the \emph{presentation} of a website
+\item Think of the decorations on a house
+\end{itemize}
+\item[{JS}] JavaScript
+\begin{itemize}
+\item Builds the \emph{behavior} and interactivity of a website
+\item Like the appliances of a house
+\end{itemize}
+\end{description}
+\subsection{The Basic Structure of a Webpage}
+\label{sec:org91d9f79}
+
+\begin{verbatim}
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Jen's Kitchen</title> 
+</head> 
+
+<body> 
+<h1>This is a heading</h1>
+
+<h2> this is another heading</h2>
+
+<p>This is a paragraph</p>
+
+<br> 
+
+</body> 
+</html> 
+\end{verbatim}
+\subsection{HTML Structure}
+\label{sec:org4411280}
+
+\begin{description}
+\item[{Tag}] Refers to the descriptor or type for content. Example <p>, <h1>, etc.
+\item[{Content}] Refers to the \emph{stuff} in between the angle brackets of a tag.
+\item[{Attribute}] Goes inside of a tag, used to add clarity and nuance to an element.
+\item[{Value}] Content for the attribute.
+\item[{Element}] The tag and the content together is the element.
+\end{description}
+
+If a tag doesn't have content, it's considered a \textbf{self-closing tag}. All other tags need a \emph{closing tag}. Example. </p>, </h1>, etc.
+
+\begin{verbatim}
+// examples here...
+\end{verbatim}
+\subsection{WWW}
+\label{sec:orga604708}
+
+For websites, we need a website server. This means software that handles HTTP or HTTPS. Servers job is to \emph{serve up} documents.
+\subsection{IP Addresses}
+\label{sec:org5add84e}
+
+\begin{verbatim}
+
+- Protocol :: https://
+- Host name :: www.
+- Domain Name :: Name of the site
+- Dir path :: /directories/
+- Doc :: absolute path - index.html
+
+https://www.nameofsite/directories/index.html
+
+\end{verbatim}
+\subsection{Default files}
+\label{sec:orga6b3ec5}
+
+The index.html is usually the file in the root of the directory and is the main document for the webpage. If you don't specify a path, it will default to index.html.
+\end{document}

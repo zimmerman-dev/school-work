@@ -1,0 +1,42 @@
+#+title: Week 1 Notes
+#+author: John Zimmerman
+#+email: jzimmerman3@madisoncollege.edu
+#+date: 2026:01:25
+
+* IT Security Awareness
+
+** Common IT Skills
+
+*** Microsoft Office
+
+The Microsoft Office suite is used throughout the IT industry. Proficiency and usage will vary depending on the job. As a student, and future IT professional, you should develop an intermediate proficiency in the usage of the following:
+
+1. Microsoft Word
+2. Microsoft Excel
+3. Microsoft Powerpoint
+4. Microsoft Outlook
+5. Microsoft Onedrive
+6. Microsoft Teams
+
+* IT Security Awareness Training Video
+
+** Why IT Security Training Matters?
+
+- Helps to combat problems when they arise, and helps to remain in compliance with company policiese and even laws.
+- There are monetary and legal risks if not in compliance.
+
+** Main Reasons for Breaches in Security
+
+- Human error and/or carelessness
+- Social Engineering
+
+** Actions to Mitigate Security Breaches
+
+- Update all anti-virus countermeasures (software like norton).
+- Don't install unapproved software.
+- Keep OS current with updates.
+- Log-off when computer is idle - use password protection.
+- Keep physical docs secure and locked away.
+- Clear screen and clear desk policy.
+- Don't write passwords down - ever.
+- Never open unknown emails.

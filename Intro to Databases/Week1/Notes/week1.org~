@@ -1,0 +1,84 @@
+#+title: Week 1 Notes
+#+author: John Zimmerman
+#+email: jzimmerman3@madisoncollege.edu
+#+date: 2026:01:22
+
+* What is a Database?
+
+** Databases
+
+Simply, *database* is a collection of information.
+
+- Fields :: The individual kinds of information are organized into *columns*.
+- Records :: Each set of information is organized into *rows*.
+- Table :: Fields and records make up a *table*.
+- Datbase :: One or more tables make up a *database*.
+
+  #+begin_quote
+The rules that regulate rules and layouts of the database are called the "/schema/" of the database.
+  #+end_quote
+
+** Databases vs. Spreadsheets
+
+While both databases and spreadsheets have fields and records:
+
+- Database tables can have specific relationships to each other.
+- Databases allow us to manage data and ask questions about data.
+
+* Why Use a Database
+
+Datbases let us work with large amounts of data easily. They offer security features to control access to information, and help to reduce redunancy.
+
+* The Client-Sever Model
+
+All relational databases operate on the *client-server model*. This means that there's two components that work together to make a complete system.
+
+- Database Sever :: Performs all relational database management tasks. This is where data is structured, stored, and secured.
+- Interface Client :: Whether it's graphical or text-based, it allows users to connect and control activities on the sever.
+
+** Benefits of the Client-Server Model
+
+This system excels at allowing a tailored-system to suit particular needs.
+
+1. Database servers can accept connections from many simultaneous clients.
+2. A single client can connect to multiple servers.
+3. Most RDBMSs come with preffered client direct from the same vendor.
+4. Third-party clients are often available though.
+
+* Relational Database Management Systems
+
+Relational Database Management Systems, or *RDMBS* for short, gives you the tools that you need in order to build database to meet your unique set of requirements.
+
+** Data Structures
+
+- Create tables
+- Define column parameters
+- Formalize relationships
+- Create data validation rules
+
+** Data Storage
+
+- Organize values in tables
+- Build and search indexes
+- Maintain redundant data
+- Regular backups
+
+** Data Security
+
+- Control access
+- Manage user login
+- Keeps logs for auditing
+
+These are three main responsibilties for an *RDBMS*.
+
+** DB Scope
+
+- Desktop
+- Server
+- Cloud
+
+Depending on your needs, you can choose the scope you want your database to cover.
+
+* Storing Data Efficiently
+
+By splitting data efficiently, you can minimize the amount of space you need while maximizing the granularity in your organization.
