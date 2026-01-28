@@ -1,0 +1,14 @@
+#+title: Challenge Exercise Notes and Questions
+#+author: John Zimmerman
+#+email: jzimmerman3@madisoncollege.edu
+#+date: 2026:01:28
+
+* Challenge Exercises
+
+** Ex 03
+
+*** Questions
+
+- What are best practices for line breaks?
+- When you see the comment ~// Describe application here~, are you supposed to write that verbatim, or actually describe the application.
+- When it comes to max-len error for es-lint, what is the best practice for this class?

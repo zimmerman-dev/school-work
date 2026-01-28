@@ -2,9 +2,8 @@ function lab02() {
     "use strict";
 
     // YOUR CODE STARTS AFTER THIS LINE
-
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 2");
+    document.writeln("JavaScript is fun. ");
+    document.writeln("<h2>A Big Hello</h2>");
 
     
 }
