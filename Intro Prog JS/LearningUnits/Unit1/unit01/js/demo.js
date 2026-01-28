@@ -1,0 +1,6 @@
+function demoFunction() {
+    "use strict";
+
+    
+
+}

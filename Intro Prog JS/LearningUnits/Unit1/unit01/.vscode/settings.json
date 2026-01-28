@@ -1,0 +1,11 @@
+{
+  "github.copilot.enable": false,
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.suggestion.enable": false,
+  "github.copilot.chat.enable": true,
+  "files.exclude": {
+    "**/.cursor": true,
+    "**/.github": true,
+    "**/.vscode": true
+  }
+}

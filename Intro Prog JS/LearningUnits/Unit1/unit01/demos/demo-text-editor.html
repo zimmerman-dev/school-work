@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-text-editor.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Using a Text Editor</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Using a Text Editor</h1>
+  </header>
+    
+
+  <main>
+
+
+    <section>
+      <p class="paraNoBottomMarg">I’m going to edit this file and give you an overview of typing code in a text editor. I’ll add some JavaScript code, edit some HTML, and look at some of the features of the editor. Feel free to following along with me.</p>
+    </section>
+
+    <section>
+      <h2>First, type your name</h2>
+      <p>All labs, exercises, and projects have a section in the HTML file where you need to type your name, section, and email.</p>
+<pre><code class="language-html">&lt;section class="studentInfo"&gt;
+  &lt;h2&gt;Student Information:&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Name:&lt;/li&gt;
+    &lt;li&gt;Section:&lt;/li&gt;
+    &lt;li&gt;Email:&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;</code></pre>
+      <h3>How to find where to type</h3>
+      <p>Finding this section of code in the large HTML file can be challenging at first. Here’s a shortcut!</p>
+      <ol>
+        <li>Use the keyboard shortcut <code>CTRL</code> + <code>f</code> to open the search pane (see image below).</li>
+        <li>In the <code>Find in current buffer</code> field, type <code>name:</code> (include the colon).
+        
+        <ul>
+        <li>Make sure the &ldquo;Ignore case&rdquo; checkbox is checked</li>
+        </ul></li>
+        <li>This will bring you directly to the correct location.</li>
+        <li>Next, type in your name, section, and email.</li>
+        <li>Use the keyboard shortcut <code>CTRL</code> + <code>S</code> to save the file.</li>
+        <li>Refresh your browser, <code>F5</code>, to see your changes!</li>
+      </ol>
+      <img src="../resources/demoFindName.png" alt="finding where to type your name" class="image70"/>
+    </section>
+
+    <section>
+      <h2>Then, find the JavaScript file and function</h2>
+      <p>Now, I need to locate a special location where my JavaScript will go. It’s important that the JavaScript is typed in the correct place, or it won’t work.</p>
+      <ol>
+        <li>Locate the <code>.js</code> file in the <code>js</code> directory. This is a special type of file that will hold all your JavaScript code. The correct <code>.js</code> file will have the same name of the lab, exercise, or project you are working on.</li>
+        <li>For example, this HTML file is called <code>text-editor.html</code>. Therefore, you need to locate the <code>text-editor.js</code> file in the <code>js</code> directory.</code></li>
+        <li>The JavaScript file will contain the <code>function</code> (see image below) where you need to write your code. More about functions later, just know for now that you will be typing all your code inside of them.</li>
+        <li>The orange lines in the image below, signify a JavaScript comment. These are lines ignored by the browser. They have been placed in the function indicating where your code needs to start.</li>
+      </ol>
+      <img src="../resources/demoFindFunction.png" alt="finding the JavaScript function"/ class="image70">
+
+    </section>
+
+    <section>
+      <h2>Next, type some JavaScript</h2>
+      <p>Next, I will type some JavaScript in-between the two comments, and refresh my browser for it to run. Notice the Output box below. Right now it is empty, but once I type in the following code, “Hello World!” will appear!</p>
+      <img src="../resources/demoTypeJavaScript.png" alt="typing some JavaScript"/ class="image70">
+    </section>
+
+<section>
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+<script language="JavaScript" type="text/javascript">demoEditor();</script>
+</pre>
+</section>
+
+  </main>
+
+</body>
+
+</html>
