@@ -1,0 +1,20 @@
+#+title: Week 2 Notes
+#+author: John Zimmerman
+#+email: jzimmerman3@madisoncollege.edu
+#+date: 2026:01:27
+
+* Basic Equation Solving Procedures
+
+- Expression :: A meaningful combination of letters and numbers called /terms/. Operational signs such as + or - within an expression. Expressions help to define the relationship between the operands.
+- Formula :: A formula is an /equation for expressing a word concept. From last weeks lesson, we learned about the ~Base * Rate = Portion~ formula. Another formula is the simple interest formula, ~Interest = Principal * Rate * Time~.
+- Variable  :: A variable stands for a number. It is a way to represent the number of an *unknown* for which we are solving for. Numbers that are not variables are considered *constants* or *knowns*.
+- Equation :: An equation is an expression where both sides of the ~=~ sign are equal. This means you may have to /adjust/ for the right answer.
+- PEMDAS :: An acronym for the *orders of operations*, i.e. Parentheses, Expontent, Multiplication & Division, and Addition & and Subtraction.
+- Porportion :: A proportion is when two *ratios* are equal.
+  - The easiest way to solve for proportions is /cross multiplication/.
+
+*Example*:
+
+$\frac{3}{6} = \frac{1}{2}$ is the same as $3 * 2 = 6 * 1$
+
+- Coefficient :: A number in front of a variable is called a coefficient.

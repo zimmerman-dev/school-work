@@ -1,0 +1,24 @@
+* Notes
+
+** Types of Elements
+
+- Block Level :: block level elements belong on their own line on a page. Some examples of block elements:
+  
+  - Headings
+  - Paragraphs
+  - divs
+
+- Inline Level :: Inline elements are considered text level elements and do not start a new line. Spacingis added as required.
+
+  - emphasis
+  - italics
+  - image
+  - line break
+  
+*** Generic Containers
+
+- span :: generic inline container
+- div :: generic block container
+
+
+** 
