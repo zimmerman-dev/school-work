@@ -2,19 +2,30 @@ function lab01() {
     "use strict";
 
     // YOUR CODE STARTS AFTER THIS LINE:
+
+    // Variable Declaration
+
     let time;
     let distance;
+    let pace;
 
-    prompt("How long did you walk/run for (in hours)?");
+    // Prompt user, return values stored in variables
+
+    time = prompt("How long did you walk/run for (in hours)?");
     distance = prompt("How far did you walk/run (in miles).")
 
-    time - Number(time)
-    distance = number(distance);
+    // Explicit conversion
 
-    pace = distnce / time;
+    time = Number(time);
+    distance = Number(distance);
 
+    // Calculate mph and assign to pace
 
-    docment.write("Your pace was " + pace  " mph!");
+    pace = distance / time;
+
+    // Output to DOM
+
+    document.writeln("Your pace was " + pace + " mph!");
 
     // END OF YOUR CODE
 
