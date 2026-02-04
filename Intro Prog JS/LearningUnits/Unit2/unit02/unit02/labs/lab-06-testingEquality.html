@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link href="../styles/css.css" rel="stylesheet" />
+    <link href="../styles/prism.css" rel="stylesheet" />
+    <script src="../js/prism.js"></script>
+    <script src="../js/lab-06-testingEquality.js"></script>
+    <script src="../js/unitData.js"></script>
+    <title>Lab 06</title>
+
+
+</head>
+
+<body class="lab">
+    <header>
+        <a href="../index.html" class="homeLink">Home</a>
+        <h1>Lab 6 | Testing Equality</h1>
+    </header>
+
+
+    <main>
+        <section class="studentInfo">
+            <h2>Student Information:</h2>
+            <ul>
+                <li>Name:</li>
+                <li>Section:</li>
+                <li>Email:</li>
+            </ul>
+        </section>
+
+        <section class="steps noPrint">
+            <h2>Lab Steps</h2>
+            <ul>
+                <li>Open this file in your browser and your text editor.</li>
+                <li>Add your name, section, and email to the HTML.</li>
+                <li>Locate the <code class="language-js">lab06()</code> function in the <code>lab-06-testingEquality.js</code> file.</li>
+                <li>Add <code class="language-js">document.write();</code> statements that demonstrate the following boolean conditions. The data types below should not be changed, ie numerics remain numerics (ie 45) and strings remain strings (ie "45"). 
+
+                    <ul>
+                        <li>5 is the same as 5 (<code>true</code>)</li>
+                        <li>10 is same as &ldquo;10&rdquo; (<code>true</code>)</li>
+                        <li>&ldquo;Bill&rdquo; is different than &ldquo;bill&rdquo; (<code>true</code>)</li>
+                        <li>15 is different than 16 (<code>true</code>)</li>
+                        <li>45 is different from &ldquo;45&rdquo; (<code>true</code>)</li>
+                        <li>&ldquo;32&rdquo; is not different from 32 (<code>false</code> )</li>
+                    </ul>
+                </li>
+                </ol>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Sample Output</h2>
+            <pre class="sampleOutput">
+true
+true
+true
+true
+true
+false
+</pre>
+        </section>
+
+        <section>
+            <h2>Your Output</h2>
+            <pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab06();</script>
+</pre>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

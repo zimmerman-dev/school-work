@@ -3,13 +3,11 @@ function lab06() {
 
     // YOUR CODE STARTS AFTER THIS LINE:
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 6");
-
     // Use only these 4 document write statements, no variables
-    document.write();
-    document.write();
-    document.write();
-    document.write();
+    document.write("There's a single quote in this string.\n\n");
+    document.write("You'd better not say, \"Hey\".\n\n");
+    document.write("\"There's a boy who's shouting, \"Hey\" too loud.\"\n\n");
+    document.write("This is tricky\none\nHow'd I do it with just\n"
+        + "one document.write()?");
     
 }

@@ -3,7 +3,24 @@ function lab07() {
 
     // YOUR CODE STARTS AFTER THIS LINE:
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 7");
+    // Declare Variables
+
+    let numberOne;
+    let numberTwo;
+    let sum;
+
+    // Prompt User for two numbers
+
+    numberOne = prompt("Enter your number:");
+    numberTwo = prompt("Enter another number here:");
     
+    // Find sum for two numbers
+
+    sum = Number(numberOne) + Number(numberTwo);
+
+    // Output to DOM, both numbers and sum
+
+    document.writeln("Number one: " + numberOne);
+    document.writeln("Number two: " + numberTwo);
+    document.writeln("Sum: " + sum);
 }

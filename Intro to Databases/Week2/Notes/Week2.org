@@ -1,0 +1,78 @@
+#+title: Introduction to Databases Week 2
+#+author: John Zimmerman
+#+email: jzimmerman3@madisoncollege.edu
+#+date: 2026:02:01
+
+* Introduction to Databases - Week 2 Notes (Video)
+
+** Relational Databases
+
+ Named for the way it organizes data into "relations", or tables of related data. Tables are made up of records (rows), which represent instances of a given entity, and columns which represent attributes of each entity. The set of columns is called a relation.
+
+** Column Data Types
+
+Every column has data type that dictates what type of data each column represents. Database columns can use:
+
+- Numbers
+- Text
+- Date
+- Bools
+- Binary data
+
+** Keys and Unique Values
+
+In a database, a *unique value* is a value that doesn't show up in any other row in a given column. This means that if we tried to enter a record with a value thats already in the table, the database will reject it until the information is changed to be unique.
+
+*** Keys
+
+One type of unique value is something called a *key*. Like any other unique value, a key is value we can use to refer to only one specific row or record. A *primary key* is the most important key in the table. In many cases, there isn't a /natural/ piece of data that can be used as the primary key, so you may create a piece of unique data for the primary key. For example if you have a table called *Students*, a student ID number may be a perfect naturally occuring primary key.
+
+- Primary Key :: A column or combination of columns with a value that uniquely identifies each row.
+- Surrogate Key :: Also called a /"synthetic key"/, this is when you have to add a column to make a primary key when no candidate already exists.
+- Candidate key :: When a unique value is eligible to be a primary key. There maybe multiple candidate keys in a table, but only one is most suitable to be primary key.
+- Composite Key :: When you use two or more unique fields for a primary key, this is whats known as a composite key.
+- Foreign Key :: When a primary key from one table is referenced in another, it is called a foreign key. 
+
+** Relationships
+
+- One-to-many (1:M) :: By far the most common relationship. It associates one record in one table with multiple records in another table. In order to use this relationship, we store the key from a record on the one side of the relationship in each of the many records that reference it.
+- Many-to-many (M:N) :: When we create a junction table with the primary keys of two separate tables, each of the separate entities has a 1:M relationship with the junction table. With that being said, each record in the junction table represents an occurrence of a M:N relationship.
+- One-to-one (1:1) :: Unlike the 1:M relationship, the 1:1 relationship associates only one record on one table with only one record on another table - such that the targeted record can't be associated with another record at the same time. 
+
+** Basic SQL
+
+SQL, commonly pronounced /"sequel"/, stands for (*S*)tructured (*Q*)uery (*L*)anguage. SQL is built using a *declaritive paradigm*, meaning it expresses the logic of computation without the use of control flow mechanisms. Most Relational Database Management System (RDBMS) tools support SQL, which we can use to talk to the database.
+
+*** SQL Roles
+
+- Allow statements to be written for DBMS to interpret how to interact with data.
+  - In this role, SQL is called a /"data manipulation language"/ or DML.
+- Offers feature to manage the database itself, such as creating or modifying tables and controlling access across tables.
+  - In this role, SQL is called /"data definition language"/ and /"data control language"/.
+
+*** The SQL Statement
+
+#+begin_src
+SELECT
+  FirstName,
+  LastName
+FROM CUSTOMERS
+  WHERE LastName = 'Jenkins';  
+#+end_src
+
+With these terms:
+
+The *SQL statement* is composed of clauses which contain /expressions/ and /predicates/. In SQL, a clause will contain a keyword specifying some action to take and something to act on or use. In many cases these clauses are used to display, sort, or associate the information.
+
+** CRUD
+
+Eventually, in most cases of software design, we will creates apps that interact with databases and this means that whatever we are doing with our data, somewhere down the line that gets translated into a query for the database. These apps are called *CRUD* apps and it stands for:
+
+- C :: Create
+- R :: Read
+- U :: Update
+- D :: Delete
+
+#+begin_quote
+/The principle of CRUD is fundamental to interacting with data when creating these simple web applications./
+#+end_quote

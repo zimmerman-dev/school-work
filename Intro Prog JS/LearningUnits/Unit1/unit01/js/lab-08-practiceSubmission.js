@@ -3,9 +3,5 @@ function lab08() {
     
     // YOUR CODE STARTS AFTER THIS LINE:
 
-    // Delete this line before starting (for testing purposes)
-    document.write("<br>Lab 8");
-
-    document.write("<br><br>This is the output section");
-    
+    document.writeln("Hey Mom!");
 }

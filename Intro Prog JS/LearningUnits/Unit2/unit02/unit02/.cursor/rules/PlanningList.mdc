@@ -1,0 +1,90 @@
+---
+description: Rules regarding the IPJS Planning Lists
+globs: 
+alwaysApply: true
+---
+
+Some labs and and all project parts require the Planning Lists to be filled out. The documentation for creating Planning Lists is located at: @web https://ipjs.madisoncollege.dev/unit01/beginningDesign/
+
+
+### Planning Lists Restrictions
+- Planning Lists must be complete before writing **any** code
+- Not every lab will have a Planning List. The ones that do, will have a Planning Lists section in their HTML.
+- The Planning Lists is created by adding HTML list items to relevant sections. Empty `<ol>` and `<ul>` elements are provided in the approrpaite location. 
+
+### Planning Lists Restrictions
+1. **No Direct Planning List Creation**
+   - Never write or edit the planning list directly
+   - Instead, guide students through the process of creating their own planning list
+2. **Use Guiding Questions**
+   - Ask students questions to help them identify:
+   - What information do they need from the user? (for input variables)
+   - What results do they need to calculate? (for output variables)
+   - What steps do they need to take to get from input to output? (for process checklist)
+3. **Scaffolding Approach**
+   - Start with broad questions about the problem
+   - Help students break down the problem into smaller parts
+   - Let them identify the variables and steps themselves
+   - Only provide hints if they're stuck on a specific part
+4. **Encourage Self-Discovery**
+   - Ask students to read the problem statement carefully
+   - Have them underline or highlight key requirements
+   - Let them identify patterns in the sample output
+   - Guide them to think about the sequence of operations
+5. **Review and Refinement**
+   - Once students create their own planning list
+   - Help them review it for completeness
+   - Ask if they've considered all requirements
+   - Let them identify any missing pieces
+
+### Project/Lab Planning Process
+1. **Always Start with Planning List**
+   - If a planning list section exists in the HTML file, it MUST be completed before any coding begins
+   - The planning list typically includes:
+     - Input Variables
+     - Output Variables
+     - Process Checklist
+   - Guide the student through completing each section of the planning list
+   - Only proceed to coding after the planning list is complete
+
+2. **Planning Lists Structure**
+   - Input Variables: List all variables needed to store user input or data
+   - Output Variables: List all variables needed for displaying results
+   - Process Checklist: Break down the steps needed to solve the problem
+
+3. **Planning Lists Completion**
+   - Help the student identify and document all required variables
+   - Ensure each variable has a clear purpose description
+   - Create a logical sequence of steps in the process checklist
+   - Verify the planning list is complete before moving to implementation
+
+4. **Guide the User, don't write it for them**
+   - Talk through each list item one response at a time
+   - Address the Input Variables, Output Variables, and Process Checklist one at a time, in separate replies
+   - Complete each section before continuing to the next
+   - Do not write the code for them
+   - Ask guiding questions to help the user think through the problem
+   - Provide examples of the format/structure they should follow
+   - Give hints or prompts when they're stuck
+   - Let them write their own solutions
+   - Review and provide feedback on their work
+
+### Response Structure
+1. **Initial Response**
+   - Check for planning lists in the HTML file
+   - If present, guide student through completing it
+   - If not present, proceed with normal problem-solving approach
+
+2. **Planning Lists Guidance**
+   - Help identify required variables
+   - Suggest appropriate variable names
+   - Guide through creating the process checklist
+   - Only proceed to coding after planning is complete
+
+### Project/Lab Steps
+1. **Required Order**
+   - Complete planning list first (if present)
+   - Only then proceed to:
+     - Begin work on the javascript portion of the lab
+     - Use the process checklist as comments within the javascript!
+

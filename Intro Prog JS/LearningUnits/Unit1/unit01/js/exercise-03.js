@@ -5,7 +5,7 @@ function exercise03Part1() {
     // Create variable called "name" - undefined
     let name;
 
-    // The return value for prompt() function gets store in "name"
+    // The return value for prompt() function gets stored in "name"
     name = prompt("Enter your name:");
 
     /*
@@ -18,7 +18,7 @@ function exercise03Part2() {
     "use strict";
     // PART 2: YOUR CODE STARTS AFTER THIS LINE:
 
-    // Greeter application
+    // Variable Declaration
     let name;
 
     // Same as part 1, we call the prompt function
@@ -37,13 +37,17 @@ function exercise03Part3() {
     "use strict";
     // PART 3: YOUR CODE STARTS AFTER THIS LINE:
 
-    // Advanced Greeter application
+    // Variable Declaration
 
     let name;
     let cityOfBirth;
 
+    // Variable Assignment
+
     name = prompt("Enter your name:");
     cityOfBirth = prompt("Wnere were you born?");
+
+    // Ouput stored value separated by string literals
 
     document.write("Hello, ");
     document.write(name);
@@ -52,8 +56,9 @@ function exercise03Part3() {
     document.write(", welcome to the class!");
 
     // Or
-    document.writeln(" "); // Or document.write("<br>");
+    document.writeln(); // Or document.write("<br>");
     // Line break
 
-    document.writeln("Hello, " + name + " from " + cityOfBirth + ", welcome to the class!");
+    document.writeln("Hello, " + name
+        + " from " + cityOfBirth + ", welcome to the class!");
 }

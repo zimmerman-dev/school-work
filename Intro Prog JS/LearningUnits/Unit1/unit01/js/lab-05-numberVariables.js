@@ -3,9 +3,26 @@ function lab05Part1() {
 
     // YOUR CODE STARTS AFTER THIS LINE:
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 5 Part 1");
-    
+    // Variable Declarations
+
+    let numberOfApples;
+    let numberOfOranges;
+
+    // Value Assignment
+
+    numberOfApples = 10;
+    numberOfOranges = 7;
+
+    // Output
+
+    document.writeln("I have " + numberOfApples + " apples.");
+    document.writeln("I have " + numberOfOranges + " oranges.");
+
+    /*
+    document.writeln("I have " + numberOfApples + " apples.\n"
+        + "I have " + numberOfOranges + " oranges."
+    );
+    */
 }
 
 function lab05Part2() {
@@ -13,7 +30,24 @@ function lab05Part2() {
 
     // YOUR CODE STARTS AFTER THIS LINE:
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 5 Part 2");
-    
+    // Variable Declaration
+
+    let pageCountA;
+    let pageCountB;
+    let sum;
+
+    // Value Assignment
+
+    pageCountA = 100;
+    pageCountB = 200;
+
+    // Find sum for pageCount vars
+
+    sum = pageCountA + pageCountB;
+
+    // Output
+
+    document.writeln("Book one has " + pageCountA + " pages.");
+    document.writeln("Book two has " + pageCountB + " pages.");
+    document.writeln("There are a total of " + sum + " pages.");
 }

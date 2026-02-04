@@ -19,30 +19,8 @@ function lab04() {
 
     // Output values to webpage
 
-    document.write(myName);
-    document.write(myAddress);
-    document.write(myAge);
-    document.write(smallPrice);
-
-    // Line Break
-    document.write("<br/>");
-    document.write("<br/>");
-    // Or 
-
     document.writeln(myName);
     document.writeln(myAddress);
     document.writeln(myAge);
     document.writeln(smallPrice);
-
-    // Line Break
-    document.write("<br/>");
-    // Or
-
-    document.write(myName);
-    document.write("<br/>");
-    document.write(myAddress);
-    document.write("<br/>");
-    document.write(myAge);
-    document.write("<br/>");
-    document.write(smallPrice);
 }
