@@ -1,0 +1,68 @@
+** Element Review
+
+*** Block-Level Elements
+
+- Renders  content on a new line
+
+- Renders content left-justified
+
+- Renders content to expand the entire width of the document
+
+- Meant to structure the main parts of your page by dividing up content
+
+*** Inline-Level Elements
+
+TBC
+
+*** HTML Headings
+
+HTML has a "0 to many" hierarchy for headings. ~h1~ is a main heading, everything else is a sub-heading. The rule for headings to is always go in order. If you need to change the sizes of headings, change it with CSS.
+
+*** Paragrpah
+
+~<p>~ Block level element
+
+*** Horizontal Rule Element
+
+~<hr>~
+
+*** Line Break Element
+
+~<br>~
+
+*** Head, Header, and Headings
+
+The head element is where the metadata is stored in a page. Header is the top of document, more for organizing a document. A heading indicateds the Hierachry of a page.
+
+*** Preformatted text element
+
+~<pre>~ tells the DOM to render any space or line breaks. Without it, the DOM will ignore whitespace
+
+*** Lists
+
+- Unordered List :: A list with bullet points:
+
+#+begin_src 
+<ul>
+  <li>List item</li>
+</ul>  
+#+end_src
+
+- Ordered List :: A list with numbers points
+
+#+begin_src 
+<ol>
+  <li>List iten</li>
+</ol>
+#+end_src
+
+*** Discription Lists
+
+Key value pairs
+
+*** Organizing Page Content
+
+** Links and Images
+
+
+
