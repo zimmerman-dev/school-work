@@ -1,0 +1,26 @@
+#+title: Data Breaches Questions
+#+author: John Zimmerman
+#+date: 2026:02:09
+
+* Questions
+
+- What was the attack and when did it happen?
+- What type of damage did it inflict?
+- What is the reason or reasons you think that the attack was successful?
+- What could have prevented it?
+
+** Question 1
+
+In July of 2015 there was an attack on the Office of Personnel Management (OPM) that affected 21.5 million people. Whether it still is, at the time it was considered the largest theft of US governmnent records in the nations history.
+
+** Question 2
+
+This is the second breach on OPM, and in this attack, the records stolen were specifically security clearances containing sensitive personal details, and data pertaining to government workers personal information. Also 5 million plus people had biometric data (fingerprints) stolen.
+
+** Question 3
+
+From my minimal reading into the topic, the data breach was done on behalf of the chinese government. Speculation is that the breach was done for strategic intelligence gathering. This means target profiling for the purpose of espionage rather than some sort of financial cybercrime.
+
+** Question 4
+
+Again from my miminal reading on the subject, I can make some basic assumptions, though the geopolitics surrounding the subject creates a lot of nuanced interpretations of the analysis. From what it sounds like, there were known security weaknesses that were ignored. For years, the OPM's own office warned the agency of the gaps in security. It sounds like the breach was a "wake-up call" for not only the OPM, but many agencies. Multi-factor was understood in 2015 and probably would have helped, but it wasn't nearly as commonplace as it is today. In the end, tighter access controls, better encryption, and stronger authenticification would have all been extremely benedficial in mitigating the breach.
