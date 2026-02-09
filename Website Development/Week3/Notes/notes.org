@@ -1,44 +1,93 @@
-** Element Review
+#+title: Week 3 - Notes
+#+author: John Zimmerman
+#+email: jzimmerman3@madisoncollege.edu
+#+date: 2026:02:05
 
-*** Block-Level Elements
+* Element Review
+
+First, lets review on the difference between *block-level elements* and *inline elements*.
+
+** Block-Level Elements
+
+The important details that will help you visually identify *block-level elements* are:
 
 - Renders  content on a new line
-
 - Renders content left-justified
-
-- Renders content to expand the entire width of the document
-
+- Renders content to expand the entire width of the document by creating a box around it with padding.
 - Meant to structure the main parts of your page by dividing up content
 
-*** Inline-Level Elements
+** Inline Elements
 
-TBC
+Sometimes called text-level or phrasing elements. These are the behaviors inherent to *inline Elements*:
 
-*** HTML Headings
+- Does *not* render content on a new line.
+- Renders in the flow of text by default (only takes up the space of the content it surrounds).
+- Inline elements are meant to differentiate parts of the content or to give it a particular function or meaning.
+- Inline elements usually comprise of a single or few words.
 
-HTML has a "0 to many" hierarchy for headings. ~h1~ is a main heading, everything else is a sub-heading. The rule for headings to is always go in order. If you need to change the sizes of headings, change it with CSS.
+* Organizing Page Content
 
-*** Paragrpah
+- ~<nav></nav>~ :: /Container for the navigation. Often the navigation contains an unordered list for the navbar elements/.
+- ~<header></header>~ :: /Container for introductory material like the logo, webpage title, and navigation/.
+- ~<footer></footer>~ :: /Contaier for end content, can also be used at the end of articles, asides, headers, or nav elements/.
+- ~<main></main>~ :: /Container for the primary content. Only one main element is allowed per webpage and cannot be a child of an article, aside, footer, header, or nav content/.
+- ~<aside></aside>~ :: /Container for complementary content. Often used a "sidebar" to pull quotes, background informaton, or related links/.
+- ~<section></section>~ :: /Defines a general content area. Used to divide up related content on the page. Often sections have headings associated with them/.
+- ~<article></article>~ :: /Defines stand-alone content. Often used for magazine articles, blog posts, or comments. This element must have a heading element/.
 
-~<p>~ Block level element
 
-*** Horizontal Rule Element
-
-~<hr>~
-
-*** Line Break Element
-
-~<br>~
-
-*** Head, Header, and Headings
+** Head, Header, and Headings
 
 The head element is where the metadata is stored in a page. Header is the top of document, more for organizing a document. A heading indicateds the Hierachry of a page.
 
-*** Preformatted text element
+* Block-Level Element Examples
 
-~<pre>~ tells the DOM to render any space or line breaks. Without it, the DOM will ignore whitespace
+** HTML Headings
 
-*** Lists
+HTML has a "0 to many" hierarchy for heading tags. ~h1~ is a main heading, everything else is a sub-heading. Best practices for HTML is to always use headings in order. For example, if a sub-heading needs to be bigger than its parent heading, you don't change the element to match the heading. You use CSS to modify it visually.
+
+#+begin_src 
+<h1>This is a level 1 heading<\h1>
+<h2>This is a level 2 heading<\h2>
+#+end_src
+
+** Paragraph
+
+Paragraphs are a block-level element. Thats means it will render on a new line like every other block-level element. Paragraph elements can contain *inline elements* like an image or span, but it cannot contain another block-level element.
+
+#+begin_src 
+<p>
+  This is a paragraph.
+<\p>
+#+end_src
+
+** Horizontal Rule & Line Break Elements
+
+The *horizontal rule* and *line break* feel similar, especially because they are both /self-closing/ tags that are meant to separate content, but the line break element has some distinct features that differentiate it from block-level elements.
+
+#+begin_src 
+<!-- This is a Horizontal Rule --!>
+<hr>
+<!-- This is a line break --!>
+<br>
+#+end_src
+
+- The horizontal rule is a block-level element that creates an empty container meant to separate document sections.
+- The line break isn't a block-level or inline element. It's basically just a new-line character that doesn't create a box, and can go anywhere it wants, including inside the *paragraph element*.
+
+** Preformatted text element
+
+The preformatted text element tells the DOM to render any space or line breaks. Without it, the DOM will ignore whitespace.
+
+#+begin_src 
+<pre>
+  Inside this container, the DOM will respect whitespace. It will display the text as it is typed, including tabs,
+  spaces, and line-returns. The default behavior will display the text in this container with monospace font.
+</pre>
+#+end_src
+
+
+** Lists
 
 - Unordered List :: A list with bullet points:
 
@@ -56,13 +105,19 @@ The head element is where the metadata is stored in a page. Header is the top of
 </ol>
 #+end_src
 
-*** Discription Lists
+** Description List
 
-Key value pairs
+The *description list* is another list structure where it focuses on having key-value pairs. The idea is you have a /term/ and a connected /description/.
 
-*** Organizing Page Content
+#+begin_src 
+<dl>
+  <dt>Term</dt>
+  <dd>Description</dd>
+</dl>
+#+end_src
+
+* Inline Element Examples
 
 ** Links and Images
 
-
-
+TBC
