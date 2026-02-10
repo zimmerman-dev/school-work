@@ -1,0 +1,42 @@
+#+title: Intro to Databases - Week 3
+#+author: John Zimmerman
+#+email: jzimmerman3@madisoncollege.edu
+#+date: 2026:02:08
+
+* Database Design - Microsoft Access Notes
+
+** Understanding the Trust Center
+
+When opening databases of unknown origins, you may have to go through and affirm that the database file is /trustworthy/. This means that you should consider carefully inspecting any unknown database files before trusting them.
+
+- File > Options > Trust Center > Trust Center Settings > Trusted Locations
+
+
+** Access Table of Contents for Objects
+
+- Tables
+- Queries
+- Reports
+
+* Week 3 Reading - Referential Integrity
+
+When you create a relationship between two tables, it is recommended to enforce *referential integrity*.
+
+** Conditions for Enforcing Referential Integrity
+
+In Access, these following conditions must be met to use referential integrity:
+
+- One of the linked fields must be a *primary key*.
+- Related fields must have the same data type and field size. They must contain the same kind of information.
+- Both tables must be in the same Access database.
+- You cannot have a record in a related table unless a matching record already exists in the primary table.
+
+** Once You Have Established Referential Integrity
+
+- You cannot add a record in a related table unless a matching record already exists in the primary table
+- You cannot change the value of a primary key in the primary table if matching records exist in the related table.
+- You cannot delete a record from a primary table if matching records exist in a related table.
+
+** Cascade Options
+
+To ensure changes are made between connected fields, the *Cascade Update Related Fields* option automatically updates the corresponding fields. To ensure that when you delete a record in the main table, click the *Cascade Delete Related Records* box.
