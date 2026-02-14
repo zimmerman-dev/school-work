@@ -18,10 +18,8 @@ function part02() {
     nickName = nickName.toUpperCase();
     color = color.toUpperCase();
 
-    // Display the madlib with the output variables
-    document.writeln("Last night I walked into a " 
-        + adjective + " building near the " + location 
-        + ".\nIt was a dive bar called, \"" + nickName 
-        + "'s,\" and it had a " + color 
-        + "\ndoor with bullet holes in it. It was a crazy night.");
+    // Display the completed madlib with adjective, location, nickName, and color
+    document.writeln("Last night I walked into a " + adjective + " building near the " 
+        + location + ".\nIt was a dive bar called, \"" + nickName + "'s,\" and it had a "
+        + color + "\ndoor with bullet holes in it. It was a crazy night.");
 }

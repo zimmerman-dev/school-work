@@ -1,4 +1,4 @@
-function part01() {
+10function part01() {
     "use strict";
 
     // Variable Declaration
@@ -9,7 +9,7 @@ function part01() {
     let product;
     let quotient;
 
-    // Prompt user for two numbers
+    // Prompt user for firstNumber and secondNumber
     firstNumber = prompt("Enter the first number: ");
     secondNumber = prompt("Enter the second number: ");
 

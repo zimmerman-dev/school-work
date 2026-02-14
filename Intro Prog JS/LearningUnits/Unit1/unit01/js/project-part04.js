@@ -1,10 +1,7 @@
 function part04() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
-
     // Variable Declaration
-
     let stringOne;
     let stringTwo;
     let stringThree;
@@ -12,8 +9,7 @@ function part04() {
     let stringFive;
     let lengthTotal;
 
-    // Prompt user for strings, return values stored to input variables
-
+    // Prompt user for five separate strings
     alert("You will be prompted five times for different strings.");
     stringOne = prompt("Enter string one:");
     stringTwo = prompt("Enter string two:");
@@ -21,21 +17,16 @@ function part04() {
     stringFour = prompt("Enter string four:");
     stringFive = prompt("Enter string five:");
 
-    // Display the output values from output variables
-    
+    // Calculate string length total
+    lengthTotal = stringOne.length + stringTwo.length + stringThree.length 
+        + stringFour.length + stringFive.length;
+
+    // Display the length and strings on separate lines, as well as the total length
     document.writeln("Length: " + stringOne.length + ", \"" + stringOne + "\"");
-    lengthTotal = stringOne.length;
     document.writeln("Length: " + stringTwo.length + ", \"" + stringTwo + "\"");
-    lengthTotal += stringTwo.length;
-    document.writeln("Length: " + stringThree.length 
-        + ", \"" + stringThree + "\"");
-    lengthTotal += stringThree.length;
-    document.writeln("Length: " + stringFour.length 
-        + ", \"" + stringFour + "\"");
-    lengthTotal += stringFour.length;
-    document.writeln("Length: " + stringFive.length 
-        + ", \"" + stringFive + "\"");
-    lengthTotal += stringFive.length;
+    document.writeln("Length: " + stringThree.length + ", \"" + stringThree + "\"");
+    document.writeln("Length: " + stringFour.length + ", \"" + stringFour + "\"");
+    document.writeln("Length: " + stringFive.length + ", \"" + stringFive + "\"");
     document.writeln("------------------");
     document.writeln("total: " + lengthTotal);  
 }

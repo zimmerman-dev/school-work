@@ -1,35 +1,28 @@
 function part03() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
-
     // Variable Declaration
+    let flowerPotOne;
+    let flowerPotTwo;
+    let temporaryPlanter;
 
-    let containerOne;
-    let containerTwo;
-    let containerThree;
+    // Prompt user for two flower names
+    flowerPotOne = prompt("What's in your first flower pot?");
+    flowerPotTwo = prompt("What's in your second flower pot?");
 
-    // Prompt user for flower names, return values get stored into containers
-
-    containerOne = prompt("Enter a flower name: ");
-    containerTwo = prompt("Enter another flower name: ");
-
-    // Output the entered values from prompt()
-
+    // Display the flowers before swapping
     document.writeln("Strings as entered:");
-    document.writeln("containerOne: " + containerOne);
-    document.writeln("containertwo: " + containerTwo);
-    document.writeln(""); // empty line
+    document.writeln("flowerPotOne: " + flowerPotOne);
+    document.writeln("flowerPotTwo: " + flowerPotTwo);
+    document.writeln(""); // empty line for space
 
-    // Value-switch
+    // swap values around using the tempororyPlanter
+    temporaryPlanter = flowerPotOne;
+    flowerPotOne = flowerPotTwo;
+    flowerPotTwo = temporaryPlanter;
 
-    containerThree = containerOne;
-    containerOne = containerTwo;
-    containerTwo = containerThree;
-
-    // Output the values switched
-
+    // Display switched values without moving the variables. 
     document.writeln("Switched strings:");
-    document.writeln("containerOne: " + containerOne);
-    document.writeln("containerTwo: " + containerTwo);
+    document.writeln("flowerPotOne: " + flowerPotOne);
+    document.writeln("flowerPotTwo: " + flowerPotTwo);
 }
