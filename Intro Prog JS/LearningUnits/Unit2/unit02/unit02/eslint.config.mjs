@@ -513,7 +513,7 @@ export default [...compat.extends("eslint:recommended"), {
             ignoredNodes: ["ForStatement > BinaryExpression", "ForStatement > UpdateExpression"],
         }],
 
-        "max-len": ["error", 80, 2, {
+        "max-len": ["error", 100, 2, {
             ignoreUrls: true,
             ignoreComments: false,
             ignoreRegExpLiterals: true,
