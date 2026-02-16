@@ -1,0 +1,8 @@
+#+title: Week 4 Notes
+#+author: John Zimmerman
+#+date: 2026:02:15
+
+* Week 4 Notes
+
+** Functions
+
