@@ -1,8 +1,87 @@
-#+title: Week 4 Notes
+#+title: Week 4 Notesgggggggggggggggggggggggggggggggggggggggggggg
 #+author: John Zimmerman
 #+date: 2026:02:15
 
 * Week 4 Notes
 
-** Functions
 
+** What is a function?
+
+Simply, a function is a grouping of code that can be reused. A function is defined by first using the keyword ~function~, and it is /used/ by *calling* the function. 
+
+*** Syntax Example
+
+#+begin_src
+// function declaration
+function foo() {
+    document.writeln("bar");
+}
+  
+// function call
+foo();
+#+end_src
+
+*** Anatomy of a function
+
+- Function :: Keyword that starts the function.
+- Function Name :: The function name follows the function keyword.
+- The Parentheses :: The parentheses are what hold the function parameters.
+- Curly Braces :: The curly braces hold the block of code that will be executed when the function is called.
+- The function call :: Technically, the function call isn't part of the function, though it's necessary for the function to actually do something. If you want to use the function later, you must /call/ it.
+
+** Constants
+
+Unlike C/C++ ~const~ is a little less strict. The only similarity to C++ is that a  ~const~ in JavaScript must be defined on declaration.
+
+*** Syntax
+#+begin_src 
+const FOO = "bar";
+#+end_src
+
+*** Rules for ITPJS:
+
+- A constant must be declared for at the top of the list, above the ~let~ variables.
+- A constant must be named in all uppercase. If it's two words, separate by /underscores/.
+- When you have a value that you want to remain /constant/ or immutable, use ~const~ instead of ~let~.
+
+** Addition Operator
+
+In JS and many other programming languages, the ~+~ is used for adding two operands together, but it's also used for *string concatenation*.
+
+*** Addition vs Concatenation Rules
+
+- If the ~+~ has a ~string~ on either side of it, it will convert the number to a ~string~ and concatenate.
+- If the ~+~ has a number on both sides of it, it will do addition.
+
+#+begin_src 
+// Additon
+1 + 2;
+
+// String Concatenation
+"string1" + "string2";
+#+end_src
+
+** Comparison Operators
+
+In JS, the ~=~ is an assignment operator. If you want to compare equality, you can use either ~==~, or ~===~. 
+
+*** Equals vs. Strictly Equals
+
+- ~==~ :: This is what's called a /loose equality operator/.
+  - Compares with type coercion.
+- ~===~ :: This is what's called a /strict equality operator/.
+  - Compares without type coercion.
+- ~!=~ :: This is what's called a /loose inequality operator/.
+  - Compares without type coercion.
+- ~!==~ :: This is what's called a /strict inequality operator/.
+  - Compares without type coercion.
+
+** Unary Operators
+
+*** Incrementing/Decrementing
+
+*** Compound Assignment Operators
+
+*** Operator Precedence
+
+*Highest* ~.~ > ~()~ > ~+-~ > ~typeof~ > ~*/%~ 
