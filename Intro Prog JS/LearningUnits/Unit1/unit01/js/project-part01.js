@@ -1,4 +1,4 @@
-10function part01() {
+function part01() {
     "use strict";
 
     // Variable Declaration
