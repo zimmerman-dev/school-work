@@ -1,9 +1,11 @@
 function lab06() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
-
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 6");
-    
+    // Boolean Statements
+    document.writeln(5 === 5);
+    document.writeln(10 == "10");
+    document.writeln("Bill" !== "bill");
+    document.writeln(15 !== 16);
+    document.writeln(45 !== "45");
+    document.writeln("32" != 32);
 }
