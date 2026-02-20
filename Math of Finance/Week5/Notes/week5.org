@@ -1,0 +1,45 @@
+#+title: Week 5 Notes
+#+author: John Zimmerman
+#+date: 2026:02:18
+
+* Week 5 Notes
+
+** Simple Interest and Maturity Value
+
+*Interest* expense is the cost of borrowing money - plain and simple. To calculate for interest, you want to take the principal and multiply it by the rate and the time it takes it to pay the loan. The final product is the interest. To calculate the *maturity value*, you want to sum the interest with the principal.
+
+- Interest: :: $P * R * T = I$
+- Maturity Value: :: $I + P = MV$
+
+#+begin_quote
+/Remember, rate is often expressed as a percent. When solving, convert rate by moving the decimal two places left and then solve./
+#+end_quote
+
+** Exact Interest vs Ordinary Interest
+
+If the time it takes to pay the loan is measured in years, you multiply by incrememnts of one. 1 year means multiplying by 1, 2 years means multiplying by 2, etc. When the time is measured in months, you multiply by $\frac{x}{12}$. When the time is measured in days, you have two choices:
+
+- Exact Interest: :: $Time = \frac{days}{365}$
+- Ordinary Interest: :: $Time = \frac{days}{360}$
+
+** The Circle Technique
+
+- Solving for Principal: :: $Principal = \frac{Interest}{Rate\ *\ Time}$
+- Solving for Rate: :: $Rate = \frac{Interest}{Principal\ *\ Time}$
+- Solving for Time: :: $Time\ (in\ years)\ = \frac{Interest}{Principal\ *\ Rate}$
+
+** Making Partial Payments before the Due Date (US Rule)
+
+The *U.S. Rule* allows the borrower to receive proper interest credits. The rule states that any partial loan payment first covers any interest that has built up. The remainder goes towards the principal. Steps to solve:
+
+1. Calculate simple interest from the last settlement date to the payment date. for example if you have a $1000 loan at 10% for 9 months, and make a payment of $300 at 3 months, you would first calculate the interest for 3 months, and then subtract the interest from the payment amount.
+   - $1000 * .1 * \frac{3}{12} = 25$
+   - $300 - 25 = 275$
+2. Now you that you have your payment amount without the interest, you subtract that from initial principal. Then you can calculate the interest for the remaining time on the loan.
+   - $1000 - 275 = 725$
+   - $725 * .1 * \frac{6}{12} = 36.25$
+3. Okay now that the loan is paid, we can add the two interests payments together for the total interest. $25 + 36.25 = 61.25$.
+4. In the end:
+   - Maturity Value :: = $761.25
+   - Total paid over loan :: = $1061.25
+   - Total interest earned :: = $61.25
