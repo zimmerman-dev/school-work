@@ -1,15 +1,76 @@
 function exercise09Part1() {
     "use strict";
-    // PART 1: YOUR CODE STARTS AFTER THIS LINE:
+    
+    // Variable Declarations
+    let targetNum;
+    let userNum;
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Exercise for lab 9, Part 1");
+    // Variable Assignments
+    targetNum = 100;
+    userNum = Number(prompt("Enter a number:"));
+
+    // Output
+    document.writeln("First Number: 100");
+    document.writeln("Entered Number: " + userNum);
+    document.writeln();
+    
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
+    targetNum += userNum;
+    document.writeln(targetNum);
 }
 
 function exercise09Part2() {
     "use strict";
-    // PART 2: YOUR CODE STARTS AFTER THIS LINE:
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Exercise for lab 9, Part 2");
+    // Variable Declarations
+    let fixedNum;
+    let queryNum;
+
+    // Variable Assignments
+    fixedNum = 100;
+    queryNum = Number(prompt("Enter another number:"));
+
+    // Ouput
+    document.writeln("First Number: 100");
+    document.writeln("Entered Number: " + queryNum);
+    
+    document.writeln();
+
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
+    fixedNum /= queryNum;
+    document.writeln(fixedNum);
 }
