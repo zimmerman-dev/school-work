@@ -8,7 +8,7 @@ function lab01() {
 
     // Prompt user for values for time and distance variables                             
     time = prompt("How long did you walk/run for (in hours)?");
-    distance = prompt("How far did you walk/run (in miles).")
+    distance = prompt("How far did you walk/run (in miles).");
 
     time = Number(time);
     distance = Number(distance);
