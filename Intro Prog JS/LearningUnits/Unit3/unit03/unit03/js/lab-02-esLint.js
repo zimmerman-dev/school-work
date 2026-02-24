@@ -21,6 +21,5 @@ function lab02() {
     }
     else{
     document.write("That's not the right number");
-    };
-
+    }; 
 }
