@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-divide-safely.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Divide Safely Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Divide Safely Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+			<p class="paraNoBottomMarg">Write a program that asks a user to enter two numbers. If the second number is not zero then divide the first number by the second number and output the results to the page. If the second is zero then alert the user that they entered a zero and should try again. Do not output anything to the page if the second number is zero.</p>
+    </section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>numberOne</li>
+					<li>numberTwo</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>numberOne</li>
+					<li>numberTwo</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>prompt user for numberOne</li>
+					<li>prompt user for numberTwo</li>
+					<li>check numberTwo for zero</li>
+					<li>alert user based on value</li>
+					<li>divide numberOne by numberTwo</li>
+					<li>output results</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="testPlan">
+			<h2>Test Plan</h2>
+			<!-- ---------------------
+				TEST CASE 1 
+			------------------------->
+			<h3>Test Case 1</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					10, 5
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					10 divided by 5 is 2
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 2
+			------------------------->
+			<h3>Test Case 2</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					10, 0
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					You have entered a zero. Please try again.
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 3 
+			------------------------->
+			<h3>Test Case 3</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					1, 2
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					1 divided by 2 is 0.5
+				</p>
+			</div>     
+		</section>
+
+		<section>
+		<h2>Sample Output</h2>
+			<div class="sampleOutput">
+				<script language="JavaScript" type="text/javascript">divideSafely();</script>
+			</div>
+		</section>
+
+  </main>
+
+</body>
+
+</html>

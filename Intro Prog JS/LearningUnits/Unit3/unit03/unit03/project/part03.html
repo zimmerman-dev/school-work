@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/project-part03.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Project - Part 3</title>
+
+
+</head>
+
+<body class="project">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Project 3 | Part 3</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Problem Statement</h2>
+
+      <p>Write a program that calculates the price of a hotel room based on the following three factors.</p>
+      <ol>
+        <li>How many will be in one room: 1-2, 3-4, or 5-6? No more than six are allowed in a room.</li>
+        <li>Are they members of AAA? Yes (y) or No (n)</li>
+        <li>What payment method do they plan to use? Check (ck) or Credit Card (cc)</li>
+      </ol>
+      <br/>  
+      <p>The program should prompt the user for all the inputs, check for invalid input, perform the calculations, and output the total cost per night. It is suggested to use at least some nested if/else structures to calculate the cost.  Use the <code>.toFixed(2)</code> method to display the total cost per night rounded to two decimal places.</p>
+      
+      <h3>The rate is calculated as follows:</h3>
+      <p class="paraNoBottomMarg"><strong>Basic Room Rate</strong></p>
+      <ul>
+        <li>1-2 people = $50/night</li>
+        <li>3-4 people = $60/night</li>
+        <li>5-6 people = $70/night</li>
+      </ul>
+
+      <p class="paraNoBottomMarg"><strong>Discount for AAA members (off of the basic room rate)</strong></p>
+      <ul>
+        <li>1-2 people = 15%</li>
+        <li>3-4 people = 10%</li>
+        <li>5-6 people = 5%</li>
+      </ul>
+
+      <p class="paraNoBottomMarg"><strong>Payment method processing charge</strong></p>
+      <ul>
+        <li>If they plan to pay with a check (ck), there is no additional processing charge.</li>
+        <li>If they plan to pay with a credit card (cc), there is an additional 4% cost more per night after all other calculations are performed.</li>
+      </ul>
+
+      <h3>All input should be validated. For full credit error messages should occur for the following:</h3>
+      
+      <ul>
+        <li>Guest number is less than 1 or greater than 6</li>
+        <li>Guest number input is not numeric</li>
+        <li>AAA membership is not a valid input (not &lsquo;y&rsquo; or &lsquo;n&rsquo;)</li>
+        <li>Users enter nothing for AAA membership</li>
+        <li>Payment method is not a valid input (not &lsquo;ck&rsquo;or &lsquo;cc&rsquo;)</li>
+        <li>Users enter nothing for a payment</li>
+      </ul>
+        
+    </section>
+
+    <section class="planning">
+      <h2>Planning List</h2>
+      <h3>Input Variables</h3>
+      <div class="inputVars">
+        <!-- Enter Input Variables within the <ul> as <li> elements --> 
+        <ul>
+
+        </ul>
+      </div>
+      <h3>Output Variables</h3>
+      <div class="outputVars">
+        <!-- Enter Output Variables within the <ul> as <li> elements --> 
+        <ul>
+
+        </ul>
+      </div>
+      <h3>Process Checklist</h3>
+      <div class="checklist">
+        <!-- Enter the Checklist within the <ul> as <li> elements --> 
+        <ol>
+
+        </ol>
+      </div>
+    </section>
+
+    <section class="testPlan">
+      <h2>Test Plan</h2>
+      <p>The first 3 test cases have been completed for you. You may need more then the given 6 to complete your plan. In addition you should be including any input that would cause a  validation error to occur.</p>
+      <!-- ---------------------
+            TEST CASE 1 
+      ------------------------->
+      <h3>Test Case 1</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+          1  y  ck (one person, and yes to AAA and paying by check)
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+          Total cost per night is $42.50
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 2
+      ------------------------->
+      <h3>Test Case 2</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+          2  y  cc (two persons, and yes to AAA and paying with a credit card)
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+          Total cost per night is $44.20
+        </p>
+      </div>
+        <!-----------------------
+            TEST CASE 3
+      ------------------------->
+      <h3>Test Case 3</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+          5  n  ck (five persons, and no to AAA and paying by check
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+          Total cost per night is $70.00
+        </p>
+      </div>
+        <!-----------------------
+            TEST CASE 4
+      ------------------------->
+      <h3>Test Case 4</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 5
+      ------------------------->
+      <h3>Test Case 5</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+       <!-----------------------
+            TEST CASE 6
+      ------------------------->
+      <h3>Test Case 6</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+    </section>
+  
+
+<section class="noPrint">
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+Total cost per night is $50.00
+</pre>
+</section>
+
+<section>
+<h2>Your Output</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">part03();</script>
+</pre>
+</section>
+
+</main>
+
+</body>
+
+</html>

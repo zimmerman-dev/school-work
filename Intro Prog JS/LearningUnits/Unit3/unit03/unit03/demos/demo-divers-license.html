@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-divers-license.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Driver's License Example Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Driver's License Example Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+			<p>Write a program that determines if someone gets a driver&rsquo;s license. The user is prompted for the age of the applicant, if the applicant passed the written exam, and if they passed the behind-the-wheel exam. The applicant is given a driver&rsquo;s license if they are at least 16 and they passed both exams.</p>
+			<p>Note: The <code>return</code> statement stops the function. We will cover this in more depth in a later unit.</p>
+		</section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>age</li>
+					<li>writtenExamResults</li>
+					<li>behindTheWheelExamResults</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>none</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>Prompt for age</li>
+					<li>Prompt for written exam results</li>
+					<li>Prompt for behind-the-wheel results</li>
+					<li>Check entered data</li>
+					<li>Award driver's license or condolences</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="testPlan">
+			<h2>Test Plan</h2>
+			<!-- ---------------------
+				TEST CASE 1 
+			------------------------->
+			<h3>Test Case 1</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					Inputs: 16, Y, Y   (Note: As written, user must key an uppercase Y)
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					A Driver's License
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 2
+			------------------------->
+			<h3>Test Case 2</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					15, Y, Y
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					A Condolence
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 3 
+			------------------------->
+			<h3>Test Case 3</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					16, Y, N
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					A Condolence
+				</p>
+			</div>     
+		</section>
+
+		<section>
+		<h2>Sample Output</h2>
+			<div class="sampleOutput">
+				<script language="JavaScript" type="text/javascript">driversLicense();</script>
+			</div>
+		</section>
+
+  </main>
+
+</body>
+
+</html>

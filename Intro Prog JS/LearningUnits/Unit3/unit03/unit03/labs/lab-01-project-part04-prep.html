@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <title>Lab 01</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 1 | Preparing for Project 3, Part 4</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps">
+      <div class="noPrint">
+      <h2>Creating Test Data</h2>
+      <p>Test Data is an important way to further one’s understanding of the meaning of specifications. It’s also an important step in preparing for later testing of the program.</p>
+      <h2>Lab Steps</h2>
+      <p>Get with a partner and complete the following steps.</p>
+
+      <ol>
+        <li>Read the specifications for Learning Unit 3 – Project: Part 4. Part of the specs are reproduced here:
+        
+        <ul>
+        <li>An architect’s fee is calculated as a percentage of the cost of a building. The fee is made up as follows:
+        
+        <ul>
+          <li>8% of the first $5,000 of the cost of a building.</li>
+          <li>Add 3% of the remainder if the remainder is less than or equal to $80,000.00</li>
+          <li>Add 2.5% of the remainder if the remainder is more than $80,000.00</li>
+        </ul></li>
+        </ul></li>
+        
+        <li>Discuss with your partner what the author intends the above specifications to mean.</li>
+        
+        <li>Based on your understanding of the specifications, work together to prepare some test data. That is, given the various building costs shown below, write down what the architect’s fee would be.</li>
+        
+        <li>Complete the following by doing the calculations manually with a calculator, not code.</li>
+        
+        <li>When you and your partner have finished compare your answers with at least two other pairs. If there are any disagreements, discuss them until you all reach a consensus.</li>
+        
+        <li>Enter the Architect's fees below in the HTML</li>
+    </ol>
+
+    <br/><br/>
+    </div>
+<pre class="sampleOutput" style="font-weight: bold;">
+Building Cost       Architect's Fee
+===================================
+$100                $8
+$4,999              $
+$5,000              $
+$5001               $
+$10,000             $
+$80,000             $
+$81,000             $
+$84,999             $
+$85,000             $
+$85,001             $
+$90,000             $
+$100,000            $2775
+</pre>
+
+<br/><br/>
+
+<p>Note that the architect’s fee does not always uniformly increase as the building cost increases. Given the specifications, there is a range of building costs in which the fee is actually less than for a less expensive building. Also, note that buildings can cost less than $5,000.</p>
+
+
+  </section>
+
+  </main>
+
+</body>
+
+</html>

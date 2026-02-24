@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-03-first-if.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 03</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 3 | First <code>if</code></h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Problem Statement</h2>
+      <p>Write a program that asks a user to enter a number greater than 10. If the number is not greater than 10 then write a comment to the page that says they did not enter a number greater than 10. In either case output the number to the page.</p>
+      <p>Validate that the user has entered a numeric value before doing any logic. If the user enters something that is not numeric alert an error message telling them to ignore any output and to try again.</p>
+      <p>In this case, the three planning lists based on the verbs and nouns you see in the problem statement have already been done. Remember that not all variables will be on these lists&ndash;only variables involved with inputs and outputs from the program are on them. For example, a variable (that is actually a constant) such as LOWER_BOUNDARY would not appear on these lists.</p>
+    </section>
+
+    <section class="planning">
+      <h2>Planning List</h2>
+      <h3>Input Variables</h3>
+      <div class="inputVars">
+        <ul>
+          <li>enteredNumber</li>
+        </ul>
+      </div>
+      <h3>Output Variables</h3>
+      <div class="outputVars">
+        <ul>
+          <li>ERROR_MESSAGE  (note: this may not display every time)</li>
+          <li>enteredNumber</li>
+        </ul>
+      </div>
+      <h3>Process Checklist</h3>
+      <div class="checklist">
+        <ol>
+          <li>Define all constants and variables</li>
+          <li>Ask user for a number greater than ten</li>
+          <li>Display error msg if number is not greater than ten</li>
+          <li>Display the number</li>
+        </ol>
+      </div>
+    </section>
+
+<section class="noPrint">
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+Entered Number: 18
+-- OR --
+Entered Number not greater than 10!
+Entered Number: 10
+</pre>
+</section>
+
+<section>
+<h2>Your Output</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab03();</script>
+</pre>
+</section>
+
+</main>
+
+</body>
+
+</html>

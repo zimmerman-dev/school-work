@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-06-multiple-booleans.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 06</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 6 | Multiple Booleans</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+          <li>Name:</li>
+          <li>Section:</li>
+          <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Problem Statement</h2>
+      <p>Write a program that asks a user to enter a number between 1 and 100 that does not include the end points. When a number in the correct range is entered then output the number and a message indicating success. If the number is not in the range then output the number and ask the user to try again.</p>
+      <h2>Lab Steps</h2>
+
+      <ol>
+      <li><strong>Constant declarations section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>Declare a constant for the low endpoint of the range. Assign <code>1</code> to the constant.</li>
+      <li>Declare a constant for the high endpoint of the range. Assign <code>100</code> to the constant.</li>
+      </ul></li>
+
+      <li><strong>Variable declarations section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>Declare a variable that will be used to hold a number.</li>
+      <li>Declare a variable to hold your output message</li>
+      </ul></li>
+
+      <li><strong>Assignments section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>Ask the user to enter a number between 1 and 100 that does <strong>not</strong> include the end points of the range and store it in the number variable.</li>
+      </ul></li>
+
+      <li><strong>Validation</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>If the input is not numeric, output an error message and stop the function with a <code>return</code> statement.</li>
+      <li>If the input is numeric, convert the input to a number.</li>
+      </ul></li>
+
+      <li><strong>Logic section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>If the entered number is in the specified range then build a success statement.</li>
+      <li>If the number is out of the specified range then build the an message.</li>
+      <li>Remember to only use only variables in your logic.</li>
+      </ul></li>
+
+      <li><strong>Output section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>Output your message.</li>
+      </ul></li>
+      </ol>     
+    </section>
+
+    <section class="testPlan">
+      <h2>Test Plan</h2>
+      <!-- ---------------------
+            TEST CASE 1 
+      ------------------------->
+      <h3>Test Case 1</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 2
+      ------------------------->
+      <h3>Test Case 2</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 3 
+      ------------------------->
+      <h3>Test Case 3</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+              <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+            <!-- Enter expected output here-->
+        </p>
+      </div>   
+      <!-----------------------
+            TEST CASE 4 
+      ------------------------->
+      <h3>Test Case 4</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+              <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+            <!-- Enter expected output here-->
+        </p>
+      </div>    
+    </section>
+
+  
+<section class="noPrint">
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+The number 75 is in the right range.
+<strong>-- OR --</strong>
+The number 200 is out of the range, please try again.
+</pre>
+</section>
+
+<section>
+<h2>Your Output</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab06();</script>
+</pre>
+</section>
+
+</main>
+
+</body>
+
+</html>

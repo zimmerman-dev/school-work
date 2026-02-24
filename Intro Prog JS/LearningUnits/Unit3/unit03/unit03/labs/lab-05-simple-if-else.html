@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-05-simple-if-else.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 05</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 5 | Simple <code>if/else</code></h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Problem Statement</h2>
+      <p>Write a program that asks a user to enter a string. Then ask the user to enter a string that will sort after the first string in an ASCII sort. (&ldquo;A&rdquo; sorts before &ldquo;B&rdquo;).</p>
+
+      <ul>
+      <li>If the second string is after the first in an ASCII sort then output a message that includes both strings and a success message.</li>
+      <li>If the second string does not sort after the first string then output the strings and ask the user to try again.</li>
+      <li>Use an IF/ELSE statement, and not just two separate IF statements.</li>
+      <li>A good approach is to have the entire output message stored in a variable, which is displayed as the last step of the program.</li>
+      </ul>
+
+      <h2>Lab Steps</h2>
+
+      <ol>
+      <li><strong>Variable declarations section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>Declare a variable to hold the first string.</li>
+      <li>Declare a variable to hold the second string.</li>
+      <li>Declare a variable to hold the output message.</li>
+      </ul></li>
+
+      <li><strong>Assignments section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>Prompt a user to enter a string and store it in the first variable.</li>
+      <li>Prompt a user to enter a string that will sort after than the first one and store it in the second variable.</li>
+      </ul></li>
+
+      <li><strong>Validation section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>If the user entered nothing in the prompts, alert an error message telling them to ignore any output and to try again.</li>
+      </ul></li>
+
+      <li><strong>Logic section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>If the second string sorts after the first then set the output message to:
+
+      <ul>
+      <li>&ldquo;Very good, <code>&lt;second string&gt;</code> comes after <code>&lt;first string&gt;</code>.</li>
+      </ul></li>
+      <li>If the second string does not sort after the first then set the output message to:
+
+      <ul>
+      <li><code>&lt;second string&gt;</code> is the same or does not sort after <code>&lt;first string&gt;</code>, please try again.&rdquo;</li>
+      </ul></li>
+      </ul></li>
+
+      <li><strong>Output Section</strong>
+
+      <ul>
+      <li>Write a comment that identifies this coding section.</li>
+      <li>Display the output message variable on the web page</li>
+      </ul></li>
+      </ol>
+    </section>
+
+    <section class="testPlan">
+      <h2>Test Plan</h2>
+      <!-- ---------------------
+            TEST CASE 1 
+      ------------------------->
+      <h3>Test Case 1</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 2
+      ------------------------->
+      <h3>Test Case 2</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 3 
+      ------------------------->
+      <h3>Test Case 3</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+              <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+            <!-- Enter expected output here-->
+        </p>
+      </div>   
+      <!-----------------------
+            TEST CASE 4 
+      ------------------------->
+      <h3>Test Case 4</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+              <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+            <!-- Enter expected output here-->
+        </p>
+      </div>    
+    </section>
+
+
+<section class="noPrint">
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+Very good, "fred" comes after "Fred".
+<strong>-- OR --</strong>
+"Fred" is the same or does not sort after "fred", please try again.
+</pre>
+</section>
+
+<section>
+<h2>Your Output</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab05();</script>
+</pre>
+</section>
+
+</main>
+
+</body>
+
+</html>

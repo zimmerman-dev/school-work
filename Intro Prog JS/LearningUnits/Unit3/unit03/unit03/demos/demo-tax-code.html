@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-tax-code.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Tax Code Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Tax Code Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+			<p>Write a program that will get a customer’s name from the user, a purchase amount, and a tax code. The tax code has been validated and will be one of the following:</p>
+			<table>
+					<tr><th>Code</th><th>Tax Amount</th></tr>
+					<tr><td>0</td><td>Tax Exempt (0%)</td></tr>
+					<tr><td>1</td><td>State Sales Tax (5%)</td></tr>
+					<tr><td>2</td><td>State and County Sales Tax (5.5%)</td></tr>
+					<tr><td>3</td><td>Special Sales Tax (7%)</td></tr>
+			</table>
+			<br/>
+			<p>The program must then compute the sales tax and the total amount due, and display to the web page the customer’s name, purchase amount, sales tax, and total amount due.</p>
+    </section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>customerName</li>
+					<li>purchaseAmount</li>
+					<li>taxCode</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>customerName</li>
+					<li>purchaseAmount</li>
+					<li>salesTax</li>
+					<li>totalAmount</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>Declare all variables</li>
+					<li>Obtain customer name, amount, and tax code</li>
+					<li>Calculate sales tax</li>
+					<li>Calculate total amount</li>
+					<li>Display customer details</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="testPlan">
+			<h2>Test Plan</h2>
+			<!-- ---------------------
+				TEST CASE 1 
+			------------------------->
+			<h3>Test Case 1</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					Fred, 10, 0
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					<br/>Purchase for Fred:<br/>
+					Amount: $10.00<br/>
+					Sales Tax: $0.00<br/>
+					Total: $10.00
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 2
+			------------------------->
+			<h3>Test Case 2</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					Bill, 100, 1
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					<br/>Purchase for Bill:<br/>
+					Amount: $100.00<br/>
+					Sales Tax: $5.00<br/>
+					Total: $105.00
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 3 
+			------------------------->
+			<h3>Test Case 3</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					Sue, 149.99, 2
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					<br/>Purchase for Sue:<br/>
+					Amount: $149.99<br/>
+					Sales Tax: $8.25<br/>
+					Total: $158.24<br/>
+				</p>
+			</div>   
+			<!-----------------------
+				TEST CASE 4 
+			------------------------->
+			<h3>Test Case 4</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					Mark, 200, 3
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					<br/>Purchase for Mark:<br/>
+					Amount: $200.00<br/>
+					Sales Tax: $14.00<br/>
+					Total: $214.00
+				</p>
+			</div>  
+		</section>
+
+		<section>
+		<h2>Sample Output</h2>
+			<div class="sampleOutput">
+				<script language="JavaScript" type="text/javascript">taxCode();</script>
+			</div>
+		</section>
+
+  </main>
+
+</body>
+
+</html>

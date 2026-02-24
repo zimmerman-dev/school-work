@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/exercise-07.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Exercise 07</title>
+
+
+</head>
+
+<body class="exercise">
+  <header class="exercise">
+    <a href="../index.html" class="homeLink noPrint">Home</a>
+    <h1>Exercises for Lab 7 | Nested <code>if</code> Statements</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name:</li>
+        <li>Section:</li>
+        <li>Email:</li>
+      </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write a JavaScript program that asks the user how many kids were in their family when growing up and how many bedrooms were in the house. For the sake of simplicity let&rsquo;s only code for 1, 2, or 3 or more kids, and 1, 2, 3 or more bedrooms. Look at the following chart and output a message for every combination of kids and bedrooms.</p>
+        <table cellspacing="0" style="width:50%;">
+          <tbody>
+            <tr>
+              <th class="spacer"></th>
+              <th class="spacer"></th>
+              <th class="beds" colspan="3">Bedrooms</th>
+            </tr>
+        
+            <tr>
+              <th class="spacer"></th>
+              <th class="spacer"></th>
+              <th class="beds">1</th>
+              <th class="beds">2</th>
+              <th class="beds">>= 3</th>
+            </tr>
+
+  
+            <tr>
+              <th class="kids" rowspan="4">Kids</th>
+              <th class="kids">1</th>
+              <td>Lucky</td>
+              <td>Spacious</td>
+              <td>Empty Feeling</td>
+            </tr>
+        
+            <tr>
+              <th class="kids">2</th>
+              <td>Cozy</td>
+              <td>Lucky</td>
+              <td>Spacious</td>
+            </tr>
+        
+            <tr>
+              <th class="kids"> >= 3</th>
+              <td>Crowded</td>
+              <td>Cozy</td>
+              <td>Lucky</td>
+            </tr>
+          </tbody>
+        </table>
+          
+    </section>
+
+    <section class="planning">
+      <h2>Planning List (Part 1)</h2>
+      <h3>Input Variables</h3>
+      <div class="inputVars">
+        <!-- Enter Input Variables within the <ul> as <li> elements --> 
+        <ul>
+
+        </ul>
+      </div>
+      <h3>Output Variables</h3>
+      <div class="outputVars">
+        <!-- Enter Output Variables within the <ul> as <li> elements --> 
+        <ul>
+
+        </ul>
+      </div>
+      <h3>Process Checklist</h3>
+      <div class="checklist">
+        <!-- Enter the Checklist within the <ul> as <li> elements --> 
+        <ol>
+
+        </ol>
+      </div>
+    </section>
+
+    <section class="testPlan">
+      <h2>Test Plan (Part 1)</h2>
+      <!-- ---------------------
+            TEST CASE 1 
+      ------------------------->
+      <h3>Test Case 1</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 2
+      ------------------------->
+      <h3>Test Case 2</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 3
+      ------------------------->
+      <h3>Test Case 3</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+    </section>
+
+
+<section class="noPrint">
+<h2>Sample Output (Part 1)</h2>
+<pre class="sampleOutput">
+With 1 kid and 3 bedrooms you must have an empty feeling!
+<strong>-- OR --</strong>
+With 3 kids and 1 bedroom you must be crowded!
+<strong>-- OR --</strong>
+With 2 kids and 2 bedrooms you must feel lucky!
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 1)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">exercise07Part1();</script>
+</pre>
+</section>
+
+<!--******************************************
+    PART 2
+*******************************************-->
+
+    <section class="noPrint">
+      <div class="part">
+        <h1>Part 2</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write a program that asks a user for the weight of a package. Output the weight of the package and the shipping cost to the page. Determine the shipping cost of the package with the following chart.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Package Weight</th>
+              <th>Shipping Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2 lbs. or less</td>
+              <td>$2.25</td>
+            </tr>
+            <tr>
+              <td>&gt; 2 lbs. to &lt;= 5 lbs.</td>
+              <td>$3.50</td>
+            </tr>
+            <tr>
+              <td>&gt; 5 lbs. to &lt;= 10 lbs.</td>
+              <td>$5.00</td>
+            </tr>
+            <tr>
+              <td>&gt; 10 lbs. to &lt;= 20 lbs.</td>
+              <td>$7.50</td>
+            </tr>
+            <tr>
+              <td>&gt; 20 lbs.</td>
+              <td>$10.00</td>
+            </tr>
+          </tbody>
+        </table>
+            
+      </section>
+
+    <section class="planning">
+      <h2>Part 2Planning List</h2>
+      <h3>Input Variables</h3>
+      <div class="inputVars">
+        <!-- Enter Input Variables within the <ul> as <li> elements --> 
+        <ul>
+
+        </ul>
+      </div>
+      <h3>Output Variables</h3>
+      <div class="outputVars">
+        <!-- Enter Output Variables within the <ul> as <li> elements --> 
+        <ul>
+
+        </ul>
+      </div>
+      <h3>Process Checklist</h3>
+      <div class="checklist">
+        <!-- Enter the Checklist within the <ul> as <li> elements --> 
+        <ol>
+
+        </ol>
+      </div>
+    </section>
+  
+    <section class="testPlan">
+      <h2>Test Plan (Part 2)</h2>
+      <!-- ---------------------
+            TEST CASE 1 
+      ------------------------->
+      <h3>Test Case 1</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 2
+      ------------------------->
+      <h3>Test Case 2</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 3
+      ------------------------->
+      <h3>Test Case 3</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 4
+      ------------------------->
+      <h3>Test Case 4</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-----------------------
+            TEST CASE 5
+      ------------------------->
+      <h3>Test Case 5</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+    </section>
+  
+  
+<section class="noPrint">
+<h2>Sample Output (Part 2)</h2>
+<pre class="sampleOutput">
+Your package that weighs 3.5 lbs. will cost $3.50 to ship.
+</pre>
+</section>
+
+
+<section>
+<h2>Your Output (Part 2)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">exercise07Part2();</script>
+</pre>
+</section>
+
+</main>
+
+</body>
+
+</html>
