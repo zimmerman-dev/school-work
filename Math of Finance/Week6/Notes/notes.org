@@ -1,0 +1,61 @@
+#+title: Week 6 Notes - 17-1 Structure of a Promissory Note
+#+author: John Zimmerman
+#+date: 2026:02:25
+
+* Week 6 Notes - 17.1 Structure of Promissory Notes; The Simple Discount Note
+
+** Promissory Note
+
+To borrow money from a lender, borrowers usually need to sign a *promissory note*. This means that borrower is signing a /promise/ to repay a certain sum at a fixed time in the future. A promissory note will bear the following information:
+
+- Face Value :: Also known as the principal, the face value is the amount of money borrowed.
+- Term :: Length of time the money is borrowed.
+- Date :: The date that the note is issued.
+- Payee :: The entity that is extending the credit.
+- Rate :: The annual rate for the cost of borrowing (percentage).
+- Maker :: The entity issuing the note (the borrower).
+- Maturity date :: The date the principal and interest rate are due.
+
+*** Interest-bearing vs. Non-interest-bearing notes
+
+A promisorry note can be interest bearing or non-interest bearing. To be a proper interest bearing promissory note, the note must state the rate of interest. It follows that when the note matures, the borrower must pay the original amount plus the interest accrued. The simple interest formula is the same as what we learned in the last chapter. If the borrower signs a /non-interest bearing/ promissory note, you just pay back the face-value at maturity.
+
+#+begin_src
+Interest = Principal * Rate * Time
+#+end_src
+
+** Simple Discount Note
+The *maturity value* (MV), is the sum of principal and interest. Some institutions deduct the loan interest in advance. When banks do this, the note is a *simple discount note*.
+
+- Bank discount :: The interest that banks deduct in advance.
+- Bank discount rate :: the interest rate that is discounted in advance.
+- Proceeds :: The amount that the borrower receives after the bank deducts its discount from the loans maturity value is the note's *proceeds*.
+- Effective Rate :: For a simple discount note, the effective rate is higher than the stated rate - the true rate.
+
+** Treasury Bills
+
+When the Government sells *Treasury Bills* and *Treasury Notes*, its basically a promissory note from the fed.
+
+- Treasury Bills :: A loan ranging from 4 weeks, 13 weeks, and 1 year.
+- Treasury Note :: A loan ranging from 2-10 years.
+
+** Simple Interest Note
+
+To find the principal and interest on a *simple interest note*, we can use the *maturity value formula*.
+
+- M = Maturiy Rate
+- P = Principal
+- R = Rate
+- T = Time/Term
+- I = Interest (M - P)
+  
+#+begin_src 
+M = P + PRT
+P = M/(1 + RT)
+R = I/PT
+T = I/PR
+#+end_src
+
+** Simple Discount Note
+
+
