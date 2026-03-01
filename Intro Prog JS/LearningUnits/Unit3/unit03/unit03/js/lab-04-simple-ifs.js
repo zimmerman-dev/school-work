@@ -1,9 +1,36 @@
 function lab04() {
     "use strict";
-
-    // YOUR CODE STARTS AFTER THIS LINE:
     
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 4");
+    // Constant Declaration
+    const BOUNDS_CHECK = 100;
+    
+    // Variable Declaration
+    let enteredNumber;
+    let outputMessage;
 
+    // Variable Assignment
+    enteredNumber = prompt("Enter a number:");
+
+    // Validation
+    if (isNaN(enteredNumber)) {
+        outputMessage = "error, value not a number!";
+    }
+
+    enteredNumber = Number(enteredNumber);
+
+    // Logic
+    if (enteredNumber === BOUNDS_CHECK) {
+        outputMessage = "is Just Right!";
+    }
+
+    if (enteredNumber < BOUNDS_CHECK) {
+        outputMessage = "is Too Little!";
+    }
+
+    if (enteredNumber > BOUNDS_CHECK) {
+        outputMessage = "is Too Big!";
+    }
+
+    // Display output message
+    document.writeln(outputMessage);
 }
