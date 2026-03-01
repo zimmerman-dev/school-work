@@ -9,26 +9,26 @@ function lab05() {
     let secondString;
     let outputMessage;
 
-    // Variable Assignment
+    // Prompt user for variable assignment
     firstString = prompt("Enter a string:");
     secondString = prompt("Enter a string that will sort after the first:");
 
-    // Validation (check for empty strings)
+    // Validation (check for empty strings or prompt cancellation)
     if (firstString === null || firstString.length <= 0 
         || secondString === null || secondString.length <= 0) {
         alert(ERROR_MESSAGE);
         return;
     }
 
-    // Calculation
+    // Calculation (logic)
     if (firstString < secondString) {
         outputMessage = "Very good, \"" + secondString 
         + "\" comes after \"" + firstString + "\".";
     } else {
         outputMessage = "\"" + secondString 
-        + "\" is the same or does not sort after \"" + firstString + "\".";
+        + "\" is the same or does not sort after \"" + firstString + "\", Please try again.";
     }
 
-    // Display
+    // Display output
     document.writeln(outputMessage);
 }
