@@ -56,6 +56,11 @@ R = I/PT
 T = I/PR
 #+end_src
 
-** Simple Discount Note
+** Discounting a Note
 
+Discounting a note just means to sell an interest bearing note before maturity. Here are the steps to discount a note:
 
+- Step 1 :: Calculate the interest and maturity value of the original simple interest note, i.e. $Maturity_Value = Principal + Interest$
+- Step 2 :: Calculate the discount period (time the bank holds the note) using a financial calculator.
+- Step 3 :: Calculate the bank discount. /Bank Discount = Maturity Value * Bank Discount Rate * Bank Days Held / 360/
+- Step 4 :: Calculate Proceeds /Proceeds = MV - Bank Discount (charge)
