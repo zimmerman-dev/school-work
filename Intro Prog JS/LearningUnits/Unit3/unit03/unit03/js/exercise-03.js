@@ -7,66 +7,117 @@ function exercise03Part1() {
     
     // Variable Declaration
     let userNumber;
-    let outputMessageOne;
-    let outputMessageTwo;
-    let outputMessageThree;
-    let outputMessageFour;
+    let outputMessage;
 
     // Variable Assignment (Prompt user)
     userNumber = prompt("Enter a number:");
 
     // Validation
-    if (userNumber === null || userNumber.length <= 0 || !isNumeric(userNumber)) {
+    if (userNumber === null || userNumber.length <= 0 || isNaN(userNumber)) {
         alert(ERROR_MESSAGE);
         return;
     }
 
     userNumber = Number(userNumber);
 
-    // Calculations - One
+    // Logic - One
     if (userNumber % 2 === 0) {
-        outputMessageOne = "- is an even number.";
+        outputMessage = "\n- is an even number.\n";
     } else {
-        outputMessageOne = "- is an odd number.";
+        outputMessage = "\n- is an odd number.\n";
     }
 
-    // Calculations - Two
+    // Logic - Two
     if (userNumber > BOUNDS_CHECK) {
-        outputMessageTwo = "- is greater than 100.";
+        outputMessage += "- is greater than 100.\n";
     } else if (userNumber < BOUNDS_CHECK) {
-        outputMessageTwo = "- is less than 100.";
+        outputMessage += "- is less than 100.\n";
     } else {
-        outputMessageTwo = "- is equal to 100.";
+        outputMessage += "- is equal to 100.\n";
     }
 
-    // Calculations - Three
+    // Logic - Three
     if (userNumber > 0) {
-        outputMessageThree = "- is a positive number.";
+        outputMessage += "- is a positive number.\n";
     } else if (userNumber < 0) {
-        outputMessageThree = "- is a negative number.";
+        outputMessage += "- is a negative number.\n";
     } else {
-        outputMessageThree = "- is equal to 0.";
+        outputMessage += "- is equal to 0.\n";
     }
 
-    // Calculations - Four
+    // Logic - Four
     if (userNumber !== 1991) {
-        outputMessageFour = "- is not the year of my birth.";
+        outputMessage += "- is not the year of my birth.";
     } else {
-        outputMessageFour = "- is the year of my birth.";
+        outputMessage += "- is the year of my birth.";
     }
 
-    // Display messages
-    document.writeln("The number " + userNumber);
-    document.writeln(outputMessageOne);
-    document.writeln(outputMessageTwo);
-    document.writeln(outputMessageThree);
-    document.writeln(outputMessageFour);
+    // Display message
+    document.writeln("The number " + userNumber + outputMessage);
 }
 
 function exercise03Part2() {
     "use strict";
-    // PART 2: YOUR CODE STARTS AFTER THIS LINE:
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Exercise for lab 3, Part 2");
+    // Constant Declarations
+    const BOUNDS_CHECK = 10;
+    const LOWER_BOUNDS = "Algebra";
+    const UPPER_BOUNDS = "Singularity";
+    const UPPERCASE_CHECK_MIN = "A";
+    const UPPERCASE_CHECK_MAX = "Z";
+    const LOWERCASE_CHECK_MIN = "a";
+    const LOWERCASE_CHECK_MAX = "z";
+    const ERROR_MESSAGE = "Input Error... Try again!";
+
+    // Variable Declaration
+    let userString;
+    let outputMessage;
+
+    // Variable Assignment
+    userString = prompt("Enter a single word:");
+
+    // Validation
+    if (userString === null || userString.length <= 0 || !isNaN(userString)) {
+        alert(ERROR_MESSAGE);
+        return;
+    }
+
+    // Logic - One
+    if (userString.length > BOUNDS_CHECK) {
+        outputMessage = "\n- has a length that is greater than 10.\n";
+    } else if (userString.length < BOUNDS_CHECK) {
+        outputMessage = "\n- has a length that is less than 10.\n";
+    } else {
+        outputMessage = "\n- has a length of 10.\n";
+    }
+
+    // Logic - Two
+    if (userString > LOWER_BOUNDS) {
+        outputMessage += "- is greater than the word, \"" + LOWER_BOUNDS + "\".\n";
+    } else if (userString < LOWER_BOUNDS) {
+        outputMessage += "- is less than the word, \"" + LOWER_BOUNDS + "\".\n";
+    } else {
+        outputMessage += "- is the word \"" + LOWER_BOUNDS + "\".\n";
+    }
+
+    // Logic - Three
+    if (userString > UPPER_BOUNDS) {
+        outputMessage += "- is greater than the word, \"" + UPPER_BOUNDS + "\".\n";
+    } else if (userString < UPPER_BOUNDS) {
+        outputMessage += "- is less than the word, \"" + UPPER_BOUNDS + "\".\n";
+    } else {
+        outputMessage += "- is the word, \"" + UPPER_BOUNDS + "\".\n";
+    }
+
+    // Logic - Four
+    if (userString >= UPPERCASE_CHECK_MIN && userString <= UPPERCASE_CHECK_MAX) {
+        outputMessage += "- starts with an uppercase letter";
+    } else if (userString >= LOWERCASE_CHECK_MIN && userString <= LOWERCASE_CHECK_MAX) {
+        outputMessage += "- starts with a lowercase letter";
+    } else {
+        outputMessage += "- starts with a character that isn't a letter";
+    }
+
+    // Display
+    document.writeln("The word, \"" + userString + "\"" + outputMessage);
 }

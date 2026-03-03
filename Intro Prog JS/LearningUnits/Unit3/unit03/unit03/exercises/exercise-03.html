@@ -71,7 +71,7 @@ The number 1980
         <ul>
           <li>If the length of the word is more than 10 letters</li>
           <li>If the word is less than the word &ldquo;Algebra&rdquo; or not</li>
-          <li>If the word is greater than the word &ldquo;Singularity&rdquo; or not</li>
+          <li>If the word is greater than the word &ldquo;Singularity&rdquo; or not<li>
           <li>If the word starts with an uppercase letter or a lowercase letter (you will need to refer the the ASCII chart for this one)</li>
         </ul>
       </section>
@@ -80,22 +80,26 @@ The number 1980
         <h2>Planning List (Part 2)</h2>
         <h3>Input Variables</h3>
         <div class="inputVars">
-          <!-- Enter Input Variables within the <ul> as <li> elements --> 
           <ul>
-  
+            <li>userString</li>
           </ul>
         </div>
         <h3>Output Variables</h3>
         <div class="outputVars">
-          <!-- Enter Output Variables within the <ul> as <li> elements --> 
           <ul>
-  
+            <li>userString</li>
+            <li>outputMessage</li>
           </ul>
         </div>
         <h3>Process Checklist</h3>
         <div class="checklist">
-          <!-- Enter the Checklist within the <ul> as <li> elements --> 
           <ol>
+            <li>Declare Constants</li>
+            <li>Declare Variables</li>
+            <li>Variable Assignment with prompt</li>
+            <li>Validate</li>
+            <li>Logic with binary comparison operators</li>
+            <li>Display Message</li>
   
           </ol>
         </div>
@@ -109,11 +113,13 @@ The number 1980
         ------------------------->
         <h3>Test Case 1</h3>
         <div class="testCase">
-          <p><span class="testHeader">Expected Input:</span>
-              <!-- Enter expected input here-->
-          </p>
+          <p><span class="testHeader">Expected Input:</span> existentialism</p>
           <p><span class="testHeader">Expected Output:</span>
-                <!-- Enter expected output here-->
+          <li>The word, "existentialism"</li>
+          <li>has a length that is greater than 10.</li>
+          <li>is not less than, "Algebra".</li>
+          <li>is greater than the word, "Singularity".</li>
+          <li>starts with a lowercase letter</li>
           </p>
         </div>
         <!-----------------------
@@ -121,11 +127,13 @@ The number 1980
         ------------------------->
         <h3>Test Case 2</h3>
         <div class="testCase">
-          <p><span class="testHeader">Expected Input:</span>
-              <!-- Enter expected input here-->
-          </p>
+          <p><span class="testHeader">Expected Input:</span>Chicken</p>
           <p><span class="testHeader">Expected Output:</span>
-                <!-- Enter expected output here-->
+          <li>The word, "Chicken"</li>
+          <li>has a length that is less than 10.</li>
+          <li>is greater than the word, "Algebra".</li>
+          <li>is less than the word, "Singularity".</li>
+          <li>starts with an uppercase letter</li>
           </p>
         </div>
       </section>
