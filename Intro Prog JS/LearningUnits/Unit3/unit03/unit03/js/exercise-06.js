@@ -34,9 +34,47 @@ function exercise06Part1() {
 
 function exercise06Part2() {
     "use strict";
-    // PART 2: YOUR CODE STARTS AFTER THIS LINE:
+    // Constant Declaration
+    const ERROR_MESSAGE = "Input Error. Please try again.";
+    const BOUNDS_CHECK = 5;
+    const CHAR_CHECK_A = "A";
+    const CHAR_CHECK_B = "B";
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Exercise for lab 6, Part 2");
+    // Variable Declaration
+    let queriedNum;
+    let queriedChar;
+    let outputMessage;
+
+    // Prompt user
+    queriedNum = prompt("Enter a number:");
+    queriedChar = prompt("Enter a letter:");
+
+    // Validate
+    if (queriedChar === null 
+        || queriedChar <= 0 
+        || isNumeric(queriedChar)
+        
+        || queriedNum === null 
+        || queriedNum.length <= 0 
+        || !isNumeric(queriedNum)) {
+        alert(ERROR_MESSAGE);
+        return;
+    }
+
+    queriedChar = queriedChar.toUpperCase();
+    queriedNum = Number(queriedNum);
+
+    // Logic
+    if ((queriedChar === CHAR_CHECK_A || queriedChar === CHAR_CHECK_B) 
+        && queriedNum < BOUNDS_CHECK) {
+        outputMessage = queriedNum + " and " 
+        + queriedChar + " are correct";
+    } else {
+        outputMessage = queriedNum + " and " 
+        + queriedChar + " are not correct. Please try again";
+    }
+
+    // Display message
+    document.writeln(outputMessage);
 }
 
