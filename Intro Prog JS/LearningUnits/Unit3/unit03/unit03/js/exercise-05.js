@@ -10,17 +10,12 @@ function exercise05Part1() {
 
     // Prompt User
     userNumOne = prompt("Enter a number:");
-
-    // Validate userNumOne
-    if (userNumOne === null || userNumOne.length <= 0 || !isNumeric(userNumOne)) {
-        alert(ERROR_MESSAGE);
-    }
-
-    // Prompt User
     userNumTwo = prompt("Enter another number:");
 
-    // Validate userNumTwo
-    if (userNumTwo === null || userNumTwo.length <= 0 || !isNumeric(userNumTwo)) {
+    // Validate userNumOne
+    if (userNumOne === null || userNumOne.length <= 0
+        || !isNumeric(userNumOne) || userNumTwo === null
+        || userNumTwo.length <= 0 || !isNumeric(userNumTwo)) {
         alert(ERROR_MESSAGE);
     }
 
@@ -40,8 +35,33 @@ function exercise05Part1() {
 
 function exercise05Part2() {
     "use strict";
-    // PART 2: YOUR CODE STARTS AFTER THIS LINE:
+    // Const Declaration
+    const ERROR_MESSAGE = "Input Error. Try again.";
+    const USER_NAME = "john";
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Exercise for lab 5, Part 2");
+    // Variable Declaration
+    let queriedName;
+    let outputMessage;
+
+    // Prompt for name
+    queriedName = prompt("Enter a name:");
+
+    // validation
+    if (queriedName === null || queriedName.length <= 0 || isNumeric(queriedName)) {
+        alert(ERROR_MESSAGE);
+        return;
+    }
+
+    queriedName = queriedName.toLowerCase();
+
+    // Logic
+    if (queriedName === USER_NAME) {
+        outputMessage = "That's my name!";
+    } else {
+        outputMessage = "That's not my name.";
+    }
+
+    // Display message
+    document.writeln(outputMessage);
+
 }
