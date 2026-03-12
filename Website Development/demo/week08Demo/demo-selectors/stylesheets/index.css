@@ -1,0 +1,84 @@
+/* 
+   First Last Name
+   Date
+*/
+
+
+/* =========================
+   ELEMENT SELECTOR
+   ========================= */
+
+/* Style all h2 elements */
+
+h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   color:cornflowerblue;
+}
+
+/* =========================
+   ID SELECTOR
+   ========================= */
+
+/* Style the element with id="mainHeader" */
+
+#mainHeader {
+   background-color: lightgray;
+   padding: 1em;
+}
+
+/* =========================
+   CLASS SELECTOR
+   ========================= */
+
+/* Style all elements with class="highlight" */
+
+.highlight {
+   font-weight: bold;
+   letter-spacing: .1em;
+
+}
+
+/* =========================
+   DESCENDANT SELECTOR
+   ========================= */
+
+/* Style only p elements inside .card */
+
+.card p {
+   color: magenta;
+   font-style: italic;
+}
+/* =========================
+   PSEUDO-CLASS SELECTORS
+   ========================= */
+
+/* Style nav links when unvisited */
+
+nav a:link {text-decoration: none;}
+
+/* Style nav links when visited */
+
+nav a:visited {color: orange;}
+
+/* Style nav links when active AND in focus */
+
+nav 
+
+/* Style the first li in .list */
+
+
+/* Style every even li in .list */
+
+
+/* =========================
+   PSEUDO-ELEMENT SELECTORS
+   ========================= */
+
+/* Style the first letter of all paragraphs */
+
+
+/* =========================
+   ATTRIBUTE SELECTORS
+   ========================= */
+
+/* Style links that start with https */
