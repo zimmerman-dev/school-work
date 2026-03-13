@@ -19,4 +19,3 @@ function isNumeric(testValue) {
     
     return !isNaN(parseFloat(testValue)) && isFinite(testValue);
 }
-
