@@ -1,0 +1,27 @@
+/*
+John Zimmerman
+3/16/26
+*/
+/* * {border: 1px solid red;} */
+h1 { /*                       <--        "h1" is a selector                      */
+    color: red; /*          <--        "color: red;" is a declaration          */
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
