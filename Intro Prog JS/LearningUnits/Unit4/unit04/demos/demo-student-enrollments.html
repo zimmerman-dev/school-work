@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-student-enrollments.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Student Enrollment Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Student Enrollment Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+			<p>Write a program that will read a file of student records, and select and print only the records of those students enrolled in a course named Programming I.</p>
+			<p>Each student record contains student number, name, address, zip code, status, and course number.</p>
+			<p>The course number for Programming I, is 18500.</p>
+			<p>Three totals are to be printed at the end of the report: total full time enrolled in the course, total part time enrolled in the course, and total students enrolled in the course.</p>
+		</section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>studentEnrollmentRecords</li>
+					<li>- studentNumber</li>
+					<li>- name</li>
+					<li>- address</li>
+					<li>- zipCode</li>
+					<li>- status</li>
+					<li>- courseNumber</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>studentNumber</li>
+					<li>name</li>
+					<li>address</li>
+					<li>zipCode</li>
+					<li>status</li>
+					<li>totalFullTime</li>
+					<li>totalPartTime</li>
+					<li>totalStudents</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>Read student record</li>
+					<li>Select student records in course 18500</li>
+					<li>Print selected records in course 18500</li>
+					<li>Compute total full time enrolled</li>
+					<li>Compute total part time enrolled</li>
+					<li>Compute total students enrolled</li>
+					<li>Print totals</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="testPlan">
+				<h2>Test Plan</h2>
+				<!-- ---------------------
+					TEST CASE 1 
+				------------------------->
+				<h3>Test Case 1</h3>
+				<div class="testCase">
+					<p><span class="testHeader">Expected Input:</span>
+						first 5 records
+					</p>
+					<p><span class="testHeader">Expected Output:</span>
+						<br/>Students: 101, 102<br/>
+						Total Students: 2<br/>
+						Full Time: 1<br/>
+						Part Time: 1
+					</p>
+				</div>
+				<!-- ---------------------
+					TEST CASE 2
+				------------------------->
+				<h3>Test Case 2</h3>
+				<div class="testCase">
+					<p><span class="testHeader">Expected Input:</span>
+						first 10 records
+					</p>
+					<p><span class="testHeader">Expected Output:</span>
+						<br/>Students: 101, 102, 106, 107, 110<br/>
+						Total Students: 5<br/>
+						Full Time: 3<br/>
+						Part Time: 2
+					</p>
+				</div>
+				<!-- ---------------------
+					TEST CASE 3
+				------------------------->
+				<h3>Test Case 3</h3>
+				<div class="testCase">
+					<p><span class="testHeader">Expected Input:</span>
+						first 15 records
+					</p>
+					<p><span class="testHeader">Expected Output:</span>
+						<br/>Students: 101, 102, 106, 107, 110, 112, 114<br/>
+						Total Students: 7<br/>
+						Full Time: 4<br/>
+						Part Time: 3
+					</p>
+				</div>
+			</section>
+
+<section>
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+<script language="JavaScript" type="text/javascript">processProgrammingStudents();</script>
+</pre>
+</section>
+
+  </main>
+
+</body>
+
+</html>

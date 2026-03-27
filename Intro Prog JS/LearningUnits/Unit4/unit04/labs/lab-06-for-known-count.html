@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-06-for-known-count.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 06</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 6 | For Loop with Known Count</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+      <h2>Lab Steps</h2>
+      <ol>
+        <li><strong>Variable declarations section</strong>
+        
+        <ul>
+        <li>Write a comment that identifies this coding section.</li>
+        <li>Declare a <code>loopCounter</code> variable.</li>
+        <li>Declare a <code>maximumLoop</code> variable.</li>
+        <li>Declare a <code>total</code> variable. (Is this a good variable name?)</li>
+        </ul></li>
+        
+        <li><strong>Assignments section</strong>
+        
+        <ul>
+        <li>Write a comment that identifies this coding section.</li>
+        <li>Assign <code>0</code> to the <code>total</code> variable.</li>
+        </ul></li>
+        
+        <li><strong>Processing Section</strong>
+        
+        <ul>
+        <li>Write a comment that identifies this coding section.</li>
+        <li>Ask the user to enter the number of times they would like to loop and assign the entry to the <code>maximumLoop</code> variable.</li>
+        <li>Convert the entered value to a number.</li>
+        <li>Using a <code>for</code> loop perform the following the number of times that the user entered. For example, if the user entered 5 then loop 5 times.</li>
+        <li>In the parentheses of the <code>for</code> loop perform the following:
+        
+        <ul>
+        <li>In the initialization section, assign <code>1</code> to <code>loopCounter</code> variable.</li>
+        <li>In the boolean section, check if the <code>counter</code> variable is less than or equal to the <code>maximumLoop</code> variable.</li>
+        <li>In the increment section, increment the <code>loopCounter</code> variable.</li>
+        </ul></li>
+        <li>In the <code>for</code> loop:
+        
+        <ul>
+        <li>Add the counter variable <strong>into</strong> the <code>total</code> variable. Again, remember to use the compound operator <code>+=</code>.</li>
+        <li>Write the <code>loopCounter</code> variable and the <code>total</code> variable to the page as in the sample output.</li>
+        </ul></li>
+        <li>After the loop is done, write the total to the page as in the sample output below.</li>
+        </ul></li>
+      </ol>
+          
+    </section>  
+
+<section class="noPrint">
+<h2>Sample Output (Part 2)</h2>
+<pre class="sampleOutput">
+In loop 1 the total is 1.
+In loop 2 the total is 3.
+In loop 3 the total is 6.
+In loop 4 the total is 10.
+In loop 5 the total is 15.
+
+The final total is 15.
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 1)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab06Part01();</script>
+</pre>
+</section>
+
+<!--****************************************************
+********************  Part 2  **************************
+*****************************************************-->
+
+
+    <section class="steps noPrint">
+        <div class="part">
+          <h1>Part 2</h1>
+        </div>
+        <h2>Problem Statement</h2>
+        <p>Write a program that will output 100 lines. Each line will be the number 1,000 divided by the number of the line. The first line of output will be, <code>1000 / 1 = 1000</code>. The second line will be, <code>1000 / 2 = 500</code> and so on though 100 lines. Format the output as in the partial sample output. Use a  <code>for</code> loop for this part.</p>
+      </section>
+  
+<section class="noPrint">
+<h2>Sample Output (Part 2)</h2>
+<pre class="sampleOutput">
+1000 / 1 = 1000
+1000 / 2 = 500
+1000 / 3 = 333.3333333333333
+1000 / 4 = 250
+1000 / 5 = 200
+1000 / 6 = 166.66666666666666
+...
+1000 / 99 = 10.1010101010101
+1000 / 100 = 10
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 2)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab06Part02();</script>
+</pre>
+</section>
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-fahrenheit-celsius.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Fahrenheit-Celsius Conversion Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Fahrenheit-Celsius Conversion Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+			<p class="paraNoBottomMarg">A program is to be written that will accept five Fahrenheit temperatures, convert each one to Celsius, and display the converted temperatures on the page. After all 5 have been processed, the program will display the words, “All temperatures processed.” on the page.</p>
+		</section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>currentFahrenheitTemperature</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>currentFahrenheitTemperature</li>
+					<li>currentCelsiusTemperature</li>
+					<li>finalMessage</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>prompt user for 5 temperatures in a loop</li>
+					<li>convert the inputs to numbers</li>
+					<li>display each input temperature</li>
+					<li>display each converted temperature</li>
+					<li>display finalMessage</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="testPlan">
+			<h2>Test Plan</h2>
+			<!-- ---------------------
+				TEST CASE 1 
+			------------------------->
+			<h3>Test Case 1</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					212
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					100
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 2
+			------------------------->
+			<h3>Test Case 2</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					32
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					0
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 3 
+			------------------------->
+			<h3>Test Case 3</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					-40
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					-40
+				</p>
+			</div>     
+		</section>
+
+		<section>
+		<h2>Sample Output</h2>
+			<div class="sampleOutput">
+				<script language="JavaScript" type="text/javascript">convertFahrenheit();</script>
+			</div>
+		</section>
+
+  </main>
+
+</body>
+
+</html>

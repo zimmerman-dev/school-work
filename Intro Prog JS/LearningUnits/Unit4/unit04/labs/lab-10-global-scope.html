@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-10-global-scope.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 10</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 10 | Global Scope</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Lab Steps</h2>
+      <ol>
+      <li><strong>Global Variable</strong>
+        <ul>
+          <li>At the very top of the JavaScript file, place a comment line that says &ldquo;Global variables.&rdquo;</li>
+          <li>After this comment line, but above the controller function set up a new global variable to hold your full name.</li>
+        </ul>
+      </li>
+
+      <li><strong>Sub-Function</strong>
+        <ul>
+          <li>Next create a new sub-function <strong>above</strong> the main function and <strong>below</strong> the global variable.</li>
+          <li>Name the sub-function  <code class="language-js">displayNameOnWebPage()</code>.</li>
+          <li>Output the global variable in the sub-function with a <code class="language-js">document.write()</code> followed by a <code class="language-html">&lt;br/&gt;</code> element.</li>
+          <li>Add a comment above the sub-function describing it&rsquo;s purpose.</li>
+        </ul>
+      </li>
+
+      <li><strong>Controller Function</strong>
+        <ul>
+          <li>Assign the value of the global variable your name.</li>
+          <li>Call the <code class="language-js">displayNameOnWebPage()</code> function.</li>
+          <li>When the above steps are working, then call the  <code class="language-js">displayNameOnWebPage()</code> function a few more times with each call on its own line.<br /></li>
+        </ul>
+      </li>
+      <br/>
+      <p><strong>Notice that both the sub-function and the controller function have access to the global variable</strong></p>
+
+    </section>
+
+
+<section class="noPrint">
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+John Smith
+John Smith
+John Smith
+</pre>
+</section>
+
+<section>
+<h2>Your Output</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab10();</script>
+</pre>
+</section>
+
+  </main>
+
+</body>
+
+</html>

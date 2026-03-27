@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-global-scope.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Global Scope</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Global Scope</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+			<p>Whoa! There are some new things in here: <code>innerHTML</code> and <code>getElementById()</code>. Don&rsquo;t worry we will cover all this in the next unit, but here is sneak peek.</p>
+			<p>Review the JavaScript in <code>demo-global-scope.js</code> and the explanation for each line at the bottom.</p>
+		</section>
+		
+
+		<section>
+		<h2>Sample Output</h2>
+			<div class="sampleOutput">
+				<ul id="demoList">
+				</ul>
+			</div>
+			<script language="JavaScript" type="text/javascript">addFredElement();</script>
+		</section>
+
+		<section>
+			<h2>What Happened?</h2>
+			<p><strong>Lines 8 and 9:</strong> These variables have <code>Global Scope</code>, they&rsquo;re available to every function in the file. Functions can read and write to them. The <strong>ARE NOT</strong> indented because they are outside of the function.</p>
+
+<pre><code class="language-js line-numbers">let firstName;
+let lastName;
+</code></pre>
+
+<p><br/></p>
+
+<p><strong>Lines 49 and 51:</strong> &ldquo;What? We haven&rsquo;t see this before!&rdquo; That&rsquo;s correct, we are going to start using a different way to add our output to the page. We will use a common technique that sits in between the <code>document.write()</code> function and full <code>DOM Manipulation</code> on the scale of good ways to dynamically change an HTML page. Don&rsquo;t worry, we&rsquo;ll go over this a lot. For now just realize that we can get access to the HTML elements on a page with JavaScript.</p>
+
+<pre><code class="language-js line-numbers">// Get the list on the page
+let list;
+
+list = document.getElementById('demoList');
+</code></pre>
+
+<p><br/>
+<strong>Lines 54 and 55:</strong> This will set the values of the global variables.</p>
+
+<pre><code class="language-js line-numbers">// Set the global variables
+firstName = &quot;Fred&quot;;
+lastName = &quot;Flintstone&quot;;
+</code></pre>
+
+<p><br/>
+<strong>Line 59:</strong> Adds an <code>&lt;li&gt;</code> tag to the <code>&lt;ul&gt;</code> tag that is already on the HTML page.</p>
+
+<pre><code class="language-js line-numbers">// Output the name to the page by
+// adding a list element to the &lt;ul&gt; tag
+list.innerHTML = &quot;&lt;li&gt;&quot; + firstName + &quot; &quot; + lastName + &quot;&lt;/li&gt;&quot;;
+</code></pre>
+
+<p><br/>
+<strong>Line 62:</strong> This is the function call to the sub-function in the file. The current function will be suspended and the program will continue running at the beginning of the called function.</p>
+
+<pre><code class="language-js line-numbers">// Now call another function
+addBarneyElement();
+</code></pre>
+
+<p><br/>
+<strong>Lines 19 and 21:</strong> This function also access to the list element on the HTML page.</p>
+
+<pre><code class="language-js line-numbers">    // This function will also get the &lt;ul&gt; tag
+// from the document.
+let list;
+
+list = document.getElementById('demoList');
+</code></pre>
+
+<p><br/>
+<strong>Lines 24 and 25:</strong> This code is changing the value of the global variables. It <em>overwrites</em> the values set by the first function.</p>
+
+<pre><code class="language-js line-numbers">// Set the global variables
+firstName = &quot;Barney&quot;;
+lastName = &quot;Rubble&quot;;
+</code></pre>
+
+<p><br/>
+<strong>Line 29:</strong> Here we are adding another <code>&lt;li&gt;</code> element to the <code>&lt;ul&gt;</code> tag. Notice the <code>+=</code>, we need this to not overwrite the other elements that have been added to the <code>&lt;ul&gt;</code> tag.</p>
+
+<pre><code class="language-js line-numbers">// Output the name to the page by
+// adding a list element to the &lt;ul&gt; tag
+list.innerHTML += &quot;&lt;li&gt;&quot; + firstName + &quot; &quot; + lastName + &quot;&lt;/li&gt;&quot;;
+</code></pre>
+
+<p><br/>
+<strong>Line 62:</strong> Here we are, back at the spot where we suspended the first function. The function will start running again from the next statement after the function call.</p>
+
+<p><br/>
+<strong>Line 66:</strong> One final <code>&lt;li&gt;</code> tag will be add to the <code>&lt;ul&gt;</code> tag to see what is currently in the global variables.</p>
+
+<pre><code class="language-js line-numbers">// Now add another item to the list to see
+// that firstName and lastName now hold.
+list.innerHTML += &quot;&lt;li&gt;&quot; + firstName + &quot; &quot; + lastName + &quot;&lt;/li&gt;&quot;;
+</code></pre>
+
+<p><strong>Whew! That was a lot of work!</strong></p>
+
+		
+		</section>
+
+	</main>
+	
+
+
+</body>
+
+</html>

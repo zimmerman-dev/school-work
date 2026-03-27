@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-three-characters.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Three Character Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Three Character Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+			<p class="paraNoBottomMarg">Design a program that will prompt for three characters, accept those characters as input, sort them into ascending sequence and output them to the screen. The program is to continue to read characters until <code>XXX</code>, <code>XXX</code>, <code>XXX</code> is entered.</p>
+		</section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>character1</li>
+					<li>character2</li>
+					<li>character3</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>character1</li>
+					<li>character2</li>
+					<li>character3</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>prompt for characters</li>
+					<li>accept three characters</li>
+					<li>sort three characters</li>
+					<li>output three characters</li>
+				</ol>
+			</div>
+		</section>
+
+		<section>
+			<div class="part">
+				<h1>Version 1</h1>
+			</div>
+			<p class="paraNoBottomMarg">The initial program is all in one function.</p>
+<pre class="language-js line-numbers"><code>function processThreeCharactersVersion1() {
+	"use strict";
+
+	let character1AllInOne;
+	let character2AllInOne;
+	let character3AllInOne;
+	let swapAllInOne;
+
+    character1AllInOne = prompt("Enter one character (1/3) "
+			+ "or 'XXX' to quit.");
+    character2AllInOne = prompt("Enter one character (2/3) "
+			+ "or 'XXX' to quit.");
+    character3AllInOne = prompt("Enter one character (3/3) "
+			+ "or 'XXX' to quit.");
+
+    while (character1AllInOne !== "XXX"
+			&& character2AllInOne !== "XXX"
+			&& character3AllInOne !== "XXX") {
+
+		if (character1AllInOne > character2AllInOne) {
+			swapAllInOne = character1AllInOne;
+			character1AllInOne = character2AllInOne;
+			character2AllInOne = swapAllInOne;
+		}
+
+		if (character2AllInOne > character3AllInOne) {
+			swapAllInOne = character2AllInOne;
+			character2AllInOne = character3AllInOne;
+			character3AllInOne = swapAllInOne;
+		}
+
+		if (character1AllInOne > character2AllInOne) {
+			swapAllInOne = character1AllInOne;
+			character1AllInOne = character2AllInOne;
+			character2AllInOne = swapAllInOne;
+		}
+
+		document.write("character1: " + character1AllInOne + "<br />");
+		document.write("character2: " + character2AllInOne + "<br />");
+		document.write("character3: " + character3AllInOne + "<br />");
+
+		character1AllInOne = prompt("Enter one character (1/3) "
+				+ "or 'XXX' to quit.");
+		character2AllInOne = prompt("Enter one character (2/3) "
+				+ "or 'XXX' to quit.");
+		character3AllInOne = prompt("Enter one character (3/3) "
+				+ "or 'XXX' to quit.");
+    }
+}
+</code></pre>
+		</section>
+
+		<section>
+			<div class="part">
+				<h1>Version 2</h1>
+			</div>
+			<p>To begin modularizing this program, we can start by reducing the size of the loop. Keeping loop code small is always a good idea. When it’s small we can better see errors and follow the logic.</p>
+			<p>We’re going to just take the <code>if</code> statements and put them into another function and replace them with a call to the new function.</p>
+			<p>Since each function needs access to the variable, we also need to make the variables <strong>global</strong>. We will learn more about that in the next lecture, but what this means is that we will be declaring our variables <strong>at the top</strong> of the file, before any functions are declared. This allows each function in the file to access the data inside those variables.</p>
+<pre><code class="language-js line-numbers">// Global Variables
+let character1;
+let character2;
+let character3;
+let swap;
+	
+/*
+	The purpose of this function is to
+	sort the three characters that were entered by the viewer.
+*/
+function sortThreeCharacters() {
+	&quot;use strict&quot;;
+
+	if (character1 &gt; character2) {
+		swap = character1;
+		character1 = character2;
+		character2 = swap;
+	}
+
+	if (character2 &gt; character3) {
+		swap = character2;
+		character2 = character3;
+		character3 = swap;
+	}
+
+	if (character1 &gt; character2) {
+		swap = character1;
+		character1 = character2;
+		character2 = swap;
+	}
+}
+	
+/*
+	The purpose of this function is to control the
+	Three Characters program.
+*/
+function processThreeCharactersVersion2() {
+	&quot;use strict&quot;;
+
+	character1 = prompt(&quot;Enter one character (1/3) &quot;
+			+ &quot;or 'XXX' to quit.&quot;);
+	character2 = prompt(&quot;Enter one character (2/3) &quot;
+			+ &quot;or 'XXX' to quit.&quot;);
+	character3 = prompt(&quot;Enter one character (3/3) &quot;
+			+ &quot;or 'XXX' to quit.&quot;);
+
+	while (!(character1 === 'XXX'
+			&amp;&amp; character2 === 'XXX'
+			&amp;&amp; character1 === 'XXX')) {
+
+		sortThreeCharacters();  // &lt;-- Here's the function call
+
+		document.write(&quot;character1: &quot; + character1 + &quot;&lt;br /&gt;&quot;);
+		document.write(&quot;character2: &quot; + character2 + &quot;&lt;br /&gt;&quot;);
+		document.write(&quot;character3: &quot; + character3 + &quot;&lt;br /&gt;&quot;);
+
+		character1 = prompt(&quot;Enter one character (1/3) &quot;
+				+ &quot;or 'XXX' to quit.&quot;);
+		character2 = prompt(&quot;Enter one character (2/3) &quot;
+				+ &quot;or 'XXX' to quit.&quot;);
+		character3 = prompt(&quot;Enter one character (3/3) &quot;
+				+ &quot;or 'XXX' to quit.&quot;);
+	}
+	
+}</code></pre>
+	</section>
+
+	<section>
+		<div class="part">
+			<h1>Version 3</h1>
+		</div>
+		<p>Do you see any duplicate code in Version 2? We need to eliminate duplicate code to keep our program <strong>DRY</strong>. <strong>DRY</strong> stands for <b>D</b>on't <b>R</b>epeate <b>Y</b>ourself.</p>
+		<p>Also, it’s a really good idea to have our controller function to not have much lower-level code. So, let’s take out everything and replace it with function calls.</p>
+<pre><code class="language-js line-numbers">// Global Variables
+let character1;
+let character2;
+let character3;
+let swap;
+
+/*
+	The purpose of this function is to
+	sort the three characters that were entered by the viewer.
+*/
+function sortThreeCharacters() {
+	&quot;use strict&quot;;
+
+	if (character1 &gt; character2) {
+		swap = character1;
+		character1 = character2;
+		character2 = swap;
+	}
+
+	if (character2 &gt; character3) {
+		swap = character2;
+		character2 = character3;
+		character3 = swap;
+	}
+
+	if (character1 &gt; character2) {
+		swap = character1;
+		character1 = character2;
+		character2 = swap;
+	}
+}
+
+/*
+	The purpose of this function is to
+	receive the input of three characters.
+*/
+function readThreeCharacters() {
+	&quot;use strict&quot;;
+
+	character1 = prompt(&quot;Enter one character (1 of 3) &quot;
+			+ &quot;or 'XXX' to quit.&quot;);
+	character2 = prompt(&quot;Enter one character (2 of 3) &quot;
+			+ &quot;or 'XXX' to quit.&quot;);
+	character3 = prompt(&quot;Enter one character (3 of 3) &quot;
+			+ &quot;or 'XXX' to quit.&quot;);
+}
+
+/*
+	The purpose of this function is to
+	display the three characters on the Web page.
+*/
+function printThreeCharacters() {
+	&quot;use strict&quot;;
+
+	document.write(&quot;character1: &quot; + character1 + &quot;&lt;br /&gt;&quot;);
+	document.write(&quot;character2: &quot; + character2 + &quot;&lt;br /&gt;&quot;);
+	document.write(&quot;character3: &quot; + character3 + &quot;&lt;br /&gt;&quot;);
+}
+
+/*
+	The purpose of this main function is to
+	coordinate the overall processing required to
+	repeated read, sort, and display three characters
+	input by the viewer.
+*/
+function processThreeCharactersVersion3() {
+	&quot;use strict&quot;;
+
+	readThreeCharacters();
+
+	while (character1 !== 'XXX'
+			&amp;&amp; character2 !== 'XXX'
+			&amp;&amp; character1 !== 'XXX') {
+		sortThreeCharacters();
+		printThreeCharacters();
+		readThreeCharacters();
+	}
+}</code></pre>
+	</section>
+					
+		
+
+
+<section>
+<h2>Sample Output - Version 3</h2>
+<pre class="sampleOutput">
+<script language="JavaScript" type="text/javascript">processThreeCharacters()</script>
+</pre>
+</section>
+
+  </main>
+
+</body>
+
+</html>

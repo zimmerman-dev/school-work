@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-05-while-known-count.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 05</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 5 | While Loop with Known Count</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+          <li>Name:</li>
+          <li>Section:</li>
+          <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+      <h2>Lab Steps</h2>
+      <ol>
+        <li><strong>Variable declarations section</strong>
+        
+        <ul>
+        <li>Write a comment that identifies this coding section.</li>
+        <li>Declare a <code>loopCounter</code> variable.</li>
+        <li>Declare a <code>maximumLoop</code> variable.</li>
+        <li>Declare a <code>total</code> variable. (Note: is this a good variable name?)</li>
+        </ul></li>
+        
+        <li><strong>Assignments section</strong>
+        
+        <ul>
+        <li>Write a comment that identifies this coding section.</li>
+        <li>Assign <code>1</code> to the <code>loopCounter</code> variable.</li>
+        <li>Assign <code>0</code> to the <code>total</code> variable.</li>
+        </ul></li>
+        
+        <li><strong>Processing Section</strong>
+        
+        <ul>
+        <li>Write a comment that identifies this coding section.</li>
+        <li>Ask the user to enter the number of times they would like to loop and assign the entry to the <code>maximumLoop</code> variable.</li>
+        <li>Convert the entered value to a number.</li>
+        
+        <li>Using a <code>while</code> loop perform the following the number of times that the user entered. For example, if the user entered 5 then loop 5 times.<br />
+        Since you started the <code>loopCounter</code> variable at one, how do you do this?
+        
+        <ul>
+        <li>Add the loop counter variable <strong>into</strong> the <code>total</code> variable. Be sure to use the compound operator <code>+=</code>, and not the assignment operator.</li>
+        <li>Write the <code>loopCounter</code> variable and the <code>total</code> variable to the page as shown in the sample output below.</li>
+        <li>Increment the <code>loopCounter</code> variable.</li>
+        </ul></li>
+        
+        <li>After the loop is done, write the total to the page as in the sample.</p>
+        </ul></li>
+      </ol>
+          
+    </section>
+
+  
+<section class="noPrint">
+<h2>Sample Output (Part 2)</h2>
+<pre class="sampleOutput">
+In loop 1 the total is 1.
+In loop 2 the total is 3.
+In loop 3 the total is 6.
+In loop 4 the total is 10.
+In loop 5 the total is 15.
+
+The final total is 15.
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 1)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab05Part01();</script>
+</pre>
+</section>
+
+<!--****************************************************
+********************  Part 2  **************************
+*****************************************************-->
+
+
+    <section class="steps noPrint">
+        <div class="part">
+          <h1>Part 2</h1>
+        </div>
+        <h2>Lab Steps</h2>       
+          <ol>
+            <li><strong>Variable declarations section</strong>
+            
+            <ul>
+            <li>Write a comment that identifies this coding section.</li>
+            <li>Declare a variable named <code>loopCounter</code>.</li>
+            <li>Declare a variable named <code>product.</code>.</li>
+            <li>Declare a constant named <code>LOOP_MAXIMUM</code>, and assign it a value of <code>20</code>.</li>
+            <li>Declare a constant variable named <code>MULTIPLIER</code>, and assign it a value of <code>7</code>.<br /></li>
+            </ul></li>
+            
+            <li><strong>Assignments section</strong>
+            
+            <ul>
+            <li>Write a comment that identifies this coding section.</li>
+            <li>Assign the value <code>1</code> to the <code>loopCounter</code> variable.</li>
+            </ul></li>
+            
+            <li><strong>Looping section</strong>
+            
+            <ul>
+            <li>Write a comment that identifies this coding section.</li>
+            <li>Create a <code>while</code> loop that will run 20 times using the <code>loopCounter</code> and <code>LOOP_MAXIMUM</code> variables.</li>
+            <li>In the loop perform the following:
+            
+            <ul>
+            <li>Multiply <code>loopCounter</code> by <code>MULTIPLIER</code> and assign the results to the <code>product</code> variable.</li>
+            <li>Output the results as in the sample output.</li>
+            <li>Increment the <code>loopCounter</code> variable.</li>
+            </ul></li>
+            </ul></li>
+          </ol>
+            
+      </section>
+  
+    
+<section class="noPrint">
+<h2>Sample Output (Part 2)</h2>
+<pre class="sampleOutput">
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70
+7 x 11 = 77
+7 x 12 = 84
+7 x 13 = 91
+7 x 14 = 98
+7 x 15 = 105
+7 x 16 = 112
+7 x 17 = 119
+7 x 18 = 126
+7 x 19 = 133
+7 x 20 = 140
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 2)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab05Part02();</script>
+</pre>
+</section>
+  
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-07-unknown-count.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 07</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 7 | Unknown Loop Count</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Problem Statement</h2>
+      <p>Write a program that asks a user to enter a number. If the entered number is greater than the previous number, then output the number and the previous number. Then, store the entered number into the previous number variable, and ask the user to enter a bigger number. As long as the newly entered number is bigger than the last one, keep asking the user to enter another bigger number. Display each number that is entered as shown in the sample output below. Once the user enters a number that is smaller than the last one entered then display the sign off message &ldquo;Good bye!&rdquo;</p>
+      <p>You can do this with two variables:</p>
+      <code>
+        let enteredNumber;
+        <br>
+        let previousNumber;
+      </code>
+      <br><br>
+      <p>Initialzing previousNumber to zero.</p>
+    </section>
+
+    <section class="testPlan">
+        <h2>Test Plan</h2>
+        <p>The first one has been done for you.</p>
+        <!-- ---------------------
+              TEST CASE 1 
+        ------------------------->
+        <h3>Test Case 1</h3>
+        <div class="testCase">
+          <p><span class="testHeader">Expected Input:</span>
+            2, 3, 4, 6, 5
+          </p>
+          <p><span class="testHeader">Expected Output:</span><br/>
+            2 is bigger than 0<br/>
+            3 is bigger than 2<br/>
+            4 is bigger than 3<br/>  
+            6 is bigger than 4<br/>
+            5 is smaller than 6<br/>
+            Good bye!
+          </p>
+        </div>
+        <!-----------------------
+              TEST CASE 2
+        ------------------------->
+        <h3>Test Case 2</h3>
+        <div class="testCase">
+          <p><span class="testHeader">Expected Input:</span>
+              <!-- Enter expected input here-->
+          </p>
+          <p><span class="testHeader">Expected Output:</span>
+                <!-- Enter expected output here-->
+          </p>
+        </div>
+        <!-----------------------
+              TEST CASE 3 
+        ------------------------->
+        <h3>Test Case 3</h3>
+        <div class="testCase">
+          <p><span class="testHeader">Expected Input:</span>
+                <!-- Enter expected input here-->
+          </p>
+          <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+          </p>
+        </div>      
+      </section>
+  
+
+<section class="noPrint">
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+2 is bigger than 0
+3 is bigger than 2
+4 is bigger than 3
+6 is bigger than 4
+5 is smaller than 6
+Good bye!
+</pre>
+</section>
+
+<section>
+<h2>Your Output</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab07();</script>
+</pre>
+</section>
+  </main>
+
+</body>
+
+</html>

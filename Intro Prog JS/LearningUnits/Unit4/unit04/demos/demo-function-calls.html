@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-function-calls.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Function Calls</title>
+
+
+</head>
+
+<body class="demo" data-url="demo-function-calls.html" onload="makeFunctionCallDemo();">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Function Calls</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<div style="text-align: center;">
+					<button class="demoButton" name="forwardOne" onclick="nextFrame()">Next</button>
+					<button class="demoButton" name="resetDemo"onclick="resetFrames()">Reset</button>
+			</div>
+			<br/>
+			<div  id="codeDescription">
+					<p id="codeExplanation"></p>
+			</div>
+			<div>
+				<canvas id="codeImage" width='657' height='493' style="width: 100%;"></canvas><br />	
+				<form name="functionCallForm" onsubmit="return false" id="functionCallFormId">
+					</div>
+		</div>
+
+		<section>
+			<h2>Output:</h2>
+			<canvas id="output" width='300' height='100'></canvas>
+		</section>
+
+		</section>
+  </main>
+
+</body>
+
+</html>

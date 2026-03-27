@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-09-calling-functions.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 09</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 9 | First Function Call</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+      <h2>Lab Steps</h2>
+      <ol>
+        <li>Create a new function at the <strong>very top</strong> of the JavaScript file. Name the new function <code class="language-js">displayMessage()</code>.
+        
+        <ul>
+        <li>Add a comment above this function.</li>
+        <li>In this function, output a message, something like, &ldquo;Hi, from a function.&rdquo; followed by a <code class="language-html">&lt;br /&gt;</code> tag.</li>
+        </ul></li>
+        
+        <li>Now locate the main function named <code class="language-js">lab09Part01()</code>.
+        
+        <ul>
+        <li>In this function, call the <code class="language-js">displayMessage()</code> function several times with each call on its own line.</li>
+        </ul></li>
+      </ol>
+          
+      
+    </section>
+
+
+<section class="noPrint">
+<h2>Sample Output (Part 1)</h2>
+<pre class="sampleOutput">
+Hi, from a function.
+Hi, from a function.
+Hi, from a function.
+Hi, from a function.
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 1)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab09Part01();</script>
+</pre>
+</section>
+
+<!--****************************************************
+********************  Part 2  **************************
+*****************************************************-->
+
+
+    <section class="steps noPrint">
+        <div class="part">
+          <h1>Part 2</h1>
+        </div>
+        <h2>Lab Steps</h2>
+        <ol>
+          <li><strong>New Sub-Function</strong>
+            <ul>
+              <li>Create a new function above the main function <code class="language-js">lab09Part02()</code>.</li>
+              <li>Give the new function a good name that indicates that the function will be outputting a full name. Remember that course standards demand that a function name must begin with a verb, other than for main functions.</li>
+              <li>Add a good comment above the function describing what the function does.</li>
+          
+              <li>Create three variables within the new function.
+              </li>
+              <ul>
+              <li>One for a first name</li>
+              <li>One for a middle initial</li>
+              <li>One for a last name.</li>
+              </ul>
+              <li>Prompt the user for first name, the middle initial, and the last name, one at a time, of course.</li>
+              <li>Output the user&rsquo;s full name to the page with a <code class="language-js">document.write()</code>. <strong>Don&rsquo;t</strong> add a <code class="language-html">&lt;br /&gt;</code> tag to the beginning or the end of the name. Add a period (<code>.</code>) to the end of the middle initial.</li>
+            </ul>
+          </li>
+          <li><strong>Control function: <code class="language-js">lab09Part02()</code></strong>
+            <ul>
+              <li>Output the first half of a greeting. You could do something like, <strong>&ldquo;Hello, &ldquo;</strong>.</li>
+              <li>Then call the sub-function that you wrote. Remember to add the <code>();</code> at the end of the name of the function.</li>
+              <li>Output the end of a greeting. Something like, <strong>&rdquo;. How are you?&rdquo;</strong> and a <code class="language-html">&lt;br /&gt;</code> tag.</li>
+              <li>Call the function that you wrote again. This time <em>don&rsquo;t</em> output a greeting before you call it.</li>
+              <li>Then, output a relevant statement, most anything you want (see example output below).</li>
+            </ul>
+          </li>
+        </ol>
+            
+      </section>
+  
+<section class="noPrint">
+<h2>Sample Output (Part 2)</h2>
+<pre class="sampleOutput">
+Hello, John T. Smith. How are you?
+Susan G. Hatch, has left the building.
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 2)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">lab09Part02();</script>
+</pre>
+</section>
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-inventory-items.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Inventory Items Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Inventory Items Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+			<p class="paraNoBottomMarg">Write a program to read a series of inventory records that contain an item number, and item description and a stock amount. The is to produce a low stock items report, by print only those records that have a stock amount of less than 20 items. A heading is to be printed at the top of the report and a total low stock item count printed at the end.</p>
+		</section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>inventoryRecords</li>
+					<li>- itemNumber</li>
+					<li>- itemDescription</li>
+					<li>- stockAmount</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>itemNumber</li>
+					<li>itemDescription</li>
+					<li>stockAmount</li>
+					<li>totalLowStockItems</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>Declare constants and variables</li>
+					<li>Read inventory records</li>
+					<li>Select/find low inventory item records</li>
+					<li>Print low inventory items records</li>
+					<li>Print total of low inventory items</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="testPlan">
+			<h2>Test Plan</h2>
+			<!-- ---------------------
+				TEST CASE 1 
+			------------------------->
+			<h3>Test Case 1</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					first 5 records
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					<br/>Items: 201, 203<br/>
+					Total Low Stock: 2
+				</p>
+			</div>
+			<!-- ---------------------
+				TEST CASE 2
+			------------------------->
+			<h3>Test Case 2</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					first 10 records
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					<br/>Items: 201, 203, 205, 207, 208, 209<br/>
+					Total Low Stock: 6
+				</p>
+			</div>
+		</section>
+
+<section>
+<h2>Sample Output</h2>
+<pre class="sampleOutput">
+<script language="JavaScript" type="text/javascript">findLowStockInventoryItems();</script>
+</pre>
+</section>
+
+  </main>
+
+</body>
+
+</html>

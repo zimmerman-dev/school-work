@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/exercise-11.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Exercise 11</title>
+
+
+</head>
+
+<body class="exercise">
+  <header class="exercise">
+    <a href="../index.html" class="homeLink noPrint">Home</a>
+    <h1>Exercises for Lab 11</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name:</li>
+        <li>Section:</li>
+        <li>Email:</li>
+      </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write a program that accesses the <strong>Student Exam Records Set</strong>. Create a report for the instructor that calculates how many students received each grade based on the following table.</p>
+        <p>Also calculate the average grade for the class. Output the report as in the sample output.</p>
+
+        <table>
+          <thead>
+          <tr>
+          <th><b>Exam Score</b></th>
+          <th><b>Assigned Grade</b></th>
+          </tr>
+          </thead>
+          
+          <tbody>
+          <tr>
+          <td>90 and above</td>
+          <td>A</td>
+          </tr>
+          
+          <tr>
+          <td>80 to less than 90</td>
+          <td>B</td>
+          </tr>
+          
+          <tr>
+          <td>70 to less than 80</td>
+          <td>C</td>
+          </tr>
+          
+          <tr>
+          <td>60 to less than 70</td>
+          <td>D</td>
+          </tr>
+          
+          <tr>
+          <td>below 60</td>
+          <td>F</td>
+          </tr>
+          </tbody>
+        </table>
+            
+            
+    </section>
+  
+    <section class="noPrint">
+      <h2>Sample Output (Part 1)</h2>
+<pre class="sampleOutput">
+Grade       Count
+A           4
+B           6
+C           5
+D           5
+F           3
+
+Average Score: 74.90434782608696
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 1)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">exercise11Part1();</script>
+</pre>
+</section>
+
+<!--****************************************************
+********************  Part 2  **************************
+*****************************************************-->
+
+    
+    <section class="noPrint">
+      <div class="part">
+        <h1>Part 2</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write a guessing game program. Ask a user to guess a number between 1 and 100. If a guess is not a number then alert the user. If the number is too big then alert the user and output the guess to the page. If the number is too small then alert the user and output the guess to the page. When the user guesses the right number then alert the user that they guessed right and output the final guess to the page.</p>
+        <p>The correct value that is being guessed should be calculated with the following code:</p>
+
+
+<pre><code class="language-js">// code for a random number between 1 and 100
+correctAnswer = Math.floor((Math.random() * 100) + 1);
+</code></pre>
+
+      </section>
+
+    <section class="testPlan">
+      <h2>Test Plan (Part 2)</h2>
+      <!-- ---------------------
+            TEST CASE 1 
+      ------------------------->
+      <h3>Test Case 1</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+    </section>
+  
+<section class="noPrint">
+<h2>Sample Output (Part 2)</h2>
+<pre class="sampleOutput">
+small guess: 50
+small guess: 70
+large guess: 80
+large guess: 78
+
+Correct guess: 75
+</pre>
+</section>
+
+<section>
+<h2>Your Output (Part 2)</h2>
+<pre class="studentOutput">
+<script language="JavaScript" type="text/javascript">exercise11Part2();</script>
+</pre>
+</section>
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-gas-billing.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Gas Billing Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Gas Billing Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+            <p>The Gas Company records its customers&rsquo; gas usage data in a <strong>Customer Gas Usage Records Set</strong>. Each record in the set contains the customer&rsquo;s number, name address, and gas usage expressed in cubic yards. Design a program that will read the customer record set, calculate the amount owed for gas usage for each customer, and then display a report listing each customer&rsquo;s number, name, address, gas usage and the amount owed.</p>
+
+            <p>The company bills its customers according to the following rate: if the customer&rsquo;s usage <strong>is 60</strong> cubic yards or less, a rate of $2.00 per cubic yard is applied. If the customer&rsquo;s usage <strong>is more than 60</strong> cubic yards, then a rate of $1.75 per cubic yard is applied for the first 60 cubic yards and $1.50 per cubic yard for the remaining usage.</p>
+            
+            <p>At the end of the report, print the total number of customers and the total amount owing to the company.</p>
+                    </section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>customerUsageRecordSet</li>
+					<li>customerNumber</li>
+					<li>customerName</li>
+					<li>address</li>
+					<li>gasUsage</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>customerNumber</li>
+					<li>customerName</li>
+					<li>address</li>
+					<li>gasUsage</li>
+					<li>amountOwed</li>
+					<li>totalCustomers</li>
+					<li>totalAmountOwned</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>Build main heading and table headings</li>
+					<li>Read usage record</li>
+					<li>Calculate amount owed</li>
+					<li>Print customer details</li>
+					<li>Compute total customers</li>
+					<li>Compute total amount owed</li>
+					<li>Print totals</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="testPlan">
+			<h2>Test Plan</h2>
+			<!-- ---------------------
+				TEST CASE 1 
+			-----------------------!-->
+			<h3>Test Case 1</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					all records
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					89
+				</p>
+			</div>
+		</section>
+
+		<section>
+			<h2>Sample Output</h2>
+			<div class="sampleOutput">
+							<script language="JavaScript" type="text/javascript">billGasCustomers();</script>
+			</div>
+			
+		</section>
+
+  </main>
+
+</body>
+
+</html>
