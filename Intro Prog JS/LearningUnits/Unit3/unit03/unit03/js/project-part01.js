@@ -22,5 +22,4 @@ function part01() {
     } else {
             document.write("INVALID! Can't follow directions, eh?");
     }
- 
 }
