@@ -1,9 +1,27 @@
 function lab01() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
+    // Const declaration
+    const LOOP_MAXIMUM = 5;
+    const INITIAL_LOOP_VALUE = 0;
+    
+    // Variable declaration
+    let loopCounter;
+    let userString;
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 1");
+    // Assignment Section
+    loopCounter = INITIAL_LOOP_VALUE;
 
+    // Loop processing
+    while (loopCounter < LOOP_MAXIMUM) {
+
+        // Prompt user for string
+        userString = prompt("Enter string:");
+
+        // Display string content for each loop
+        document.writeln("You entered: " + userString);
+
+        // loop count increments every loop iteration
+        loopCounter++;
+    }
 }

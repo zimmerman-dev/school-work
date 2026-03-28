@@ -1,9 +1,22 @@
 function lab04() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
-    
+    // Declare variables
+    let currentNumber;
+    let currentName;
+    let studentRecords;
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 4");
+    studentRecords = openStudentEnrollmentRecords();
+
+    // Loop processing 
+    while (studentRecords.readNextRecord()) {
+        currentNumber = studentRecords.getStudentNumber();
+        console.log(currentNumber);
+        currentName = studentRecords.getStudentName();
+        console.log(currentName);
+
+        // Display records
+        document.writeln("Student " + currentNumber + ":\n" + currentName); 
+        document.writeln("-------------");
+    }
 }
