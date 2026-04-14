@@ -1,19 +1,41 @@
 function lab06Part01() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
+    // Variable Declaration
+    let loopCounter;
+    let maximumLoop;
+    let total;
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 6 Part 1");
+    // Variable Assignment
+    total = 0;
+
+    // Processing Section
+    maximumLoop = prompt("How many times should the loop execute:");
+    maximumLoop = Number(maximumLoop);
+
+    // Loop Section
+    for (loopCounter = 1; loopCounter <= maximumLoop; loopCounter++) {
+        total += loopCounter;
+        document.writeln("In loop " + loopCounter + " the total is " + total + ".");
+    }
+    document.writeln("\nThe final total is " + total + ".");
     
 }
 
 function lab06Part02() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
+    // Constant Declaration
+    const DIVISOR = 1000;
+    const MAXIMUM_LOOP_COUNT = 100;
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 6 Part 2");
-    
+    // Variable Declaration
+    let loopCounter;
+    let quotient;
+
+    // Looping Section
+    for (loopCounter = 1; loopCounter <= MAXIMUM_LOOP_COUNT; loopCounter++) {
+        quotient = DIVISOR / loopCounter;
+        document.writeln(DIVISOR + " / " + loopCounter + " = " + quotient);
+    }
 }
