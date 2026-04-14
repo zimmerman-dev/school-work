@@ -1,0 +1,10 @@
+h2 {
+    background-image: url(/images/beansBanner.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 1.5rem;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: 4px solid #2E1B11;
+    text-shadow: 2px 2px 5px #5d5d5d;
+}

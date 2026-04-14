@@ -1,0 +1,15 @@
+main img {
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+aside h2 {
+    text-align: center;   
+}
+
+aside {
+    background-color: #D6CBC0;
+    padding: 1rem;
+    border: 2px solid #A87B50;
+    border-radius: 5px;
+}
