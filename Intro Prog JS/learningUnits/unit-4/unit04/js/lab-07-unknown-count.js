@@ -1,9 +1,30 @@
 function lab07() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
+    // Variable Declaration 
+    let enteredNumber;
+    let previousNumber;
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 7");
+    // Variable Assignment
+    previousNumber = 0;
     
+    // Loop
+    while (true) {
+        enteredNumber = prompt("Enter a number:");
+        enteredNumber = Number(enteredNumber);
+
+        if (enteredNumber > previousNumber) {
+            document.writeln(enteredNumber + " is bigger than " + previousNumber);
+            previousNumber = enteredNumber;
+        } else if (enteredNumber < previousNumber) {
+            document.writeln(enteredNumber + " is smaller than " + previousNumber);
+            break;
+        } else {
+            document.writeln(enteredNumber + " is equal to " + previousNumber);
+            break;
+        }
+    }
+    
+    // Final display message
+    document.writeln("Good bye!");
 }
