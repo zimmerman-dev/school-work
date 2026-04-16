@@ -1,9 +1,20 @@
+// Global Variables
+let fullName;
+
+// Function that prints full name to web page
+function displayNameOnWebPage() {
+    document.write(fullName + "<br/>");
+}
+
 function lab10() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
+    // Variable Assignment
+    fullName = "John Zimmerman";
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Lab 10");
-    
+    // Function Call
+    displayNameOnWebPage();
+    displayNameOnWebPage();
+    displayNameOnWebPage();
+    displayNameOnWebPage();
 }
