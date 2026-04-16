@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/exercise-05.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Exercise 05</title>
+
+
+</head>
+
+<body class="exercise">
+  <header class="exercise">
+    <a href="../index.html" class="homeLink noPrint">Home</a>
+    <h1>Exercises for Lab 5</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name:</li>
+        <li>Section:</li>
+        <li>Email:</li>
+      </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write an application that uses the Part 1 Form below. The user will enter a number in all 9 cells and press the calculate button. Once all 9 entries have been validated as numbers the application will calculate the sums of the rows and columns and output the values to the page.</p>
+    </section>
+
+    <section>
+      <h2>Part 1 Form</h2>
+      <div class="studentOutput">
+          <form id="gridFormId" onsubmit="return exercise05Part1();">
+    
+          <table>
+              <tr>
+                <th style="text-align: center;color: #0082A7;">&#928;</th>
+                <th>Col 1</th>
+                <th>Col 2</th>
+                <th>Col 3</th>
+                <th>Sum</th>
+              </tr>
+              <tr>
+                <td>Row 1</td>
+                <td><input id="row1col1Id" name="row1col1" size="3"></td>
+                <td><input id="row1col2Id" name="row1col2" size="3"></td>
+                <td><input id="row1col3Id" name="row1col3" size="3"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Row 2</td>
+                <td><input id="row2col1Id" name="row2col1" size="3"></td>
+                <td><input id="row2col2Id" name="row2col2" size="3"></td>
+                <td><input id="row2col3Id" name="row2col3" size="3"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Row 3</td>
+                <td><input id="row3col1Id" name="row3col1" size="3"></td>
+                <td><input id="row3col2Id" name="row3col2" size="3"></td>
+                <td><input id="row3col3Id" name="row3col3" size="3"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Sum</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="font-weight:bold; text-align: center; color: #8B0101;">&#937;</td>
+              </tr>
+              <tr>
+                <td colspan="5">
+                    <input type="submit" value="Calculate" />
+                    <input type="reset" value="Reset" />
+                </td>
+              </tr>
+            </table>
+        </form>
+    
+      </div>
+    </section>
+
+<!--****************************************************
+********************  Part 2  **************************
+*****************************************************-->
+
+    <section class="noPrint">
+      <div class="part">
+        <h1>Part 2</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write an application that uses a form on a web page to collect names and address from a user. The data to be collect is as follows:</p>
+
+        <ul>
+          <li>First Name</li>
+          <li>Last Name</li>
+          <li>Address</li>
+          <li>City</li>
+          <li>State</li>
+          <li>Zip Code</li>
+        </ul>
+        <br/>
+        <p>After the user enters the data and presses the submit button, the application will write the data to the page as a new row in an <span class="caps">HTML</span> table. Your form should also have a reset button that clears just the table input fields. Create as much of the HTML table in static code in the <span class="caps">HTML</span> file as possible. Only add the row for each new entry.</p>
+    </section>
+
+    <section>
+      <h2>Your Output (Part 2)</h2>
+      <div class="studentOutput" id="outputPart2">
+        <!-- Your Form Here -->
+
+        <!-- Your Table Here -->
+        
+      </div>
+      <script language="JavaScript" type="text/javascript">exercise05Part2();</script>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

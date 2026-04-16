@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-01-innerHTML.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 01</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 1 | Working with innerHTML</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name:</li>
+        <li>Section:</li>
+        <li>Email:</li>
+      </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Lab Steps</h2>
+      <h3>HTML Code</h3>
+      <ol>
+        <li>In this HTML file, below the <code>Your HTML code after this!</code> but above the <code class="language-html">&lt;script&gt;</code> tag.
+        
+        <ul>
+        <li>Add an HTML table element with an <code>id</code> attribute.</li>
+        <li>Add a row with a couple of <code class="language-html">&lt;th&gt;</code> tags (place some text in each <code class="language-html">&lt;th&gt;</code>)</li>
+        <li>Don&rsquo;t forget the <code class="language-html">&lt;/table&gt;</code>tag.</li>
+        </ul></li>
+      </ol>
+      <h3>JavaScript Code</h3>
+      <ol>        
+        <li>Open the JavaScript file <strong>/unit05/js/lab-01-innerHTML.js</strong>.
+          <ul>
+            <li>Remove the <code class="language-js">document.write()</code> call from the function.</li>
+            <li>Add the following to the function.
+              <ul>
+              <li>A variable that will hold a reference to the table element. Name this variable <code>lab1Table</code>.</li>
+              <li>A variable that will hold a reference to some rows to insert into the table. Name this variable <code>lab1Rows</code>.</li>
+              </ul></li>
+        
+          <li>Obtain a reference to the table element and assign it to the variable created above. Use the <code class="language-js">document.getElementById()</code> method for this.</li>
+        
+          <li>Build up the <code>lab1Rows</code> variable created above with some HTML rows and cells. Use the <code>+=</code> operator and several lines code. You will need to include the tags and the data in the strings. Make 4 or five rows.</li>
+          
+          <li><strong>Append</strong> the <code>lab1Rows</code> variable to the the table element using the <code>innerHTML</code> property.</li>
+        </ul>
+      </ol>
+          
+    </section>
+
+
+
+    <section>
+    <h2>Your Output</h2>
+      <div class="studentOutput">
+      <!-- Your HTML code after this! -->
+
+
+
+
+      
+        
+      </div>
+      <script language="JavaScript" type="text/javascript">lab01();</script>
+    </section>
+
+
+  </main>
+
+</body>
+
+</html>

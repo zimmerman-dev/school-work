@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link href="../styles/css.css" rel="stylesheet" />
+    <link href="../styles/prism.css" rel="stylesheet" />
+    <script src="../js/prism.js"></script>
+    <script src="../js/demo-using-forms.js"></script>
+    <script src="../js/unitData.js"></script>
+    <title>Demo using forms</title>
+
+
+</head>
+
+<body class="demo">
+    <header>
+        <a href="../index.html" class="homeLink">Home</a>
+        <h1>Demo using forms</h1>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="lecture_form">
+
+                <form id="greetingFormId" action="#" onsubmit="return greetUser();" onreset="resetGreetingForm();">
+
+                    <label for="firstNameId">First Name:</label>
+                    <input type="text" id="firstNameId" name="firstName" />
+
+                    <label for="lastNameId">Last Name:</label>
+                    <input type="text" id="lastNameId" name="lastName" />
+
+                    <label for="ageId">Age:</label>
+                    <input type="text" id="ageId" name="age" />
+
+                    <br />
+
+                    <input type="submit" name="runExample" value="Enter" />
+                    <input type="reset" name="resetExample" value="Reset" />
+                </form>
+
+                <br />
+
+                <div id="greetOutputId" style="height:60px;" class="sampleOutput"></div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

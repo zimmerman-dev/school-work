@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-02-global-vars.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 02</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 2 | Local and Global Variables</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Lab Steps</h2>
+      <ol>
+        <li>In the HTML file, find the <code class="language-html">&lt;ol id=&quot;outputList&quot;&gt;</code> tag. You will be adding <code>&lt;li&gt;</code> tags to this with JavaScript.</Find></li>
+          
+        <li>In the JavaScript file, add a <strong>global</strong> variable named <code>fullName</code> at the top of the file.</li>
+        
+        <li>Below the global variable, create the skeleton of a new function named <code class="language-js">printFullName()</code>. Don&rsquo;t forget the closing curly brace.
+
+        <li><strong><span class="important">TEST:</span></strong> Place an <code class="language-js">alert()</code> statement in the <code class="language-js">printFullName()</code> function. Then, call the this function in the main function to make sure the new function is set up correctly.</li>
+        
+        <li>In the <code class="language-js">printFullName()</code> function:
+        
+        <ul>
+        <li>Create a <strong>local</strong> variable also named <code>fullName</code>.</li>
+        <li>Assign the local variable the value, &ldquo;Bill Smith&rdquo;.</li>
+        <li>Add a list item to the HTML ordered list with the id of <code>outputList</code> with the <strong>local</strong> <code>fullName</code> variable as the data.</li>
+        </ul></li>
+        
+        <li>In the main function <code class="language-js">lab02()</code>:
+        
+        <ul>
+        <li>Assign the name &ldquo;Judy Green&rdquo; to the <strong>global</strong> variable version of <code>fullName</code>.</li>
+        <li>Add a list item to the HTML ordered list with the id of <code>outputList</code> with the <strong>global</strong> <code>fullName</code> variable as the data.</li>
+        <li>Call the <code class="language-js">printFullName()</code> function.</li>
+        </ul></li>
+      </ol>
+      <br/>
+      <p><strong>Question:</strong> Inside of a function, if there is a local variable that has the same name as a global variable, which variable has precedence? That is, if some JavaScript program code makes a reference to the name of that variable, will the program use the local one, or, will it use the global one?</p>
+          
+    </section>
+
+    <section>
+      <h2>Sample Output</h2>
+      <div class="sampleOutput">
+        <ol>
+          <li>Judy Green</li>
+          <li>Bill Smith</li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <h2>Your Output</h2>
+      <div class="studentOutput">
+
+        <ol id="outputList">
+          
+        </ol>
+
+
+        
+      </div>
+      <script language="JavaScript" type="text/javascript">lab02();</script>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

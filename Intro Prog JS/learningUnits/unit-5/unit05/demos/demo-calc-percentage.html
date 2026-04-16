@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/demo-calc-percentage.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Calculating Percentage Program</title>
+
+
+</head>
+
+<body class="demo">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Calculating Percentage Program</h1>
+  </header>
+    
+
+  <main>
+    <section>
+			<h2>Problem Statement</h2>
+				<p>Design a program that will receive a <strong>fraction</strong> in the form of a <strong>numerator</strong> and a <strong>denominator</strong>, convert that fraction to a percentage and display the result. Your program is to use a function to calculate the percentage. Use another function to round the percentage to the nearest tenth. Create other functions as you see the need for them.</p>
+				<p>View the HTML Form at the bottom of this page. The JavaScript in located in <code>demo-calc-percentage.js</code></p>
+			</section>
+		
+		<section class="planning">
+			<h2>Planning List</h2>
+			<h3>Input Variables</h3>
+			<div class="inputVars">
+				<ul>
+					<li>numerator</li>
+					<li>denominator</li>
+				</ul>
+			</div>
+			<h3>Output Variables</h3>
+			<div class="outputVars">
+				<ul>
+					<li>percentage</li>
+				</ul>
+			</div>
+			<h3>Process Checklist</h3>
+			<div class="checklist">
+				<ol>
+					<li>Obtain user input from HTML form</li>
+					<li>Convert the inputs to numbers</li>
+					<li>Calculate percentage</li>
+					<li>display percentage to webpage</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="testPlan">
+			<h2>Test Plan</h2>
+			<!-- ---------------------
+				TEST CASE 1 
+			------------------------->
+			<h3>Test Case 1</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					5, 10
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					50.0%
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 2
+			------------------------->
+			<h3>Test Case 2</h3>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					1, 10
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					10.0%
+				</p>
+			</div>
+			<!-----------------------
+				TEST CASE 3 
+			------------------------->
+			<h3>Test Case 3</h3>
+			<p><b>Make sure we handle a string as input!</b></p>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					cat, 200
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					Error message
+				</p>
+			</div>   
+			<!-----------------------
+				TEST CASE 4 
+			------------------------->
+			<h3>Test Case 4</h3>
+			<p><b>Make sure we handle a 0 denominator!</b></p>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					10, 0
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					0%
+				</p>
+			</div>    
+			<!-----------------------
+				TEST CASE 5 
+			------------------------->
+			<h3>Test Case 4</h3>
+			<p><b>Make sure we handle no input!</b></p>
+			<div class="testCase">
+				<p><span class="testHeader">Expected Input:</span>
+					-- nothing entered --
+				</p>
+				<p><span class="testHeader">Expected Output:</span>
+					Error message
+				</p>
+			</div>    
+		</section>
+
+		<section>
+		<h2>Input Form & Output</h2>
+		<div class="sampleOutput">
+			<!-- HTML Form for Percentage Program -->
+			<form id="percentageForm" action="#" onsubmit="return calculatePercentage();">
+
+				<label for="numeratorId">Numerator:</label>
+				<input id="numeratorId"	name="numerator" type="text" />
+				
+				<label for="denominatorId">Denominator:</label>
+				<input id="denominatorId"	name="denominator" type="text" />
+				
+				<input type="submit" value="Enter">  
+
+				<!-- Percentage Output -->
+				<h2 id="percentageOutput">Percentage:</h2>
+				
+			</form>			
+		</div>
+		</section>
+
+  </main>
+
+</body>
+
+</html>

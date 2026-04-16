@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-09-parallel-arrays.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 09</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 9 | Parallel Arrays</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Lab Steps</h2>
+      <ol>
+        <li>In the  <code class="language-js">lab09()</code> function create two array variables. Assign the following data to the arrays. Copy the arrays below:</li>
+      </ol>
+          
+<pre><code class="language-js">scores = [76, 99, 56, 78, 72, 50, 54, 86, 75, 55, 61, 54, 81, 97, 93, 74, 51,
+86, 67, 83, 80, 61, 97, 55, 75, 54, 92, 74, 52, 76, 73, 82, 73, 74,
+88, 64, 66, 56, 95, 97, 68, 85, 79, 92, 67, 57, 88, 52, 93, 79];
+
+names = [&quot;Latashia Peeks&quot;, &quot;Boyd Girone&quot;, &quot;Kimiko Lints&quot;, &quot;Arminda Renicker&quot;,
+&quot;Emanuel Ingber&quot;, &quot;Winston Nakama&quot;, &quot;Marlen Offerman&quot;, &quot;Toby Huxford&quot;,
+&quot;Courtney Schmidgall&quot;, &quot;Isidra Edgmon&quot;, &quot;Randal Colver&quot;, &quot;Theola Betancur&quot;,
+&quot;Timmy Outram&quot;, &quot;Timmy Crossgrove&quot;, &quot;Cary Goldammer&quot;, &quot;Isa Gamage&quot;,
+&quot;Timmy Foulkes&quot;, &quot;Elois Surgeon&quot;, &quot;Roman Eggett&quot;, &quot;Shirleen Omary&quot;,
+&quot;Abel Newfield&quot;, &quot;Armanda Matts&quot;, &quot;Mirtha Bensing&quot;, &quot;Shery Rauls&quot;,
+&quot;Abel Wahpekeche&quot;, &quot;Van Mazzie&quot;, &quot;Magdalen Sopher&quot;, &quot;Jerald Nasir&quot;,
+&quot;Dominick Cadenas&quot;, &quot;Marlon Schibi&quot;, &quot;Winston Ramsdale&quot;, &quot;Tommie Pinley&quot;,
+&quot;Annett Kierce&quot;, &quot;Lasandra Batrum&quot;, &quot;Elijah Morasca&quot;, &quot;Shirleen Roehm&quot;,
+&quot;Aliza Strause&quot;, &quot;Marilu Lankard&quot;, &quot;Cary Portor&quot;, &quot;Wei Maune&quot;,
+&quot;Aubrey Chahal&quot;, &quot;Omega Cloney&quot;, &quot;Jenice Cawthorn&quot;, &quot;Timmy Villarrvel&quot;,
+&quot;Emilio Genovesi&quot;, &quot;Elois Bucey&quot;, &quot;Tommie Scroggie&quot;, &quot;Juliane Yepes&quot;,
+&quot;Randal Deshon&quot;, &quot;Juliane Hermenegildo&quot;];
+</code></pre>
+          
+      <ol>
+      <li>Add a variable and a <code class="language-js">getElementById()</code> method call to get access to the output table with an id of <code>outputTable</code>.</li>
+      
+      <li>Add a loop which goes through the scores array looking for a score of 88 or above. When a score of 88 or above is found then output the student&rsquo;s name and the score to the table in a row.</li>
+      </ol>
+          
+    </section>
+
+    <section>
+      <h2>Your Output</h2>
+      <div class="studentOutput" id="outputDiv">
+        <h3>Students Scores Who Got an A</h3>
+
+        <table id="outputTable" class="outputTable">
+          <tbody>
+            <tr>
+              <th>Student Name</th>
+              <th>Exam Score</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <script language="JavaScript" type="text/javascript">lab09();</script>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

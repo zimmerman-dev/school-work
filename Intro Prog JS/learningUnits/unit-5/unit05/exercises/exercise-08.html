@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/exercise-08.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Exercise 08</title>
+
+
+</head>
+
+<body class="exercise">
+  <header class="exercise">
+    <a href="../index.html" class="homeLink noPrint">Home</a>
+    <h1>Exercises for Lab 8</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name:</li>
+        <li>Section:</li>
+        <li>Email:</li>
+      </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+      <h2>Problem Statement</h2>
+      <p>Write an application that searches for words in an array and creates an array of found words and an array of search words that are not found. The application will display the arrays of found and not-found words every time a new word is entered.</p>
+      <p>Use this array of words below for the search (copy and paste into your code).</p>
+      <p>The user will enter one word into the form at a time. Each time the program run it will output the list of words that have been found and a list of words that have not been found.</p>
+<pre><code class="language-js">//Search array
+[&quot;JavaScript&quot;, &quot;was&quot;, &quot;developed&quot;, &quot;by&quot;, &quot;Brendan&quot;, &quot;Eich&quot;, &quot;at&quot;,
+&quot;Netscape&quot;, &quot;as&quot;, &quot;the,&quot;, &quot;in-page&quot;, &quot;scripting&quot;, &quot;language&quot;, &quot;for&quot;,
+&quot;Navigator&quot;, &quot;2.&quot;, &quot;It&quot;, &quot;is&quot;, &quot;a&quot;, &quot;remarkably,&quot;, &quot;expressive&quot;,
+&quot;dynamic&quot;, &quot;programming&quot;, &quot;language.&quot;, &quot;Because&quot;, &quot;of&quot;, &quot;its&quot;, &quot;linkage&quot;,
+&quot;to,&quot;, &quot;web&quot;, &quot;browsers&quot;, &quot;it&quot;, &quot;instantly&quot;, &quot;became&quot;, &quot;massively&quot;,
+&quot;popular.&quot;, &quot;It&quot;, &quot;never&quot;, &quot;got,&quot;, &quot;a&quot;, &quot;trial&quot;, &quot;period&quot;, &quot;in&quot;,
+&quot;which&quot;, &quot;it&quot;, &quot;could&quot;, &quot;be&quot;, &quot;corrected&quot;, &quot;and&quot;, &quot;polished&quot;, &quot;based,&quot;,
+&quot;on&quot;, &quot;actual&quot;, &quot;use.&quot;, &quot;The&quot;, &quot;language&quot;, &quot;is&quot;, &quot;powerful&quot;, &quot;and&quot;, &quot;flawed.&quot;]
+</code></pre>
+          
+    </section>
+
+    <section class="noPrint">
+      <h2>Sample Output (Part 1)</h2>
+      <div class="sampleOutput">
+        <h3>Found Words</h3>
+        <ol>
+          <li>JavaScript</li>
+          <li>by</li>
+          <li>Brendan</li>
+          <li>Eich</li>
+        </ol>
+        <h3>Not-Found Words</h3>
+        <ol>
+          <li>Explorer</li>
+          <li>Java</li>
+          <li>VB</li>
+          <li>PHP</li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <h2>Your Output (Part 1)</h2>
+      <div class="studentOutput" id="outputPart1">
+        <!-- Create your Part 1 form here -->
+
+        <!-- Create your Part 1 output lists here -->
+        
+      </div>
+      <script language="JavaScript" type="text/javascript">exercise08Part1();</script>
+    </section>
+
+<!--****************************************************
+********************  Part 2  **************************
+*****************************************************-->
+
+    
+    <section class="noPrint">
+      <div class="part">
+        <h1>Part 2</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write an application that determines what numbers exist in both of the two following arrays of numbers.</p>
+        <p>Use multiple functions to solve this exercise.</p>
+<pre><code class="language-js">// Array 1:
+[170, 997, 678, 416, 260, 7, 658, 239, 63, 802, 419, 442,
+879, 154, 281, 759, 439, 855, 338, 944, 656, 635, 846, 818,
+985, 625, 615, 179, 892, 241, 8, 75, 196, 52, 318, 132, 466,
+824, 923, 225, 22, 213, 469, 674, 354, 577, 223, 69, 423,
+64, 241, 766, 948, 343, 369, 60, 762, 322, 148, 401, 19,
+266, 993, 313, 139, 740, 388, 341, 802, 224, 270, 261, 114,
+508, 840, 731, 336, 160, 718, 195, 201, 927, 501, 60, 494,
+692, 127, 512, 705, 840, 588, 408, 703, 98, 823, 44, 346,
+288, 482, 101]
+
+// Array 2:
+[509, 357, 679, 451, 372, 245, 747, 813, 75, 746, 341, 752,
+796, 485, 390, 237, 995, 951, 685, 356, 891, 483, 906, 896,
+196, 358, 27, 394, 104, 560, 987, 173, 779, 750, 752, 715,
+895, 955, 241, 267, 504, 748, 241, 832, 105, 825, 590, 890,
+232, 918, 677, 814, 383, 368, 907, 264, 779, 821, 378, 208,
+566, 120, 416, 782, 207, 274, 530, 547, 927, 161, 214, 252,
+35, 356, 164, 731, 173, 804, 173, 741, 942, 892, 680, 926,
+850, 399, 403, 789, 178, 699, 566, 841, 136, 749, 546, 746,
+237, 661, 182, 350]
+</code></pre>
+    </section>
+
+    <section class="noPrint">
+      <h2>Sample Output (Part 2)</h2>
+      <div class="sampleOutput">
+        Numbers in both: 123, 234, 345, ...
+      </div>
+    </section>
+
+    <section>
+      <h2>Your Output (Part 2)</h2>
+      <p>Your output may extend beyond the webpage window.</p>
+      
+      <div class="studentOutput" id="outputPart2">
+
+      </div>
+      
+      <script language="JavaScript" type="text/javascript">exercise08Part2();</script>
+    </section>
+
+</main>
+
+</body>
+
+</html>

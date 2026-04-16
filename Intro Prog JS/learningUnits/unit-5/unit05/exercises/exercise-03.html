@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/exercise-03.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Exercise 03</title>
+
+
+</head>
+
+<body class="exercise">
+  <header class="exercise">
+    <a href="../index.html" class="homeLink noPrint">Home</a>
+    <h1>Exercises for Lab 3</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name:</li>
+        <li>Section:</li>
+        <li>Email:</li>
+      </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+      <h2>Exercise Steps</h2>
+      <ol>
+        <li>Write a program that gets To-Do items from a user, creates an unordered list with the entries, and outputs the list to the page.</li>
+
+        <li>Create a global variable that will hold the output element in the HTML file.</li>
+               
+        <li><strong>Function: <code class="language-js">exercise3Part1()</code>:</strong>
+        <ul>
+        <li>This function will have a local variable to hold the user input. A loop should ask the user to enter a To-Do item or enter &ldquo;quit&rdquo; to stop the loop. Within the loop, a sub-function will be called to add and display the to-do item to an unordered list. The user entry must be an argument in sub-function call. Once the loop is complete, the closing <code class="language-html">&lt;ul&gt;</code> HTML element will be appended to the HTML output, using the global variable.</li>
+        </ul></li>
+        
+        <li><strong>Create a new sub-function</strong>
+        
+        <ul>
+        <li>This function, will have a parameter to receive the user entry. Create a local variable to hold the unordered list, build the unordered list containing the user entry as a list item and output it to the HTML page using the global variable.</li>
+        </ul></li>
+      </ol>
+        
+    </section>
+
+  
+
+    <section class="noPrint">
+      <h2>Sample Output (Part 1)</h2>
+      <div class="sampleOutput">
+        <ul>
+          <li>Laundry</li>
+          <li>Dishes</li>
+          <li>Homework</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Your Output (Part 1)</h2>
+      <div class="studentOutput" id="outputPart1">
+        
+      </div>
+      <script language="JavaScript" type="text/javascript">exercise03Part1();</script>
+    </section>
+
+<!--****************************************************
+********************  Part 2  **************************
+*****************************************************-->
+
+    
+    <section class="noPrint">
+      <div class="part">
+        <h1>Part 2</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write a program that asks a user to enter three pairs of numbers (six entries total). If all six entries are numbers then output the sum of all combinations of pairs of numbers from the six entries. The code that performs the addition and outputs the result for each pair should be in a sub-function which is called from the controller function. Output the answers in an HTML table.</p>
+
+      </section>
+
+      <section class="planning">
+        <h2>Planning List (Part 2)</h2>
+        <h3>Input Variables</h3>
+        <div class="inputVars">
+          <!-- Enter Input Variables within the <ul> as <li> elements --> 
+          <ul>
+  
+          </ul>
+        </div>
+        <h3>Output Variables</h3>
+        <div class="outputVars">
+          <!-- Enter Output Variables within the <ul> as <li> elements --> 
+          <ul>
+  
+          </ul>
+        </div>
+        <h3>Process Checklist</h3>
+        <div class="checklist">
+          <!-- Enter the Checklist within the <ul> as <li> elements --> 
+          <ol>
+  
+          </ol>
+        </div>
+      </section>
+    
+
+      <section class="testPlan">
+        <h2>Test Plan (Part 2)</h2>
+        <!-- ---------------------
+              TEST CASE 1 
+        ------------------------->
+        <h3>Test Case 1</h3>
+        <div class="testCase">
+          <p><span class="testHeader">Expected Input:</span>
+              <!-- Enter expected input here-->
+          </p>
+          <p><span class="testHeader">Expected Output:</span>
+                <!-- Enter expected output here-->
+          </p>
+        </div>
+        <!-----------------------
+              TEST CASE 2
+        ------------------------->
+        <h3>Test Case 2</h3>
+        <div class="testCase">
+          <p><span class="testHeader">Expected Input:</span>
+              <!-- Enter expected input here-->
+          </p>
+          <p><span class="testHeader">Expected Output:</span>
+                <!-- Enter expected output here-->
+          </p>
+        </div>
+        <!-----------------------
+              TEST CASE 3
+        ------------------------->
+        <h3>Test Case 3</h3>
+        <div class="testCase">
+          <p><span class="testHeader">Expected Input:</span>
+              <!-- Enter expected input here-->
+          </p>
+          <p><span class="testHeader">Expected Output:</span>
+                <!-- Enter expected output here-->
+          </p>
+        </div>
+      </section>
+
+    <section>
+      <h2>Sample Output (Part 2)</h2>
+      <div class="sampleOutput">
+        <table class="tableOutput">
+          <tbody>
+            <tr>
+              <th>No.1</th>
+              <th>No.2</th>
+              <th>Sum</th>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>3</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>4</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>4</td>
+              <td>7</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+
+    <section>
+    <h2>Your Output (Part 2)</h2>
+    <div class="studentOutput" id="outputPart2">
+
+      <!-- Part 2 Output Table -->
+      <table id="exercise03Table">
+
+      </table>
+      
+    </div>
+    <script language="JavaScript" type="text/javascript">exercise03Part2();</script>
+    </section>
+  </main>
+
+</body>
+
+</html>

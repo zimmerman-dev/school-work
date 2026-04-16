@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+
+  <title>Part 3 - Optional Structure</title>
+
+
+</head>
+
+<body class="project">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Part 3 - Optional Structure</h1>
+  </header>
+    
+
+  <main>
+
+
+    <section class="steps project">
+      <h2>Optional Structure Chart</h2>
+			<div>
+				<img src="part03-structure-chart.jpg" alt="Optional Structure Chart for Part 3"/>
+			</div>
+			<a href="part03-structure-chart.jpg" class="innerLink">Open image in a new window</a>
+			<br/><br/>
+    <h2 id="suggested-functions">Suggested Functions</h2>
+
+    <p>The program will use global variables for the Student Exam Records record set, the fields in the record set, and counters.</p>
+
+    <ol>
+    <li><strong>Function <code class="language-js">part03()</code></strong>
+			<ul>
+				<li>Output a heading that says <strong>A Exams</strong> .</li>
+				<li>Initialize the exam records by calling the <code class="language-js">initializeExamRecords()</code> function.</li>
+				<li>Call the <code class="language-js">startTable()</code> function to begin the HTML table.</li>
+				<li>Loop through the Student Exam Records. For each record with a score greater than or equal to 90, output the record by calling the <code class="language-js">printRecord()</code> function. <em>Note: The loop is located right in the controller function. This loop is a major feature of the program, and belongs right in the controller function.</em></li>
+				<li>After the loop has finished, call the <code class="language-js">endTable()</code> function to end the HTML Table.</li>
+				<li>As the final activity, call the <code class="language-js">printTotals()</code> function to place the totals beneath the table.</li>
+			</ul>
+		</li>
+
+
+    <li><strong>Function <code class="language-js">initializeExamRecords()</code></strong>
+			<ul>
+				<li>This function will open the Student Exam Records.</li>
+			</ul>
+		</li>
+
+    <li><strong>Function <code class="language-js">startTable()</code></strong>
+			<ul>
+				<li>This function will output a beginning HTML table tag and a table header row. The header row will contain two table header tags, one with the content, &ldquo;Student Name&rdquo;, and other with, &ldquo;Exam Score&rdquo;.</li>
+			</ul>
+		</li>
+
+    <li><strong>Function<code class="language-js"> printRecord()</code></strong>
+			<ul>
+				<li>This function will output a Student Exam Record. It must output a full HTML row with two table data tags. The first data tag will contain the student name and the second will contain the exam score.</li>
+			</ul>
+		</li>
+
+    <li><strong>Function <code class="language-js">endTable()</code></strong>
+			<ul>
+				<li>This function will output an HTML table end tag.</li>
+			</ul>
+		</li>
+
+    <li><strong>Function <code class="language-js">printTotals()</code></strong>
+			<ul>
+				<li>This function will output the totals beneath the table.</li>
+			</ul>
+		</li>
+    </ol>
+
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>

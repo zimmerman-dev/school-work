@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-04-passing-returning.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 04</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 4 | Passing Parameters and Returning Data</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Problem Statement</h2>
+      <p>Design a program that will prompt a user for their first name, middle initial, and last name. Once the program has these three strings, then have it display the user&rsquo;s name on the page with this format: <strong>&ldquo;Hello, John T. Public. How are you?&rdquo;</strong>
+
+      <h2>Lab Steps</h2>
+      <ol>
+        <li>Do <strong>not</strong> use any global variables for this lab.</li>
+        
+        <li>Add an <code class="language-html">&lt;h3&gt;</code> element to the HTML page with an <code>id</code> to use as your output.</li>
+        
+        <li>The main function should prompt user the user for the three parts of their name. It must then call a sub-function to format the name and return it to the main function. The main function must then display (in the <code class="language-html">&lt;h3&gt;</code> element) the full name with some additional greeting text around it.</li>
+        
+        <li>Name the sub-function something like: <code class="language-js">formatFullName()</code> or <code class="language-js">formatUserFullName()</code>. The function must have 3 parameters: one for the first name, one for the middle initial, and one for the last name. The function should return a string that is the full name with this format, including period for the middle initial. For example, Bob T. Smith</li>
+        </ul></li>
+      </ol>
+    </section>
+
+
+    <section>
+      <h2>Sample Output</h2>
+      <div class="sampleOutput">
+        Hello, John T. Public. How are you?
+      </div>
+    </section>
+
+    <section>
+      <h2>Your Output</h2>
+      <div class="studentOutput" id="outputDiv">
+
+
+        
+        
+      </div>
+      <script language="JavaScript" type="text/javascript">lab04();</script>
+    </section>
+
+</main>
+
+</body>
+
+</html>

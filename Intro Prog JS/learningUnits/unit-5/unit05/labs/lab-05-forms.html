@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-05-forms.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 05</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 5 | Using Forms with JavaScript</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+          <li>Name:</li>
+          <li>Section:</li>
+          <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Lab Steps</h2>
+      <h3>The HTML File</h3>
+      <ol>
+        <li>Add a form to this HTML document after the <code>Add your form below this line</code> comment.</li>
+        
+        <li>Add an <code>id</code> attribute on your form element.</li>
+        
+        <li>The form should have four input text fields:
+        
+        <ul>
+        <li>A field for an address</li>
+        <li>A field for a city</li>
+        <li>A field for a State</li>
+        <li>A field for a zip code</li>
+        </ul></li>
+        
+        <li>The form should have a submit button that reads &ldquo;display address&rdquo;.</li>
+        
+        <li>The opening form tag should have an <code class="language-html">onsubmit=</code> event attribute that calls a function named <code class="language-js">displayFormattedAddress()</code>. There must be a return returning a Boolean value of <code>false</code>.</li>
+        
+        <li>Just below the form, add a <code class="language-html">&lt;br/&gt;</code> and a <code class="language-html">&lt;div&gt;</code> element. Give the <code class="language-html">&lt;div&gt;</code> an <code>id</code> attribute so the JavaScript function can access it.</li>
+        </ol>
+
+      <h3>The JavaScript File</h3>
+      <ol>
+        <li>Create a function in the JavaScript file named <code class="language-js">displayFormattedAddress()</code>.</li>
+        
+        <li><span class="important">TEST</span> Make sure the new function works by using an <code class="language-js">alert()</code> method.</li>
+        
+        <li>Your function will need to get the values of all the input fields on the form and store them into local variables.</li>
+        
+        <li>The function will create a formatted address output something like this:<br />
+        <span style="font-weight:bold;">
+        123 Some St.<br />
+        Madison, WI 53704<br />
+        </span></li>
+        
+        <li>Output the formatted address to the output <code class="language-html">&lt;div&gt;</code> element by using the <code>innerHTML</code> property.</li>
+      </ol>
+    </section>
+
+
+  <section>
+    <h2>Your Form</h2>
+    <div class="studentOutput">
+      <!--  Add your form below this line-->
+      
+
+
+    </div>
+  </section>
+
+  </main>
+
+</body>
+
+</html>

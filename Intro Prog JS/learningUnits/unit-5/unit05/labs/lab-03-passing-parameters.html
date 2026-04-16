@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-03-passing-parameters.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 03</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 3 | Passing Parameters</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name:</li>
+        <li>Section:</li>
+        <li>Email:</li>
+      </ul>
+    </section>
+
+    <section class="steps noPrint">
+        <h2>Lab Steps</h2>
+        <ol>
+          <li>Create the &ldquo;skeleton&rdquo; of a new function above the main function called <code class="language-js">displayCity()</code>. Don&rsquo;t forget to set up a comment just above it, with a one sentence first draft telling the purpose of this new function (which is to display a city).</li>
+          
+          <li><span class="important">TEST:</span>Place an <code class="language-js">alert()</code> inside the <code class="language-js">displayCity()</code> function and call it from the main function to make sure it is working.</li>
+          
+          <li>In the function <code class="language-js">lab03()</code>, prompt the user for a city name. Use a local variable to hold the city keyed in by the user.</li>
+          
+          <li>In the new <code class="language-js">displayCity()</code> function, add a parameter within the parentheses. Name it something like <code>cityReceived</code>. This creates a special type of local variable that is available only within the new <code class="language-js">displayCity()</code> function.</li>
+          
+          <li>Then back in the main function <code class="language-js">lab03()</code>, modify the call to the <code class="language-js">displayCity()</code> function. Place the name of the local variable holding the city name from the <code class="language-js">prompt()</code> inside the parentheses as an argument</li>
+          
+          <li><span class="important">TEST:</span> Validate that the value of the variable holding the entered city name has been passed into the <code class="language-js">displayCity()</code> function. Do this by placing the <code>cityReceived</code> parameter into an <code class="language-js">alert()</code> method inside the <code class="language-js">displayCity()</code> function. It should successfully alert out the entered city name.</li>
+          
+          <li>In the <code class="language-js">displayCity()</code> function, output a city greeting to the output <code class="language-html">div</code> tag in the HTML file. The greeting must contain the city name, with some text added before and after the city name. For example, assuming the user keyed in &ldquo;Cheddarville&rdquo; the greeting might be something like, &ldquo;Hello, Cheddarville. How&rsquo;s the weather out there?&rdquo;</li>
+          
+          <li>Run the final test of the application.</li>
+          
+          <li>Modify the comment box above the new function. Remember that the original content there was only first draft. Now, with very fresh knowledge of what the function does, revise this comment for completeness, accuracy, and good sentence structure.</li>
+        </ol>
+    </section>
+
+    <section>
+      <h2>Sample Output</h2>
+      <div class="sampleOutput">
+        Hello, Minneapolis. How's the weather out there?
+      </div>
+    </section>
+
+    <section>
+      <h2>Your Output</h2>
+      <div class="studentOutput" id="divForOutput">
+        
+      </div>
+      <script language="JavaScript" type="text/javascript">lab03();</script>
+    </section>
+
+</main>
+
+</body>
+
+</html>

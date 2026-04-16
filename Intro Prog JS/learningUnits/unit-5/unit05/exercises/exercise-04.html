@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/exercise-04.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Exercise 04</title>
+
+
+</head>
+
+<body class="exercise">
+  <header class="exercise">
+    <a href="../index.html" class="homeLink noPrint">Home</a>
+    <h1>Exercises for Lab 4</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name:</li>
+        <li>Section:</li>
+        <li>Email:</li>
+      </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <div class="part">
+        <h1>Part 1</h1>
+      </div>
+        <h2>Problem Statement</h2>
+        <p>Write a program that asks a user to enters pairs of numbers until they enter &ldquo;quit&rdquo;. As each pair of numbers is entered and validated, add the numbers using a function. The function will have two parameters for the pair of numbers and will return the sum. After the user enters &ldquo;quit&rdquo;, output all the pairs of numbers and their sums.</p>
+    </section>
+  
+    <section class="noPrint">
+      <h2>Sample Output (Part 1)</h2>
+        <div class="sampleOutput">
+          <table>
+            <tbody>
+              <tr>
+                <th>No.1</th>
+                <th>No.2</th>
+                <th>Sum</th>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>40</td>
+                <td>60</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>12</td>
+                <td>17</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </section>
+
+    <section>
+      <h2>Your Output (Part 1)</h2>
+      <div class="studentOutput" id="outputPart1">
+
+          <table id="exercise04Table">
+
+          </table>
+       
+      </div>
+      <script language="JavaScript" type="text/javascript">exercise04Part1();</script>
+    </section>
+
+<!--****************************************************
+********************  Part 2  **************************
+*****************************************************-->
+
+    
+    <section class="noPrint">
+      <div class="part">
+        <h1>Part 2</h1>
+      </div>
+      <h2>Problem Statement</h2>
+      <p>Write a program that asks a user to enter a string. Output the following for the entered string.</p>
+
+      <ul>
+      <li>the original string.</li>
+      <li>the length of the string with: <code class="language-js">string.length</code></li>
+      <li>the string in all uppercase letters with: <code class="language-js">string.toUpperCase()</code></li>
+      <li>the string in all lowercase letters with: <code class="language-js">string.toLowerCase()</code></li>
+      <li>the location of the first space in the string or the string &ldquo;no spaces&rdquo; with: <code class="language-js">string.indexOf(&quot; &quot;)</code>. This functions returns <code>-1</code> of the search string is not present.</li>
+      </ul>
+      <br/>
+      <p>Use a sub-functions to perform each calculation and return the formatted output string. If a space is not present in the user string, output &ldquo;no space found&rdquo; for the <em>location of the first space</em> calculation. Format the output with HTML tags.</p>
+
+
+    </section>
+
+    <section class="planning">
+      <h2>Planning List (Part 2)</h2>
+      <h3>Input Variables</h3>
+      <div class="inputVars">
+        <!-- Enter Input Variables within the <ul> as <li> elements --> 
+        <ul>
+
+        </ul>
+      </div>
+      <h3>Output Variables</h3>
+      <div class="outputVars">
+        <!-- Enter Output Variables within the <ul> as <li> elements --> 
+        <ul>
+
+        </ul>
+      </div>
+      <h3>Process Checklist</h3>
+      <div class="checklist">
+        <!-- Enter the Checklist within the <ul> as <li> elements --> 
+        <ol>
+
+        </ol>
+      </div>
+    </section>
+
+
+    <section class="testPlan">
+      <h2>Test Plan (Part 2)</h2>
+      <!-- ---------------------
+            TEST CASE 1 
+      ------------------------->
+      <h3>Test Case 1</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-- ---------------------
+            TEST CASE 2
+      ------------------------->
+      <h3>Test Case 2</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+      <!-- ---------------------
+            TEST CASE 3
+      ------------------------->
+      <h3>Test Case 3</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span>
+            <!-- Enter expected input here-->
+        </p>
+        <p><span class="testHeader">Expected Output:</span>
+              <!-- Enter expected output here-->
+        </p>
+      </div>
+    </section>
+  
+    <section class="noPrint">
+      <h2>Sample Output (Part 2)</h2>
+      <div class="sampleOutput">
+        Entered String: "Hi, this is my string."<br/>
+        Length: 22 <br/>
+        Uppercase: "HI, THIS IS MY STRING." <br/>
+        Lowercase: "hi, this is my string." <br/>
+        Location of first space: 3
+      </div>
+    </section>
+
+    <section>
+    <h2>Your Output (Part 2)</h2>
+    <div class="studentOutput" id="outputPart2">
+
+
+    </div>
+    <script language="JavaScript" type="text/javascript">exercise04Part2();</script>
+    </section>
+
+</main>
+
+</body>
+
+</html>

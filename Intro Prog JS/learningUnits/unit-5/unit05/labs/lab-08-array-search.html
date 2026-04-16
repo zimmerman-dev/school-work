@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-08-array-search.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 08</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 8 | Searching an Array</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+
+      <h2>Lab Steps</h2>
+      <ol>
+          <li>In the JavaScript file for the lab, create an array variable for the search data.</li>
+          
+          <li>Add variables as needed for the lab.</li>
+          
+          <li>Use the HTML output div tag for displaying the results of the searches.</li>
+          
+          <li>Using a loop, find the word in the array that is 13 characters long.</li>
+          
+          <li>Output the found word and its index in the array.</li>
+          
+          <li>Copy this for the data for the array:</li>
+          </ol>
+          
+<pre><code class="language-js">[&quot;Believe&quot;, &quot;it&quot;, &quot;or&quot;, &quot;not&quot;, &quot;&quot;, &quot;the&quot;, &quot;very&quot;, &quot;first&quot;, &quot;version&quot;, &quot;of&quot;,
+&quot;Javascript&quot;, &quot;shipped&quot;, &quot;without&quot;, &quot;Arrays&quot;, &quot;Subsequent&quot;, &quot;versions&quot;, &quot;made&quot;,
+&quot;up&quot;, &quot;for&quot;, &quot;the&quot;, &quot;oversight&quot;, &quot;and&quot;, &quot;modern&quot;, &quot;Javascript&quot;, &quot;Arrays&quot;, &quot;are&quot;,
+&quot;powerful&quot;, &quot;structures&quot;, &quot;indeed&quot;, &quot;&quot;, &quot;even&quot;, &quot;emulating&quot;, &quot;many&quot;, &quot;common&quot;,
+&quot;data&quot;, &quot;structures&quot;, &quot;such&quot;, &quot;as&quot;, &quot;stacks&quot;, &quot;and&quot;, &quot;queues&quot;, &quot;This&quot;,
+&quot;reference&quot;, &quot;will&quot;, &quot;cover&quot;, &quot;the&quot;, &quot;core&quot;, &quot;functionality&quot;, &quot;of&quot;, &quot;Arrays&quot;,
+&quot;as&quot;, &quot;well&quot;, &quot;as&quot;, &quot;introduce&quot;, &quot;a&quot;, &quot;few&quot;, &quot;useful&quot;, &quot;extensions&quot;]
+</code></pre>
+      </ol>     
+      <br/>     
+      <p>The best way to clarify a simple search such as this is to use a Boolean variable (named something like &ldquo;foundIt&rdquo; that is initialized to a value of <code>false</code> prior to the start of the search loop, and then only changed to <code>true</code> if a match is found. Then following the end of the search loop, interrogate the Boolean variable and provide action(s) to be taken in the event it was found, and in the event that the search looped though the entire array without getting a match.</p>
+
+      <h3>Challenge</h3>
+      <p>Found <b>all</b> the words with a length of 2 and print them out. Do not print them out as you find them. Instead keep 
+        track of them and print them out after you have found all the words that are 2 characters. You may only loop through the array from step #6 once.</p>
+    </section>
+
+
+    <section>
+      <h2>Your Output</h2>
+      <div class="studentOutput" id="outputDiv">
+
+
+
+        
+      </div>
+      <script language="JavaScript" type="text/javascript">lab08();</script>
+    </section>
+
+</main>
+
+</body>
+
+</html>

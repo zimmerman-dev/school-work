@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link href="../styles/css.css" rel="stylesheet"/>
+  <link href="../styles/prism.css" rel="stylesheet"/>
+  <script src="../js/prism.js"></script>
+  <script src="../js/lab-06-arrays.js"></script>
+  <script src="../js/unitData.js"></script>
+  <title>Lab 06</title>
+
+
+</head>
+
+<body class="lab">
+  <header>
+    <a href="../index.html" class="homeLink">Home</a>
+    <h1>Lab 6 | First Arrays</h1>
+  </header>
+    
+
+  <main>
+    <section class="studentInfo">
+        <h2>Student Information:</h2>
+        <ul>
+            <li>Name:</li>
+            <li>Section:</li>
+            <li>Email:</li>
+        </ul>
+    </section>
+
+    <section class="steps noPrint">
+      <h2>Problem Statement</h2>
+      <p>In this lab you will be writing a JavaScript program that, each time the submit button on the form is clicked, it will accept a string from a text box on a form, and save the string into an array. The array will increase by one string each time the submit button is clicked, thus gradually increasing the number of &lsquo;slots&rsquo; in the array. In addition to acquiring another string, the entire contents of the array as it exists at that point in time must be displayed on the Web page. Note: There is just one function involved with this lab, namely the main function named: <code class="language-js">lab06()</code>.</p>
+
+      <h2>Lab Steps</h2>
+      <p>There is no script block within the HTML file source code because the JavaScript program for this lab will be run by clicking the submit button on the form.</p>
+      <ol>
+          <li>In the HTML file, create a form with one input text box field and a submit button.</li>
+          
+          <li>Give the form an <code>id</code> attribute, or, give the text box field itself an <code>id</code> attribute (which one depends upon how you later wish to generate a <em>reference</em> to the string keyed into the text box).</li>
+          
+          <li>Add an HTML <code class="language-html">&lt;ol&gt;</code> element below your form, to display your output on the web page.</li>
+          
+          <li>Give the <code class="language-html">&lt;ol&gt;</code> element an <code>id</code> attribute, with a value of something like <code>outputList</code>.</li>
+          
+          <li>Give an <code>onsubmit</code> event attribute to the form, an attribute which calls the <code class="language-js">lab06()</code> function.</li>
+          
+          <li><span class="important">TEST:</span> Check to make sure a click of the submit button does call the function <code class="language-js">lab06()</code>. Does the function have a return a value of <code>false</code>?</p></li>
+          
+          <li>Create and initialize an empty <strong>global</strong> array variable to hold the strings that will be entered by the viewer. Why does this need to be a global variable?
+          
+          <ul>
+          <li><code class="language-js">let enteredStringsArray = [];</code><br /></li>
+          </ul></li>
+          
+          <li>When the form is submitted, get the value in the text field and insert it at the end of the array.</li>
+          
+          <li>In the <code class="language-js">lab06()</code> function, create a local variable to hold a reference to the HTML display element, in this instance it is the <code class="language-html">&lt;ol&gt;</code> tag.</li>
+          
+          <li>Get a reference to the <code class="language-html">&lt;ol&gt;</code> and assign it to the local variable.</li>
+          
+          <li>Create a loop that iterates over the entire array and outputs the contents of each array element as a list item <code class="language-html">&lt;li&gt;</code> into the HTML display element. This will require use of the <code>innerHTML</code> property. You must use a loop to access the values.</li> 
+          
+          <li><span class="important">TEST:</span> Input several strings, and see if they are showing up on the web page.</li>
+          </ol>
+          
+    </section>  
+
+
+    <section>
+      <h2>Your Form and Output</h2>
+      <div class="studentOutput">
+        <!-- Add your form after following this comment -->
+
+
+        <!-- Add a <ol> element to the following this comment -->
+
+      </div>
+    </section>
+
+
+  </main>
+
+</body>
+
+</html>
