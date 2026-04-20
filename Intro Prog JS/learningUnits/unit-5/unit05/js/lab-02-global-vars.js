@@ -1,13 +1,25 @@
+// Global Variables
+let fullName;
+
+function printFullName() {
+
+    // Variable Initialization
+    let fullName = "Bill Smith";
+
+    // Append fullName to outputList
+    document.getElementById("outputList").innerHTML += "<li>" + fullName + "</li>";
+}
+
 function lab02() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
+    // Assign Global fullName
+    fullName = "Judy Green";
 
-    // Delete output below before starting (for testing purposes)
-    let output;
-
-    output = document.getElementById("outputList");
-
-    output.innerHTML = "<li>Lab 02</li>";
+    // Append fullName to outputList
+    document.getElementById("outputList").innerHTML += "<li>" + fullName + "</li>";
+    
+    // call function 
+    printFullName();
     
 }

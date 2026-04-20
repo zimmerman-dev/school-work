@@ -1,13 +1,18 @@
+// Displays a greeting using the city name passed in as a parameter
+function displayCity(cityReceived) {
+    document.getElementById("divForOutput").innerHTML += "Hey " + cityReceived 
+        + ". How's the weather?";
+}
+
 function lab03() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
+    // Variable Definition
+    let userCityName;
+
+    // Variable Assignment
+    userCityName = prompt("Enter a city name:");
     
-    // Delete this output before starting (for testing purposes)
-    let referenceToDivElement;
-
-    referenceToDivElement = document.getElementById("divForOutput");
-
-    referenceToDivElement.innerHTML = "Lab 3";
-
+    // Display
+    displayCity(userCityName); 
 }
