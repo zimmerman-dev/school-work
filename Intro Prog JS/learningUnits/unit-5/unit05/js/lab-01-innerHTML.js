@@ -16,5 +16,4 @@ function lab01() {
     clientRow += "<tr><td>Melissa</td><td>Frank</td><td>45</td></tr>";
 
     clientTable.innerHTML = clientRow;
-
 }
