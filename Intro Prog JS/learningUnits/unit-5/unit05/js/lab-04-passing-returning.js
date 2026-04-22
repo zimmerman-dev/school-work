@@ -1,13 +1,23 @@
+// Function that formats name from user prompts
+function formatFullName(firstName, middleInitial, lastName) {
+    return firstName + " " + middleInitial + ". " + lastName;
+}
 function lab04() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
-    
+    // Variable Declaration
+    let queryFirstName;
+    let queryMiddleInitial;
+    let queryLastName;
+    let result;
 
-    // Delete this line before starting (for testing purposes)
-    let output;
+    queryFirstName = prompt("Enter your first name:");
+    queryMiddleInitial = prompt("Enter your middle initial:");
+    queryLastName = prompt("Enter your last name:");
 
-    output = document.getElementById("outputDiv");
+    // Assign result the function that formats name
+    result = formatFullName(queryFirstName, queryMiddleInitial, queryLastName);
 
-    output.innerHTML = "Lab 4";
+    // Display name
+    document.getElementById("outputHeading").innerHTML += "Hello, " + result + ". How are you?";
 }
