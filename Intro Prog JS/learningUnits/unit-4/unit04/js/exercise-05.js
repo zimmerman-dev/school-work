@@ -1,16 +1,48 @@
 function exercise05Part1() {
     "use strict";
-    // PART 1: YOUR CODE STARTS AFTER THIS LINE:
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Exercise for lab 5, Part 1");
+    // Const Initialization
+    const LOOP_MAX = 30;
+
+    // Variable Declaration
+    let index;
+    let indexSquare;
+    let indexCube;
+
+    // Loop that displays indices
+    for (index = 1; index <= LOOP_MAX; index++) {
+        indexSquare = index ** 2;
+        indexCube = index ** 3;
+        document.writeln(index + ", " + indexSquare + ", " + indexCube);
+    }
 }
 
 function exercise05Part2() {
     "use strict";
-    // PART 2: YOUR CODE STARTS AFTER THIS LINE:
+    
+    // Variable Definition
+    let enteredNumberOne;
+    let enteredNumberTwo;
+    let enteredNumberSum;
 
-    // Delete this line before starting (for testing purposes)
-    document.write("Exercise for lab 5, Part 2");
+    // Variable Assignment
+    enteredNumberOne = prompt("Enter a number:");
+    enteredNumberTwo = prompt("Enter a bigger number:");
+    enteredNumberSum = 0;
+
+    enteredNumberOne = Number(enteredNumberOne);
+    enteredNumberTwo = Number(enteredNumberTwo);
+
+    // Loop that displays the digits between two entered numbers and sum
+    while (enteredNumberOne <= enteredNumberTwo) {
+        enteredNumberSum += enteredNumberOne;
+
+        if (enteredNumberOne < enteredNumberTwo) {
+            document.write(enteredNumberOne + " + ");
+        } else {
+            document.write(enteredNumberOne + " = " + enteredNumberSum);
+        }
+        enteredNumberOne++;
+    }
 }
 
