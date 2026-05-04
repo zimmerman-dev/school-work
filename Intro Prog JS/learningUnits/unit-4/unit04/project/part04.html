@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <link href="../styles/css.css" rel="stylesheet"/>
-  <link href="../styles/prism.css" rel="stylesheet"/>
+  <link href="../styles/css.css" rel="stylesheet" />
+  <link href="../styles/prism.css" rel="stylesheet" />
   <script src="../js/prism.js"></script>
   <script src="../js/project-part04.js"></script>
   <script src="../js/unitData.js"></script>
@@ -20,78 +20,116 @@
     <a href="../index.html" class="homeLink">Home</a>
     <h1>Project 4 | Part 4</h1>
   </header>
-    
+
 
   <main>
     <section class="studentInfo">
-        <h2>Student Information:</h2>
-        <ul>
-            <li>Name:</li>
-            <li>Section:</li>
-            <li>Email:</li>
-        </ul>
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name: John Zimmerman</li>
+        <li>Section: Mo/We</li>
+        <li>Email: jzimmerman3@madisoncollege.edu</li>
+      </ul>
     </section>
 
     <section class="steps noPrint">
       <h2>Problem Statement</h2>
-      <p>Using the <strong>Student Enrollment Record Set</strong>, write a program that determines how many full time and part time students live in each of the Zip Code areas. Output the zip code, the total number of full time, and the total number of part time for each zip code. At the end of the report display a total of full time and part time.</p>
+      <p>Using the <strong>Student Enrollment Record Set</strong>, write a program that determines how many full time
+        and part time students live in each of the Zip Code areas. Output the zip code, the total number of full time,
+        and the total number of part time for each zip code. At the end of the report display a total of full time and
+        part time.</p>
 
-      <p>There are 5 zip codes in the record set. The zip codes are : 53711, 53712, 53713, 53714, 53716.  These zip code values are self-evident as zip codes, and may be used as literals within the program (this an exception to the general course standard).</p>
+      <p>There are 5 zip codes in the record set. The zip codes are : 53711, 53712, 53713, 53714, 53716.  These zip code
+        values are self-evident as zip codes, and may be used as literals within the program (this an exception to the
+        general course standard).</p>
 
-      <p>There must be at least <strong>four functions</strong> in this program for full credit. The existing function named, <code class="language-js">part04()</code> is the first one. You must create at least three new additional functions for the program.</p>
+      <p>There must be at least <strong>four functions</strong> in this program for full credit. The existing function
+        named, <code class="language-js">part04()</code> is the first one. You must create at least three new additional
+        functions for the program.</p>
 
 
-      <p class="important">This program MUST be set up so that it reads through the Student Enrollment records just ONCE.</p>
+      <p class="important">This program MUST be set up so that it reads through the Student Enrollment records just
+        ONCE.</p>
     </section>
 
     <section class="planning">
       <h2>Planning List</h2>
       <h3>Input Variables</h3>
       <div class="inputVars">
-        <!-- Enter Input Variables within the <ul> as <li> elements --> 
+        <!-- Enter Input Variables within the <ul> as <li> elements -->
         <ul>
-
+          <li>There are no input variables. Just the student enrollment record set</li>
         </ul>
       </div>
       <h3>Output Variables</h3>
       <div class="outputVars">
-        <!-- Enter Output Variables within the <ul> as <li> elements --> 
+        <!-- Enter Output Variables within the <ul> as <li> elements -->
         <ul>
-
+          <li>partTimeCount53711</li>
+          <li>partTimeCount53712</li>
+          <li>partTimeCount53713</li>
+          <li>partTimeCount53714</li>
+          <li>partTimeCount53716</li>
+          <li>fullTimeCount53711</li>
+          <li>fullTimeCount53712</li>
+          <li>fullTimeCount53713</li>
+          <li>fullTimeCount53714</li>
+          <li>fullTimeCount53716</li>
+          <li>partTimeTotal</li>
+          <li>fullTimeTotal</li>
         </ul>
       </div>
       <h3>Process Checklist</h3>
       <div class="checklist">
-        <!-- Enter the Checklist within the <ul> as <li> elements --> 
+        <!-- Enter the Checklist within the <ul> as <li> elements -->
         <ol>
-
+          <li>Define global constants and variables</li>
+          <li>Open the enrollment records</li>
+          <li>loop through each record</li>
+          <li>process each record for specific information</li>
+          <li>print results</li>
         </ol>
       </div>
     </section>
 
     <section class="testPlan">
-        <h2>Test Plan</h2>
-        <p>For a test case, use a subset of the record set. For example, create a test plan for the first 10 records. Make sure to actually test your plan with your code!</p>
-        <!-- ---------------------
+      <h2>Test Plan</h2>
+      <p>For a test case, use a subset of the record set. For example, create a test plan for the first 10 records. Make
+        sure to actually test your plan with your code!</p>
+      <!-- ---------------------
               TEST CASE 1 
         ------------------------->
-        <h3>Test Case 1</h3>
-        <div class="testCase">
-          <p><span class="testHeader">Expected Input:</span>
-              <!-- Enter expected input here-->
-          </p>
-          <p><span class="testHeader">Expected Output:</span>
-                <!-- Enter expected output here-->
-          </p>
-        </div>
-      </section>
-  
+      <h3>Test Case 1</h3>
+      <div class="testCase">
+        <p><span class="testHeader">Expected Input:</span><br>
+          101 Joe Coyne, 53711, FT<br>
+          102 Fred Hensen, 53712, PT<br>
+          103 Ethel Roselle, 53713, FT<br>
+          104 Barney Curry, 53714, FT<br>
+          105 Wilma Hilgart, 53712, FT<br>
+          106 Greg Statz, 53713, PT<br>
+          107 Kelsie Baxter, 53712, FT<br>
+          108 Sandy Flynn, 53714, FT<br>
+          109 Chris Foley, 53713, FT<br>
+          110 Dan Bristol, 53716, FT
+        </p>
+        <p><span class="testHeader">Expected Output:</span><br>
+          53711: PT: 0, FT: 1<br>
+          53712: PT: 1, FT: 2<br>
+          53713: PT: 1, FT: 2<br>
+          53714: PT: 0, FT: 2<br>
+          53716: PT: 0, FT: 1<br>
+          Total FT: 8, Total PT: 2
+        </p>
+      </div>
+    </section>
 
 
-<section class="noPrint">
-<h2>Sample Output</h2>
-<p>The <strong>##</strong> represents numeric values.</p>
-<pre class="sampleOutput">
+
+    <section class="noPrint">
+      <h2>Sample Output</h2>
+      <p>The <strong>##</strong> represents numeric values.</p>
+      <pre class="sampleOutput">
 53711: Part Time: ## Full Time: ##
 53712: Part Time: ## Full Time: ##
 53713: Part Time: ## Full Time: ##
@@ -101,14 +139,14 @@
 Total Full Time: ##
 Total Part Time: ##
 </pre>
-</section>
+    </section>
 
-<section>
-<h2>Your Output</h2>
-<pre class="studentOutput">
+    <section>
+      <h2>Your Output</h2>
+      <pre class="studentOutput">
 <script language="JavaScript" type="text/javascript">part04();</script>
 </pre>
-</section>
+    </section>
 
   </main>
 

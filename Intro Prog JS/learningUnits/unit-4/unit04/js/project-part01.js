@@ -1,29 +1,52 @@
-function part01() {
+// Global Variable Declaration
+let x;
+let y;
 
-    let x;
+function userPrompt() {
 
-    prompt("Enter a number");
-    x = number(x);
+    // Variable Assignment
+    x = prompt("Enter a number");
+    y = prompt("Enter another number");
+    x = Number(x);
+    y = Number(y);
+}
 
-    let y;
-    prompt("Enter another number");
-    y = number(y);
+function displayResults(enteredNumberX, enteredNumberY) {
 
-    if (x < zero OR y<zero) {
-        alertt("One of the numbers was less than zero, please try again.");
-    } elseif y < x {
-        alert("The second number has to be bigger than the first, please try again.")
-    } else
+    // Scoped Variable Declaration
+    let index;
+    let product;
 
-        while (x < y){
+    // Display results loop
+    for (index = enteredNumberX; index < enteredNumberY; index++) {
 
-            document.write(x);
-            document.write("times");
-            document.write(y);
-            document.write("is");
-            document.write(x * y);
+        product = index * enteredNumberY;
 
-            x++;
+        document.write(index);
+        document.write(" times ");
+        document.write(enteredNumberY);
+        document.write(" is ");
+        document.write(product);
+        document.write(".<br>");
     }
 }
+
+function part01() {
+    "use strict";
+
+    // Prompt user for numbers
+    userPrompt();
+
+    // Logic check
+    if (x < 0 || y < 0) {
+        alert("One of the numbers was less than zero, please try again.");
+
+    } else if (y <= x) {
+        alert("The second number has to be bigger than the first, please try again.");
+
+    } else {
+
+        // Display loop
+        displayResults(x, y);
+    }
 }
