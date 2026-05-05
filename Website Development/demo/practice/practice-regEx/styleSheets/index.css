@@ -1,0 +1,52 @@
+/*
+    Author: firstName lastName
+    Date: mm/dd/yyyy
+*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(../images/flowerBackground.jpg);
+    background-color: #FFF;
+}
+header {
+    background-color:  #E36CA6;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+    border-bottom: 15px solid #BA89B3;
+    opacity: .8;
+    text-shadow: .2em .2em .5em #000;
+}
+main {
+    width: 40%;
+    margin: 0 auto;
+}
+form  {
+    background-color: #fff;
+    border: 3px solid #BA89B3;
+    border-radius: 1em;
+    margin-top: 3em;
+    padding: 1em;
+    box-shadow: 0 0 .5em black;
+}
+label {
+    display: block;
+    margin: 1em 0 .5em 0;
+}
+input, select {width: 100%;}
+input[type="submit"], input[type="reset"] {
+    width: auto;
+    margin-top: 2em;
+    border: 2px solid #E3057D;
+    border-radius: .7em;
+    padding: 1em;
+    color: #E36CA6;
+    font-weight: bold;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #D6E9D3;
+    border-color: #5BA974;
+    color: #1c6d3a;
+}
+div#buttonContainer {text-align: center;}

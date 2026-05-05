@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<!--
+    First Last Name
+    Date Created
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheets/index.css">
+    <link rel="stylesheet" href="styleSheets/form.css">
+    <title>Wellness Workshop Registration</title>
+</head>
+
+<body>
+    <header>
+        <h1>Wellness Workshop Registration</h1>
+        <p>Join us for a day of movement, mindfulness, and restoration. Complete the registration form below to reserve
+            your spot.</p>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>About the Workshop</h2>
+            <p>
+                Our community wellness workshop offers a variety of sessions designed to support relaxation,
+                self-awareness, and stress relief. Participants can choose from movement-based, reflective,
+                and mindfulness-centered experiences.
+            </p>
+        </section>
+
+        <section>
+            <h2>Registration Form</h2>
+            <p>Please complete all required parts of the form.</p>
+            <p>Asterisk denotes a required field.</p>
+
+            <!--   ADD THE REGISTRATION FORM HERE  -->
+            <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="firstName">*First Name:</label>
+                    <input type="text" id="firstName" name="firstName"><br>
+                    <label for="lastName">*Last Name:</label>
+                    <input type="text" id="lastName" name="lastName"><br>
+                    <label for="email">*Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="phoneNumber">*Phone:</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Experience Level</legend>
+                    <input type="radio" id="beginnerRadio" name="experienceLevel" checked>
+                    <label for="beginnerRadio">Beginner</label>
+                    <input type="radio" id="intermediateRadio" name="experienceLevel">
+                    <label for="intermediateRadio">Intermediate</label>
+                    <input type="radio" id="advancedRadio" name="experienceLevel">
+                    <label for="advancedRadio">Advanced</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Workshop Sessions</legend>
+                    <input type="checkbox" id="yoga" name="yoga">
+                    <label for="yoga">Morning Flow Yoga</label><br>
+                    <input type="checkbox" id="meditation" name="meditation">
+                    <label for="meditation">Breathwork & Meditation</label><br>
+                    <input type="checkbox" id="srt" name="srt">
+                    <label for="srt">Stress Relief Techniques</label><br>
+                    <input type="checkbox" id="sound" name="sound">
+                    <label for="sound">Sound Healing</label><br>
+                    <input type="checkbox" id="jr" name="jr">
+                    <label for="jr">Journaling & Reflection</label>
+                </fieldset>
+
+                <label for="timeMenu">Preferred Time:</label>
+                <select name="timeMenu" id="timeMenu">
+                    <option value="time">Morning</option>
+                    <option value="time">Afternoon</option>
+                    <option value="time">Evening</option>
+                </select><br>
+
+                <label for="additionalNotes">Additional Notes:</label><br>
+                <textarea name="additionalNotes" id="additionalNotes" placeholder="Start typing..."></textarea>
+
+                <fieldset>
+                    <legend>Contact Preferences</legend>
+                    <input type="checkbox" id="emailNotifications" name="emailNotifications">
+                    <label for="emailNotifications">Email Updates</label>
+                    <input type="checkbox" id="textNotifications" name="textNotifications">
+                    <label for="textNotifications">Text Reminders</label>
+                </fieldset>
+
+                <input type="submit" value="Register" name="registerButton">
+                <input type="reset" value="Clear Form" name="resetButton">
+            </form>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wellness Workshop. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -7,46 +7,144 @@
    1) Global box sizing
 -------------------------- */
 
+html {box-sizing: border-box;}
+* {box-sizing: inherit;}
+
 
 /* -------------------------
    2) Base page styling
 -------------------------- */
 
+body {
+   margin: 0;
+   font-family: 'Arial', 'Helvetica', sans-serif;
+   line-height: 1.5;
+   color: #1f2937;
+   background-color: #f3f4f6;
+}
 
+/* Center the main content for readability */
+header#top, main, footer {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* -------------------------
    3) Header + nav layout
 -------------------------- */
 
+#top {
+   background-color: #111827;
+   color: #f9fafb;
+   padding: 1.2rem;
+   border-bottom: 6px solid #374151;
+}
 
+#top h1 {
+   margin: 0 0 .5rem 0;
+   font-size: 2.2rem;
+}
 
+#top p {
+   margin: 0 0 1rem 0;
+   color: #d1d5db;
+}
+
+nav ul {
+   text-decoration: none;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav li {
+   display: inline-block;
+   margin: .8rem;
+}
 
 /* -------------------------
    4) Links
 -------------------------- */
 
+a:link {
+   color: #8b098d;
+   text-decoration: none;
+}
 
+a:visited {
+   color: #77a8bd;
+}
 
+a:focus, a:active {
+   font-weight: bold;
+}
+
+a:hover {
+   color: #073775;
+}
+
+nav a:link, nav a:visited {
+   display: inline-block;
+   padding: 8px 12px;
+   border: 2px solid #4ac6e9;
+   border-radius: 1rem;
+   background-color: #f3f4f6;
+}
+
+nav a:hover {
+   background-color: #374151;
+   border-color: #f9fafb;
+   color: #f9fafb;
+}
 
 /* -------------------------
    5) Special links
 -------------------------- */
 
+a[href^="https:"] {text-decoration: underline;}
 
+a[href$=".pdf"] {font-weight: bold;}
 
 /* -------------------------
    6) Main content + sections
 -------------------------- */
 
+main {padding: 2rem;}
 
+main section {
+   border: 2px solid #e5e7eb;
+   border-radius: 1rem;
+   padding: 1.5rem;
+   margin: 1.5rem 0;
+}
 
 /* -------------------------
    7) Event Cards 
 -------------------------- */
 
+#events header {border-bottom: 2px solid #e5e7eb;}
 
+article.card {
+   border: 2px solid #e5e7eb;
+   border-radius: 1rem;
+   padding: 1rem;
+   margin: .8rem 0;
+}
 
+.time {color: #60758c;}
+.time::before {
+   content: "\1F551  ";
+}
 
-/* -------------------------``
+.card li:nth-child(even) {
+   background-color: #8398c0;
+}
+/* -------------------------
    8) Footer 
 -------------------------- */
+
+footer p {
+   font-size: .7rem;
+   text-align: center;
+}

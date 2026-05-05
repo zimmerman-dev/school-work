@@ -1,0 +1,21 @@
+/*
+   Author: firstName lastName
+   Date: mm/dd/yyyy
+*/
+body {
+   margin: 0;
+   padding: 0;
+   font: 24px arial, sans-serif;
+   text-align: center;
+}
+header, nav, section { padding: 1em;}
+h1 {
+   margin: 0;
+   padding: 0;
+}
+ol, p {
+   text-align: left;
+   line-height: 1.6;
+}
+li {padding: .5em;}
+cite {font-size: .6em;}

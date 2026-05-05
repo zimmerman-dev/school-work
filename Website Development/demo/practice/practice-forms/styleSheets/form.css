@@ -1,0 +1,43 @@
+/* Styling for Form */
+
+fieldset, legend {
+    background-color: #f9fbfa;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #c7ddd6;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: .25rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+    margin-right: .4rem;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input[type="submit"], input[type="reset"] {
+    margin-top: 1rem;
+    padding: .6rem;
+    background-color: #7fb3a8;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #5f978c;
+} 
