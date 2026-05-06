@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="186.82376mm"
+   height="61.704315mm"
+   viewBox="0 0 186.82376 61.704315"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="testfont.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.98973765"
+     inkscape:cx="315.23505"
+     inkscape:cy="361.20683"
+     inkscape:window-width="1280"
+     inkscape:window-height="1364"
+     inkscape:window-x="20"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="1.0103688"
+       y="232.38481"
+       width="744.64178"
+       height="247.54034"
+       id="rect4" />
+    <rect
+       x="-34.352539"
+       y="247.54034"
+       width="746.66254"
+       height="204.09448"
+       id="rect3" />
+    <rect
+       x="82.850235"
+       y="279.87213"
+       width="597.12793"
+       height="151.55531"
+       id="rect2" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter52"
+       x="-0.042937697"
+       y="-0.16265683"
+       width="1.09933"
+       height="1.3754506">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.447059"
+         flood-color="rgb(0,0,0)"
+         id="feFlood51" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="3.040406"
+         id="feGaussianBlur51" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.286525"
+         dy="2.249204"
+         id="feOffset51" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite51" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite52" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.951979,-58.529489)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Airmole Antique';-inkscape-font-specification:'Airmole Antique';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke-width:0.264583;filter:url(#filter52)"
+       x="190.34468"
+       y="80.465347"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:#efb1d6;fill-opacity:1;stroke-width:0.264583"
+         x="190.34467"
+         y="80.465347">The Student Study</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:#c1b1ae;fill-opacity:1;stroke-width:0.264583"
+         x="190.34468"
+         y="110.17961"
+         id="tspan2">Collective</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#efb1d6;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#efb1d6;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#efb1d6;fill-opacity:1" />
+  </g>
+</svg>

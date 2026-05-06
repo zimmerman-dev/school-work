@@ -1,0 +1,46 @@
+:root {
+    --background: #F2DFC7;
+    --text: #191715;
+    --header: #352B27;
+    --accent: #C77035;
+    --light: #F7DDC6;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--header);
+    text-align: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 300px;
+    max-width: 90%;
+    height: auto;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: var(--light);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 2rem auto;
+}
