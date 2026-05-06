@@ -27,20 +27,78 @@
     </header>
 
     <main>
+        <h1>Interested in joining The Student Study Collective?</h1>
+        <p>Sign up below, and someone will reach out you ASAP!</p>
+
+        <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+            <p>An asterisk (*) denotes a required field.</p>
+
+            <label for="studentName">*Name</label>
+            <input type="text" name="studentName" id="studentName" required>
+
+            <label for="studentEmail">*Email</label>
+            <input type="email" name="studentEmail" id="studentEmail" required>
+
+            <label for="studentProgram">Program or Major</label>
+            <input type="text" name="studentProgram" id="studentProgram">
+
+            <label for="studyLevel">Year in School</label>
+            <select name="studyLevel" id="studyLevel">
+                <option value="first_year">First Year</option>
+                <option value="second_year">Second Year</option>
+                <option value="transfer_student">Transfer Student</option>
+                <option value="returning_student">Returning Student</option>
+            </select>
+
+            <fieldset>
+                <legend>How would you like to participate?</legend>
+
+                <input type="checkbox" name="campusMeetups" id="campusMeetups" value="campus_meetups">
+                <label for="campusMeetups">Campus Meetups</label>
+
+                <input type="checkbox" name="virtualStudyRooms" id="virtualStudyRooms" value="virtual_study_rooms">
+                <label for="virtualStudyRooms">Virtual Study Rooms</label>
+
+                <input type="checkbox" name="discordCommunity" id="discordCommunity" value="discord_community">
+                <label for="discordCommunity">Discord Community</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferred Study Style</legend>
+
+                <input type="radio" name="studyStyle" id="quietFocus" value="quiet_focus" checked>
+                <label for="quietFocus">Quiet Focus</label>
+
+                <input type="radio" name="studyStyle" id="groupDiscussion" value="group_discussion">
+                <label for="groupDiscussion">Group Discussion</label>
+            </fieldset>
+
+            <label for="studentMessage">What subjects are you working on?</label>
+            <textarea name="studentMessage" id="studentMessage"></textarea>
+
+            <div class="buttonGroup">
+                <input type="submit" value="Join Us">
+                <input type="reset" value="Clear Form">
+            </div>
+
+        </form>
+
 
     </main>
 
     <footer>
-        <a href="join.html" class="joinButton">Become a Member</a>
+        <a href="join.html" class="joinButton"><img src="images/memberButton.svg" alt=""></a>
 
         <address>
             Developed by:
-            <a href="mailto:jzimmerman3@madisoncollege.edu">
+            <a href="mailto:jzimmerman3@madisoncollege.edu" class="contentCreator">
                 jzimmerman3@madisoncollege.edu
             </a>
+            Images by:
+            <a href="https://unsplash.com/@suenyo/illustrations" class="contentCreator">Sanja Djordjevic</a>
         </address>
     </footer>
-
 </body>
 
 </html>

@@ -2,18 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="122.03151mm"
-   height="51.270866mm"
-   viewBox="0 0 122.03151 51.270866"
+   width="86.783257mm"
+   height="32.890137mm"
+   viewBox="0 0 86.783256 32.890136"
    version="1.1"
    id="svg1"
-   inkscape:export-filename="memberButton.png"
-   inkscape:export-xdpi="41.62859"
-   inkscape:export-ydpi="41.62859"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
    sodipodi:docname="memberButton.svg"
+   inkscape:export-filename="memberButton.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -26,79 +27,133 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="1.3997004"
-     inkscape:cx="140.38718"
-     inkscape:cy="142.5305"
-     inkscape:window-width="1627"
-     inkscape:window-height="1364"
-     inkscape:window-x="20"
-     inkscape:window-y="20"
-     inkscape:window-maximized="0"
+     inkscape:zoom="1.0307169"
+     inkscape:cx="142.13408"
+     inkscape:cy="232.36254"
+     inkscape:window-width="2560"
+     inkscape:window-height="1366"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <linearGradient
+       id="linearGradient44"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#a792b3;stop-opacity:1;"
+         offset="0"
+         id="stop44" />
+      <stop
+         style="stop-color:#694695;stop-opacity:1;"
+         offset="1"
+         id="stop45" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient42"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#585c7c;stop-opacity:1;"
+         offset="0"
+         id="stop42" />
+      <stop
+         style="stop-color:#c081b1;stop-opacity:1;"
+         offset="1"
+         id="stop43" />
+    </linearGradient>
     <rect
-       x="214.19818"
-       y="279.87213"
-       width="395.05417"
-       height="236.42628"
-       id="rect1" />
+       x="-233.81784"
+       y="-116.42382"
+       width="646.15221"
+       height="292.02975"
+       id="rect42" />
+    <rect
+       x="-13.582779"
+       y="-36.867543"
+       width="387.10921"
+       height="195.9801"
+       id="rect41" />
+    <rect
+       x="339.56949"
+       y="415.24496"
+       width="358.97345"
+       height="104.78144"
+       id="rect32" />
+    <rect
+       x="0"
+       y="0"
+       width="481.68472"
+       height="197.30521"
+       id="rect23" />
+    <rect
+       x="227.37219"
+       y="332.77811"
+       width="385.86282"
+       height="100.60026"
+       id="rect5" />
+    <rect
+       x="252.33154"
+       y="342.33539"
+       width="333.91885"
+       height="86.754105"
+       id="rect4" />
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
-       id="filter11"
-       x="-0.079564845"
-       y="-0.87824024"
-       width="1.1840615"
-       height="3.0271874">
+       id="filter31"
+       x="-0.075007977"
+       y="-0.36688347"
+       width="1.150016"
+       height="1.7337669">
       <feFlood
          result="flood"
          in="SourceGraphic"
-         flood-opacity="0.262745"
+         flood-opacity="1.000000"
          flood-color="rgb(0,0,0)"
-         id="feFlood10" />
+         id="feFlood30" />
       <feGaussianBlur
          result="blur"
          in="SourceGraphic"
-         stdDeviation="3.040406"
-         id="feGaussianBlur10" />
+         stdDeviation="7.079625"
+         id="feGaussianBlur30" />
       <feOffset
          result="offset"
          in="blur"
-         dx="2.286525"
-         dy="2.249204"
-         id="feOffset10" />
+         dx="-0.000000"
+         dy="0.000000"
+         id="feOffset30" />
       <feComposite
          result="comp1"
          operator="in"
          in="flood"
          in2="offset"
-         id="feComposite10" />
+         id="feComposite30" />
       <feComposite
          result="comp2"
          operator="over"
          in="SourceGraphic"
          in2="comp1"
-         id="feComposite11" />
+         id="feComposite31" />
     </filter>
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
        id="filter41"
-       x="-0.098295085"
-       y="-0.17763272"
-       width="1.2304265"
-       height="1.3552654">
+       x="-0.099470518"
+       y="-0.63438341"
+       width="1.198941"
+       height="2.2687668">
       <feFlood
          result="flood"
          in="SourceGraphic"
-         flood-opacity="0.462745"
+         flood-opacity="1.000000"
          flood-color="rgb(0,0,0)"
          id="feFlood40" />
       <feGaussianBlur
          result="blur"
          in="SourceGraphic"
-         stdDeviation="2.800000"
+         stdDeviation="3.000000"
          id="feGaussianBlur40" />
       <feOffset
          result="offset"
@@ -119,57 +174,82 @@
          in2="comp1"
          id="feComposite41" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42"
+       id="linearGradient43"
+       x1="93.936295"
+       y1="87.115273"
+       x2="117.27663"
+       y2="112.86488"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient44"
+       id="linearGradient45"
+       x1="254.77975"
+       y1="77.295235"
+       x2="280.91483"
+       y2="-2.9989433"
+       gradientUnits="userSpaceOnUse" />
   </defs>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Layer 3"
-     transform="translate(-56.98627,-106.02299)" />
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Layer 2"
-     transform="translate(-56.98627,-106.02299)" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-56.98627,-106.02299)">
+     transform="translate(-67.733853,-87.115271)">
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
-       id="text1"
-       style="font-size:64px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);fill:#c7703e" />
+       id="text4"
+       style="font-size:42.6667px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;opacity:1;fill:#000000" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.32865427,0,0,0.51062817,-27.369259,-93.027427)"
+       id="text5"
+       style="font-size:55.1137px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);shape-padding:0.0548663;display:inline;opacity:1;fill:#000000"
+       x="189.09016"
+       y="0" />
     <g
-       id="g11"
-       style="filter:url(#filter41)">
-      <rect
-         style="fill:#422a34;fill-opacity:1;stroke-width:0.287055"
-         id="rect2-3"
-         width="99.178215"
-         height="37.830868"
-         x="66.735001"
-         y="112.74299"
-         rx="7.964972" />
-      <rect
-         style="fill:#a8b59a;fill-opacity:1;stroke-width:0.264583"
-         id="rect2"
-         width="94.633659"
-         height="33.68317"
-         x="69.007278"
-         y="114.81683"
-         rx="7.5999999" />
+       id="g41">
       <text
          xml:space="preserve"
-         style="font-size:11.2889px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;fill:#352b2e;fill-opacity:1;stroke-width:0.264583;filter:url(#filter11)"
-         x="70.574265"
-         y="135.62082"
-         id="text2"><tspan
+         transform="matrix(0.26458333,0,0,0.26458333,47.555874,102.66682)"
+         id="text23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';text-align:center;letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect23);display:inline;fill:url(#linearGradient45);fill-opacity:1;filter:url(#filter31)"
+         x="240.84236"
+         y="0"><tspan
+           x="126.18078"
+           y="50.224121"
+           id="tspan2"><tspan
+             dx="0 -7.5599995"
+             id="tspan1"> Member</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:0.669396px;word-spacing:-2.00025px;writing-mode:lr-tb;direction:ltr;fill:url(#linearGradient43);fill-opacity:1;stroke-width:0.264583;filter:url(#filter41)"
+         x="74.341171"
+         y="102.99786"
+         id="text31"><tspan
            sodipodi:role="line"
-           id="tspan2"
-           style="font-size:11.2889px;writing-mode:lr-tb;fill:#352b2e;fill-opacity:1;stroke-width:0.264583"
-           x="70.574265"
-           y="135.62082">Become a Member</tspan></text>
+           id="tspan31"
+           style="fill:url(#linearGradient43);fill-opacity:1;stroke-width:0.264583"
+           x="74.341171"
+           y="102.99786">Become A</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,64.073233,82.205299)"
+       id="text32"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect32);display:inline;fill:#c081b1;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,67.733853,87.115271)"
+       id="text41"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect41);display:inline;fill:#c081b1;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,67.733853,87.115271)"
+       id="text42"
+       style="fill:#a792b3;text-orientation:auto;-inkscape-font-specification:'Earwig Factory';font-family:'Earwig Factory';font-size:56px;writing-mode:lr-tb;direction:ltr;fill-opacity:1;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;letter-spacing:2.53px;word-spacing:-7.55999981px;line-height:0;white-space:pre;shape-inside:url(#rect42)" />
   </g>
 </svg>

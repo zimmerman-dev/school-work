@@ -40,7 +40,12 @@
 
 body {
     margin: 0;
-    background-color: var(--background-main);
+    background-image: url("../images/backgroundImage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fix;
+    /* background-color: var(--background-main); */
     color: var(--text-main);
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -51,8 +56,8 @@ header {
     padding: 1rem;
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid var(--border-dark);
-    border-top: 4px solid var(--border-dark);
+    border-bottom: 5px solid #191715;
+
 }
 
 .logo {
@@ -82,35 +87,42 @@ main {
 }
 
 footer {
+
     font-family: 'Coolvetica';
+    max-height: 100px;
     clear: both;
-    border-top: 5px solid var(--border-main);
-    color: var(--sage-green);
+    border-top: 5px solid #21241e;
+    color: var(--dusty-purple);
     width: 100%;
-    background-color: var(--footer-background);
+    background-color: #292a26;
+    overflow: auto;
 }
-a {
-    text-decoration: none;
-}
+
+a {text-decoration: none;}
+
 footer a {
-    font-family: 'Coolvetica';
     color: var(--background-light);
-    margin-right: 20px;
-}
+ }
+
 
 .joinButton {
-    margin-left: 20px;
-    background-color: var(--sage-green);
-    padding: .7rem;
-    font-family: 'Coolvetica';
-    font-size: 15px;
-    border: 3px solid var(--border-dark);
-    border-radius: 10px;
-    color: var(--text-dark);
+    float: left;
+
 }
 
+.joinButton img {
+    width: 180px;
+    transition: transform 0.2s ease;
+}
 
-footer address {
-    text-align: right;
-    border-bottom: 4px solid var(--border-dark);
+.joinButton img:hover {
+    transform: translateY(-3px);
+}
+
+address {
+    float: right;
+    top: 30px;
+    position: relative;
+    width: 50%;
+    text-align: right; 
 }
