@@ -1,6 +1,6 @@
 /*
-    Author: firstName lastName
-    Date: mm/dd/yyyy
+    Author: John Zimmerman
+    Date: 5/8/26
 */
 body {
     margin: 0;
@@ -29,3 +29,70 @@ footer {
     border-top: 8px solid #14949b;
 }
 blockquote {font-size: smaller;}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    clear: left;
+}
+
+form {
+    width: 50%;
+    max-width: 400px;
+    min-width: 400px;
+    margin: 0 auto 80px auto;
+    background-color: #b0dbff;
+    padding: 1rem;
+    border: 3px solid #6F90AF;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 2px solid #6F90AF;
+    padding-bottom: 1rem;
+}
+
+fieldset, legend, select {
+    margin: .25rem;
+}
+
+select, textarea {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #91b3cf;
+    width: 100%;
+}
+
+#improvementNotes {
+    min-height: 100px;
+    margin-bottom: 1rem;
+}
+
+#customerName {
+    max-height: 15px;
+    margin-bottom: 1rem;
+}
+
+.buttonGroup {
+    text-align: center;
+    
+}
+input[type="submit"], input[type="reset"] {
+    font-weight: bold;
+    border: 2px solid #6F90AF;
+    border-radius: 4px;
+    padding: .25rem 1rem;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #91b3cf;
+}
