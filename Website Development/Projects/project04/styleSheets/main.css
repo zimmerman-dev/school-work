@@ -1,26 +1,62 @@
+/* Color selection */
 :root {
-    --background: #F2DFC7;
-    --text: #191715;
-    --header: #352B27;
-    --accent: #C77035;
-    --light: #F7DDC6;
+
+    /* Primary Background Colors */
+    --background-main: #F2DFC7;
+    --background-card: #F7DDC6;
+    --background-light: #FFFFFF;
+
+    /* Primary Text Colors */
+    --text-main: #191715;
+    --text-dark: #352B27;
+    --text-light: #F7DDC6;
+
+    /* Accent Colors */
+    --accent-primary: #C77035;
+    --accent-secondary: #C1B65E;
+    --accent-soft: #EFB1D6;
+
+    /* Border / Shadow Colors */
+    --border-main: #67523C;
+    --border-dark: #4d2a20;
+    --shadow-color: rgba(25, 23, 21, 0.25);
+
+    /* Header / Footer */
+    --header-background: #352B27;
+    --footer-background: #352B27;
+    --nav-link: #F7DDC6;
+    --nav-hover: #C77035;
+
+    /* Common Shadows */
+    --shadow-soft: 0 0 10px rgba(25, 23, 21, 0.15);
+    --shadow-medium: 0 0 15px rgba(25, 23, 21, 0.25);
+
+    --sage-green: #A8B59A;
+    --muted-olive: #7E8C6A;
+
+    --dusty-purple: #A792B3;
+    --soft-lavender: #C7B6D6;
 }
 
 body {
     margin: 0;
-    background-color: var(--background);
-    color: var(--text);
-    font-family: Arial, sans-serif;
+    background-color: var(--background-main);
+    color: var(--text-main);
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
-    background-color: var(--header);
+    background-image: url("../images/studyDesk.jpg");
     text-align: center;
     padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid var(--border-dark);
+    border-top: 4px solid var(--border-dark);
 }
 
 .logo {
-    width: 300px;
+    width: 500px;
     max-width: 90%;
     height: auto;
 }
@@ -30,17 +66,51 @@ nav {
 }
 
 nav a {
-    color: var(--light);
+    color: var(--text-light);
     text-decoration: none;
     margin: 0 0.5rem;
 }
 
 nav a:hover {
-    color: var(--accent);
+    color: var(--accent-primary);
 }
 
 main {
     width: 80%;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 2rem auto;
+}
+
+footer {
+    font-family: 'Coolvetica';
+    clear: both;
+    border-top: 5px solid var(--border-main);
+    color: var(--sage-green);
+    width: 100%;
+    background-color: var(--footer-background);
+}
+a {
+    text-decoration: none;
+}
+footer a {
+    font-family: 'Coolvetica';
+    color: var(--background-light);
+    margin-right: 20px;
+}
+
+.joinButton {
+    margin-left: 20px;
+    background-color: var(--sage-green);
+    padding: .7rem;
+    font-family: 'Coolvetica';
+    font-size: 15px;
+    border: 3px solid var(--border-dark);
+    border-radius: 10px;
+    color: var(--text-dark);
+}
+
+
+footer address {
+    text-align: right;
+    border-bottom: 4px solid var(--border-dark);
 }

@@ -2,8 +2,9 @@
     border: 5px solid #FFFFFF;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
     width: 50%;
-    max-width: 800px;
+    max-width: 500px;
     min-width: 300px;
+    height: auto;
     margin: 1.5rem;
     float: right;
 }
