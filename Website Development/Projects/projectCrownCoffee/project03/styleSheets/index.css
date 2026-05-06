@@ -1,6 +1,11 @@
-main img {
+.mugMain {
     border: 5px solid #FFFFFF;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 1.5rem;
+    float: right;
 }
 
 aside h2 {
@@ -11,5 +16,9 @@ aside {
     background-color: #D6CBC0;
     padding: 1rem;
     border: 2px solid #A87B50;
-    border-radius: 5px;
+    border-radius: 20px;
+}
+
+footer {
+    clear: right;
 }

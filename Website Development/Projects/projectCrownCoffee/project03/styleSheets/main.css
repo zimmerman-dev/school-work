@@ -51,7 +51,7 @@ nav a:hover {
 header img {width: 250px;}
 main a img {width: 50px;}
 
-.btp, p {
+.btp {
     margin-top: 1px;
     margin-bottom: 50px;
     padding: 0;
@@ -59,7 +59,6 @@ main a img {width: 50px;}
 
 /* Footer */
 footer {
-    position: fixed;
     width: 100%;
     bottom: 0;
     background-color: #2E1B11;
@@ -70,10 +69,11 @@ footer {
 address {text-align: right;}
 
 footer > a  {
+    margin-left: 20px;
     background-color: #FFFFFF;
     padding: .7rem;
-    border: solid 2px #A87B50;
-    border-radius: 5px;
+    border: solid 4px #A87B50;
+    border-radius: 12px;
 }
 
 footer > a:hover {

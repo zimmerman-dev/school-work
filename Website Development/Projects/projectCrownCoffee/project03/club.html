@@ -9,6 +9,7 @@
     <title>Join Our Coffee Club</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styleSheets/main.css">
+    <link rel="stylesheet" href="styleSheets/club.css">
 </head>
 
 <body>
@@ -17,10 +18,10 @@
         <h1>Club</h1>
         <nav>
             <a href="index.html">Home </a>&bull;
-            <a href="coffee.html">Coffee </a>&bull;       
-            <a href="coffeeGuide.html">Coffee Guide </a>&bull; 
+            <a href="coffee.html">Coffee </a>&bull;
+            <a href="coffeeGuide.html">Coffee Guide </a>&bull;
             <a href="menu.html">Menu </a>&bull;
-            <a href="club.html">Club </a>&bull; 
+            <a href="club.html">Club </a>&bull;
             <a href="contact.html">Contact </a>&bull;
             <a href="events.html">Events</a>
         </nav>
@@ -31,11 +32,83 @@
             <h2>Crown Coffee Subscription</h2>
             <p>Prefer to enjoy your coffee at home? No problem! Sign up for our Coffee Club and get the best coffee delivered right to your door.</p>
         </section>
+        <p>An asterisk denotes a required field.</p>
+
+        <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+            <label for="name">*Name</label><br>
+            <input type="text" name="name" id="name" required><br>
+
+            <label for="email">*Email</label><br>
+            <input type="email" name="email" id="email" required><br>
+
+            <label for="password">*Password</label><br>
+            <input type="password" name="password" id="password" minlength="8" maxlength="25" required><br>
+
+            <label for="beanType">Type of Bean</label><br>
+            <select name="beanType" id="beanType">
+                <option value="ground">Ground</option>
+                <option value="whole">Whole</option>
+                <option value="rounds">Rounds</option>
+            </select><br>
+
+            <fieldset>
+                <legend>Regular or Decaf?</legend>
+
+                <input type="radio" name="regularOrDecaf" id="regular" value="regular">
+                <label for="regular">Regular</label><br>
+
+                <input type="radio" name="regularOrDecaf" id="decaf" value="decaf">
+                <label for="decaf">Decaf</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Type of Roast</legend>
+
+                <input type="checkbox" name="highlanderGrogg" id="highlanderGrogg" value="highlander_grogg">
+                <label for="highlanderGrogg">Highlander Grogg</label><br>
+
+                <input type="checkbox" name="cinnamonSwirl" id="cinnamonSwirl" value="cinnamon_swirl">
+                <label for="cinnamonSwirl">Cinnamon Swirl</label><br>
+
+                <input type="checkbox" name="hazelnutCream" id="hazelnutCream" value="hazelnut_cream">
+                <label for="hazelnutCream">Hazelnut Cream</label><br>
+
+                <input type="checkbox" name="frenchVanilla" id="frenchVanilla" value="french_vanilla">
+                <label for="frenchVanilla">French Vanilla</label><br>
+
+                <input type="checkbox" name="blueberryNut" id="blueberryNut" value="blueberry_nut">
+                <label for="blueberryNut">Blueberry Nut</label><br>
+
+                <input type="checkbox" name="bananaCaramel" id="bananaCaramel" value="banana_caramel">
+                <label for="bananaCaramel">Banana Caramel</label><br>
+
+                <input type="checkbox" name="chocolateCherry" id="chocolateCherry" value="chocolate_cherry">
+                <label for="chocolateCherry">Chocolate Cherry</label><br>
+
+                <input type="checkbox" name="englishToffee" id="englishToffee" value="english_toffee">
+                <label for="englishToffee">English Toffee</label><br>
+
+                <input type="checkbox" name="vanillaRaspberry" id="vanillaRaspberry" value="vanilla_raspberry">
+                <label for="vanillaRaspberry">Vanilla Raspberry</label><br>
+            </fieldset>
+
+            <label for="comments">Additional Comments</label><br>
+            <textarea name="comments" id="comments"></textarea><br>
+
+            <div class="formButtons">
+                <input type="submit" value="Order Now">
+                <input type="reset" value="Clear Form">
+            </div>
+
+
+        </form>
     </main>
 
     <footer>
         <a href="contact.html">Hours and Locations</a>
-        <address>Developed by: <a href="mailto:jzimmerman3@madisoncollege.edu">jzimmerman3@madisoncollege.edu</a></address>
+        <address>Developed by: <a href="mailto:jzimmerman3@madisoncollege.edu">jzimmerman3@madisoncollege.edu</a>
+        </address>
     </footer>
 </body>
 

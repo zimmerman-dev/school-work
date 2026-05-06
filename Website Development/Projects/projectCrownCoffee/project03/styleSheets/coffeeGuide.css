@@ -1,0 +1,18 @@
+article img {
+    float: left;
+    margin-right: 2rem;
+}
+
+article p {
+    margin-top: 1.5rem;
+
+}
+
+article {
+    width: 100%;
+    float: left;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000000;
+}
