@@ -1,84 +1,108 @@
+img.contactHead {
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    max-width: 500px;
+    min-width: 300px;
+    height: auto;
+    margin: 1.5rem;
+    float: left;
+}
+main section {
+    max-width: 900px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+}
+
+/* Hours Table */
+
+table {
+    margin: 1rem auto;
+    border-collapse: collapse;
+    background-color: #FFFFFF;  
+}
+
+th,
+td {
+    text-align: center;
+    padding: .75rem 1.5rem;
+    border: 5px solid #fceade;
+    border-left: 20px solid #fceade;
+    border-right: 20px solid #fceade;    
+}
+
+th {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Coolvetica';
+    background-color: #A792B3;
+}
+
+td {
+    background-color: #d6cbdc; 
+}
+
+.meetingTimes {
+    max-width: 700px;
+    margin: 1rem auto;
+}
+
+/* Contact Form */
+
 form {
     padding: 2rem;
     clear: both;
-    width: 80%;
+    width: 100%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     border: 1px solid #352B27;
     border-radius: 10px;
     box-shadow: 0 0 10px 5px rgba(40, 40, 40, 0.5);
     background-color: #FFFFFF;
+    box-sizing: border-box;
 }
 
 form p,
-label[for="studentMessage"],
-label[for="studyLevel"] {
+label {
     font-family: 'Coolvetica';
 }
 
-/* Fieldsets */
-
-fieldset {
-    background-color: #d6cbdc;
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    border: 1px solid #c7ddd6;
-    border-radius: 5px;
+label {
+    display: block;
+    margin-top: 1rem;
 }
-
-legend {
-    font-family: 'Coolvetica';
-    padding-left: .5rem;
-    padding-right: .5rem;
-}
-
-/* Text Inputs */
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 select,
 textarea {
     background-color: #f9fbfa;
     border: 1px solid #cccccc;
     border-radius: 4px;
-    padding: .25rem;
+    padding: .4rem;
+    margin-top: .4rem;
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="tel"] {
     width: 400px;
-    margin: 1rem;
 }
 
 select {
     width: 300px;
-    margin: 1rem;
 }
 
 textarea {
     min-height: 100px;
     width: 100%;
-    margin: 1rem 0;
 }
 
-/* Checkboxes and Radios */
-
-input[type="checkbox"],
-input[type="radio"] {
-    width: auto;
-    margin-right: .4rem;
-}
-
-/* Labels */
-
-label {
-    margin: 2rem 0;
-}
 
 /* Buttons */
 
 .buttonGroup {
-    
     text-align: center;
     margin: 1rem;
 }
@@ -87,8 +111,7 @@ label {
     font-family: 'Coolvetica';
     margin-top: 1rem;
     padding: .6rem;
-    width: 80%;
-    max-width: 100px;
+    width: 120px;
     background-color: #A792B3;
     border: none;
     border-radius: 5px;
@@ -97,4 +120,14 @@ label {
 input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #5f978c;
+}
+
+.discordCode {
+    background-color: #b092b3;
+    display: block;
+    width: 220px;
+    max-width: 80%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(40, 40, 40, 0.4);
 }

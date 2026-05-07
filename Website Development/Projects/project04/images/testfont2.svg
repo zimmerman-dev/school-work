@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="151.12633mm"
+   height="42.917355mm"
+   viewBox="0 0 151.12632 42.917354"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="testfont2.svg"
+   inkscape:export-filename="testfont2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0307169"
+     inkscape:cx="141.16388"
+     inkscape:cy="235.27314"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g41" />
+  <defs
+     id="defs1">
+    <rect
+       x="-155.23177"
+       y="-89.258263"
+       width="893.55286"
+       height="352.18207"
+       id="rect1" />
+    <linearGradient
+       id="linearGradient44"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#a792b3;stop-opacity:1;"
+         offset="0"
+         id="stop44" />
+      <stop
+         style="stop-color:#694695;stop-opacity:1;"
+         offset="1"
+         id="stop45" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient42"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#585c7c;stop-opacity:1;"
+         offset="0"
+         id="stop42" />
+      <stop
+         style="stop-color:#c081b1;stop-opacity:1;"
+         offset="1"
+         id="stop43" />
+    </linearGradient>
+    <rect
+       x="-233.81784"
+       y="-116.42382"
+       width="646.15222"
+       height="292.02975"
+       id="rect42" />
+    <rect
+       x="-13.582779"
+       y="-36.867542"
+       width="387.10922"
+       height="195.9801"
+       id="rect41" />
+    <rect
+       x="339.56949"
+       y="415.24496"
+       width="358.97345"
+       height="104.78144"
+       id="rect32" />
+    <rect
+       x="0"
+       y="0"
+       width="481.68472"
+       height="197.30521"
+       id="rect23" />
+    <rect
+       x="227.37219"
+       y="332.77811"
+       width="385.86282"
+       height="100.60026"
+       id="rect5" />
+    <rect
+       x="252.33154"
+       y="342.33539"
+       width="333.91885"
+       height="86.754105"
+       id="rect4" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter31"
+       x="-0.044215187"
+       y="-0.29351648"
+       width="1.0884304"
+       height="1.587033">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="1.000000"
+         flood-color="rgb(0,0,0)"
+         id="feFlood30" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="7.079625"
+         id="feGaussianBlur30" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="-0.000000"
+         dy="0.000000"
+         id="feOffset30" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite30" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite31" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter41"
+       x="-0.052659936"
+       y="-0.59188495"
+       width="1.1053199"
+       height="2.1837699">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="1.000000"
+         flood-color="rgb(0,0,0)"
+         id="feFlood40" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="3.000000"
+         id="feGaussianBlur40" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="-0.000000"
+         dy="0.000000"
+         id="feOffset40" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite40" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite41" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient42"
+       id="linearGradient43"
+       x1="93.936295"
+       y1="87.115273"
+       x2="117.27663"
+       y2="112.86488"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient44"
+       id="linearGradient45"
+       x1="254.77975"
+       y1="77.295235"
+       x2="280.91483"
+       y2="-2.9989433"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-67.704207,-86.300348)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4"
+       style="font-size:42.6667px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;opacity:1;fill:#000000" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.32865427,0,0,0.51062817,-27.369259,-93.027427)"
+       id="text5"
+       style="font-size:55.1137px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);shape-padding:0.0548663;display:inline;opacity:1;fill:#000000"
+       x="189.09016"
+       y="0" />
+    <g
+       id="g41">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,96.328559,102.92352)"
+         id="text23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';text-align:center;letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect23);display:inline;fill:url(#linearGradient45);fill-opacity:1;filter:url(#filter31)"
+         x="240.84236"
+         y="0"><tspan
+           x="45.71377"
+           y="64.573869"
+           id="tspan1">Collective</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:0.669396px;word-spacing:-2.00025px;writing-mode:lr-tb;direction:ltr;fill:url(#linearGradient43);fill-opacity:1;stroke-width:0.264583;filter:url(#filter41)"
+         x="74.341171"
+         y="102.99786"
+         id="text31"><tspan
+           sodipodi:role="line"
+           id="tspan31"
+           style="fill:url(#linearGradient43);fill-opacity:1;stroke-width:0.264583"
+           x="74.341171"
+           y="102.99786">The Student Study</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,61.303968,85.783375)"
+         id="text1"
+         style="font-size:56px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#a792b3" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,64.073233,82.205299)"
+       id="text32"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect32);display:inline;fill:#c081b1;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,67.733853,87.115271)"
+       id="text41"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect41);display:inline;fill:#c081b1;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,67.733853,87.115271)"
+       id="text42"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect42);display:inline;fill:#a792b3;fill-opacity:1" />
+  </g>
+</svg>

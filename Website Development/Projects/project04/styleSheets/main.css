@@ -1,42 +1,4 @@
-/* Color selection */
-:root {
 
-    /* Primary Background Colors */
-    --background-main: #F2DFC7;
-    --background-card: #F7DDC6;
-    --background-light: #FFFFFF;
-
-    /* Primary Text Colors */
-    --text-main: #191715;
-    --text-dark: #352B27;
-    --text-light: #F7DDC6;
-
-    /* Accent Colors */
-    --accent-primary: #C77035;
-    --accent-secondary: #C1B65E;
-    --accent-soft: #EFB1D6;
-
-    /* Border / Shadow Colors */
-    --border-main: #67523C;
-    --border-dark: #4d2a20;
-    --shadow-color: rgba(25, 23, 21, 0.25);
-
-    /* Header / Footer */
-    --header-background: #352B27;
-    --footer-background: #352B27;
-    --nav-link: #F7DDC6;
-    --nav-hover: #C77035;
-
-    /* Common Shadows */
-    --shadow-soft: 0 0 10px rgba(25, 23, 21, 0.15);
-    --shadow-medium: 0 0 15px rgba(25, 23, 21, 0.25);
-
-    --sage-green: #A8B59A;
-    --muted-olive: #7E8C6A;
-
-    --dusty-purple: #A792B3;
-    --soft-lavender: #C7B6D6;
-}
 
 body {
     margin: 0;
@@ -44,9 +6,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fix;
-    /* background-color: var(--background-main); */
-    color: var(--text-main);
+    color: #191715;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -64,11 +24,11 @@ h1, h2 {
     text-align: center;
     font-family: 'Coolvetica';
     color: #352B27;
-    text-shadow: 0 0 10px #fff, 0 0 20px #d67766;
+    text-shadow: 0 0 10px #fff, 0 0 20px #6c0c4e;
 }
 
 .logo {
-    width: 500px;
+    width: 700px;
     max-width: 90%;
     height: auto;
 }
@@ -78,13 +38,14 @@ nav {
 }
 
 nav a {
-    color: var(--text-light);
+    font-family: 'Coolvetica';
+    color: #d4beb5;
     text-decoration: none;
     margin: 0 0.5rem;
 }
 
 nav a:hover {
-    color: var(--accent-primary);
+    color: #C77035;
 }
 
 main {
@@ -94,11 +55,11 @@ main {
 }
 
 section {
-    background-color: #FFFFFF;
-    margin: .5rem .5rem;
-    margin-bottom: 100px;
-    padding: 3rem;
-    border: 1px solid #352B27;
+    background-color: #fceade;
+    max-width: 900px;
+    margin: 0 auto 100px auto;
+    padding: 2.5rem;
+    border: 1px solid #3c3c3c83;
     border-radius: 10px;
     box-shadow: 0 0 10px 5px rgba(40, 40, 40, 0.5);
     overflow: auto;
@@ -127,7 +88,7 @@ a {
 }
 
 footer a {
-    color: var(--background-light);
+    color: #ffffff;
 }
 
 
