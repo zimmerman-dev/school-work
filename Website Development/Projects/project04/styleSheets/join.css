@@ -35,6 +35,7 @@ legend {
     font-family: 'Coolvetica';
 }
 
+
 /* Forces labels onto their own line above inputs */
 form > label {
     display: block;
@@ -85,7 +86,7 @@ textarea {
 /* Groups related form controls together visually */
 fieldset {
     background-color: #d6cbdc;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     border: 1px solid #c7ddd6;
     border-radius: 5px;

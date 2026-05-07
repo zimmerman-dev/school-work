@@ -72,7 +72,6 @@ section p {
 }
 
 footer {
-
     font-family: 'Coolvetica';
     max-height: 100px;
     clear: both;
@@ -107,6 +106,7 @@ footer a {
 }
 
 address {
+    margin-right: 20px;
     float: right;
     top: 30px;
     position: relative;
