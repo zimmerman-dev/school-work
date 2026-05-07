@@ -6,7 +6,7 @@
 <html lang="en">
 
 <head>
-    <title>Student Study Collective</title>
+    <title>Student Study Collective | Join Us</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styleSheets/main.css">
     <link rel="stylesheet" href="styleSheets/join.css">
@@ -37,17 +37,17 @@
 
             <p>An asterisk (*) denotes a required field.</p>
 
-            <label for="firstName">*Name</label>
-            <input type="text" name="First tName" id="firstName" required>
+            <label for="firstName">*First Name</label>
+            <input type="text" name="firstName" id="firstName" required pattern="[A-Za-z' -]+" title="Use letters, spaces, hyphens, or apostrophes."><br>
 
             <label for="lastName">*Last Name</label>
-            <input type="text" name="lastName" id="lastName" required><br>
+            <input type="text" name="lastName" id="lastName" required pattern="[A-Za-z' -]+" title="Use letters, spaces, hyphens, or apostrophes."><br>
 
             <label for="studentEmail">*Email</label>
-            <input type="email" name="studentEmail" id="studentEmail" required>
+            <input type="email" name="studentEmail" id="studentEmail" required><br>
 
             <label for="studentProgram">Program/Major</label>
-            <input type="text" name="studentProgram" id="studentProgram"><br>
+            <input type="text" name="studentProgram" id="studentProgram" pattern="[A-Za-z0-9' &.-]+" title="Use letters, spaces, hyphens, or apostrophes."><br>
 
             <label for="studyLevel">Year in School</label><br>
             <select name="studyLevel" id="studyLevel">
@@ -81,7 +81,7 @@
             </fieldset>
 
             <label for="studentMessage">What subjects are you working on?</label>
-            <textarea name="studentMessage" id="studentMessage"></textarea>
+            <textarea name="studentMessage" id="studentMessage" title="If you'd like, tell us more about yourself!"></textarea>
 
             <div class="buttonGroup">
                 <input type="submit" value="Join Us">
@@ -94,7 +94,7 @@
     </main>
 
     <footer>
-        <a href="join.html" class="joinButton"><img src="images/memberButton.svg" alt=""></a>
+        <a href="join.html" class="joinButton"><img src="images/memberButton.svg" alt="Become a member"></a>
 
         <address>
             Developed by:
