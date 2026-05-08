@@ -113,3 +113,88 @@ address {
     width: 50%;
     text-align: right;
 }
+
+form {
+    padding: 2rem;
+    clear: both;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 2rem auto;
+    border: 1px solid #352B27;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(40, 40, 40, 0.5);
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+form p, label, legend {
+    font-family: 'Coolvetica', Helvetica, Arial, sans-serif;
+}
+
+form > label { display: block; }
+
+label {
+    margin: 1rem 0 .25rem 0;
+}
+
+input, select, textarea {
+    background-color: #f9fbfa;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: .4rem;
+}
+
+input, select {
+    max-width: 100%;
+    margin: .5rem 0 1rem 0;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 400px;
+}
+
+select { width: 300px; }
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    margin: .5rem 0 1rem 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    background-color: #d6cbdc;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #c7ddd6;
+    border-radius: 5px;
+}
+
+legend {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+    margin-right: .4rem;
+}
+
+.buttonGroup {
+    text-align: center;
+    margin: 1rem;
+}
+
+.buttonGroup input {
+    font-family: 'Coolvetica', Helvetica, Arial, sans-serif;
+    margin-top: 1rem;
+    padding: .6rem;
+    width: 120px;
+    background-color: #A792B3;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #5f978c;
+}

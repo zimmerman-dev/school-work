@@ -11,14 +11,12 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="styleSheets/main.css">
     <link rel="stylesheet" href="styleSheets/join.css">
-
 </head>
 
 <body>
 
     <header>
         <img src="images/testfont.svg" alt="Student Study Collective logo" class="logo">
-
         <nav>
             <a href="index.html">Home</a> &bull;
             <a href="join.html">Join Us</a> &bull;
@@ -30,27 +28,26 @@
     <main>
         <section>
             <h1>Interested in joining The Student Study Collective?</h1>
-
             <img src="images/busyStudent.jpg" alt="student illustration with many arms" id="busyStudent">
             <p>Joining Student Study Collective is a simple way to stay connected, motivated, and supported throughout the semester. Members gain access to virtual Discord study rooms, campus meetups, shared resources, and a welcoming community of students working toward similar goals. Whether you prefer quiet independent study sessions or collaborative group discussions, the club is designed to support a variety of study styles and schedules. Our goal is to create an environment where students can stay accountable, reduce stress, and make steady academic progress together. No matter your major or experience level, everyone is welcome to join and participate.</p>
         </section>
-        <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
 
+        <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
             <p>An asterisk (*) denotes a required field.</p>
 
             <label for="firstName">*First Name</label>
-            <input type="text" name="firstName" id="firstName" required pattern="[A-Za-z' -]+" title="Use letters, spaces, hyphens, or apostrophes."><br>
+            <input type="text" name="firstName" id="firstName" required pattern="[A-Za-z' -]+" title="Use letters, spaces, hyphens, or apostrophes.">
 
             <label for="lastName">*Last Name</label>
-            <input type="text" name="lastName" id="lastName" required pattern="[A-Za-z' -]+" title="Use letters, spaces, hyphens, or apostrophes."><br>
+            <input type="text" name="lastName" id="lastName" required pattern="[A-Za-z' -]+" title="Use letters, spaces, hyphens, or apostrophes.">
 
             <label for="studentEmail">*Email</label>
-            <input type="email" name="studentEmail" id="studentEmail" required><br>
+            <input type="email" name="studentEmail" id="studentEmail" required>
 
             <label for="studentProgram">Program/Major</label>
-            <input type="text" name="studentProgram" id="studentProgram" pattern="[A-Za-z0-9' &.-]+" title="Use letters, spaces, hyphens, or apostrophes."><br>
+            <input type="text" name="studentProgram" id="studentProgram" pattern="[A-Za-z0-9' &.-]+" title="Use letters, spaces, hyphens, or apostrophes.">
 
-            <label for="studyLevel">Year in School</label><br>
+            <label for="studyLevel">Year in School</label>
             <select name="studyLevel" id="studyLevel">
                 <option value="first_year">First Year</option>
                 <option value="second_year">Second Year</option>
@@ -73,7 +70,6 @@
 
             <fieldset>
                 <legend>Preferred Study Style</legend>
-
                 <input type="radio" name="studyStyle" id="quietFocus" value="quiet_focus" checked>
                 <label for="quietFocus">Quiet Focus</label>
 
@@ -88,23 +84,12 @@
                 <input type="submit" value="Join Us">
                 <input type="reset" value="Clear Form">
             </div>
-
         </form>
-
-
     </main>
 
     <footer>
         <a href="join.html" class="joinButton"><img src="images/memberButton.svg" alt="Become a member"></a>
-
-        <address>
-            Developed by:
-            <a href="mailto:jzimmerman3@madisoncollege.edu" class="contentCreator">
-                jzimmerman3@madisoncollege.edu
-            </a>
-            Images by:
-            <a href="https://unsplash.com/@suenyo/illustrations" class="contentCreator">Sanja Djordjevic</a>
-        </address>
+        <address>Developed by:<a href="mailto:jzimmerman3@madisoncollege.edu" class="contentCreator"> jzimmerman3@madisoncollege.edu</a> Images by:<a href="https://unsplash.com/@suenyo/illustrations" class="contentCreator"> Sanja Djordjevic</a></address>
     </footer>
 </body>
 
