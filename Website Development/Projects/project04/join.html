@@ -16,7 +16,7 @@
 <body>
 
     <header>
-        <img src="images/testfont.svg" alt="Student Study Collective logo" class="logo">
+        <img src="images/testfont4.svg" alt="Student Study Collective logo" class="logo">
         <nav>
             <a href="index.html">Home</a> &bull;
             <a href="join.html">Join Us</a> &bull;
@@ -27,26 +27,28 @@
 
     <main>
         <section>
+            <img src="images/busyStudent.jpg" alt="student illustration with many arms" class="contentImage largeImage floatRight">
             <h1>Interested in joining The Student Study Collective?</h1>
-            <img src="images/busyStudent.jpg" alt="student illustration with many arms" id="busyStudent">
             <p>Joining Student Study Collective is a simple way to stay connected, motivated, and supported throughout the semester. Members gain access to virtual Discord study rooms, campus meetups, shared resources, and a welcoming community of students working toward similar goals. Whether you prefer quiet independent study sessions or collaborative group discussions, the club is designed to support a variety of study styles and schedules. Our goal is to create an environment where students can stay accountable, reduce stress, and make steady academic progress together. No matter your major or experience level, everyone is welcome to join and participate.</p>
         </section>
 
         <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+            <h2>Become a Member!</h2>
+            <img src="images/focusedStudent.jpg" alt="student at desk studying" class="contentImage portraitImage floatRight formImage">
             <p>An asterisk (*) denotes a required field.</p>
-
+            
             <label for="firstName">*First Name</label>
             <input type="text" name="firstName" id="firstName" required pattern="[A-Za-z' -]+" title="Use letters, spaces, hyphens, or apostrophes.">
-
+            
             <label for="lastName">*Last Name</label>
             <input type="text" name="lastName" id="lastName" required pattern="[A-Za-z' -]+" title="Use letters, spaces, hyphens, or apostrophes.">
-
+            
             <label for="studentEmail">*Email</label>
             <input type="email" name="studentEmail" id="studentEmail" required>
-
+            
             <label for="studentProgram">Program/Major</label>
             <input type="text" name="studentProgram" id="studentProgram" pattern="[A-Za-z0-9' &.-]+" title="Use letters, spaces, hyphens, or apostrophes.">
-
+            
             <label for="studyLevel">Year in School</label>
             <select name="studyLevel" id="studyLevel">
                 <option value="first_year">First Year</option>
@@ -78,7 +80,7 @@
             </fieldset>
 
             <label for="studentMessage">What subjects are you working on?</label>
-            <textarea name="studentMessage" id="studentMessage" title="If you'd like, tell us more about yourself!"></textarea>
+            <textarea name="studentMessage" id="studentMessage" title="If you'd like, tell us more about yourself!" placeholder="Start Typing..."></textarea>
 
             <div class="buttonGroup">
                 <input type="submit" value="Join Us">

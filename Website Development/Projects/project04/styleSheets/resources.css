@@ -1,54 +1,35 @@
 .topLeftResource, .topRightResource {
-
     /* Allows both sections to fit side-by-side */
-    width: 47%;
-
+    width: 45%;
     /* Overrides the global section max-width */
     max-width: none;
+    min-width: 400px;
     box-sizing: border-box;
 }
 
-.topLeftResource {
-    float: left;
-}
+.topLeftResource {float: left;}
 
-.topRightResource {
-    float: right;
-}
+.topRightResource {float: right;}
 
 /* Prevents the bottom section from wrapping upward */
-.clearResource {
-    clear: both;
-}
-
-.resourceImage {
-    border: 5px solid #ffffff;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-    width: 50%;
-    max-width: 500px;
-    min-width: 300px;
-    height: auto;
-    margin: 1.5rem;
-    float: right;
-}
-
-#recreation {
-    border: 5px solid #ffffff;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-    width: 50%;
-    max-width: 500px;
-    min-width: 300px;
-    height: auto;
-    margin: auto;
-    display: block;
-}
+.clearResource {clear: both;}
 
 a {
-    font-family: 'Coolvetica';
+    font-family: 'Coolvetica', Helvetica, Arial, sans-serif;
     color: #8c39ae;
     margin: 0 0.5rem;
 }
 
-a:hover {
-    color: #C77035;
+a:hover {color: #C77035;}
+
+.largeImage {
+    width: 50%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 1.5rem;
+}
+
+.centerImage {
+    display: block;
+    margin: auto;
 }

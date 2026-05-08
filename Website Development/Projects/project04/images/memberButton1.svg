@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="151.12633mm"
-   height="42.917355mm"
-   viewBox="0 0 151.12632 42.917354"
+   width="244.65511mm"
+   height="154.66638mm"
+   viewBox="0 0 244.6551 154.66638"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
-   sodipodi:docname="testfont2.svg"
-   inkscape:export-filename="testfont2.png"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="memberButton1.svg"
+   inkscape:export-filename="memberButton.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,22 +28,18 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="1.0307169"
-     inkscape:cx="141.16388"
-     inkscape:cy="235.27314"
-     inkscape:window-width="1920"
-     inkscape:window-height="1052"
+     inkscape:cx="339.56948"
+     inkscape:cy="368.19033"
+     inkscape:window-width="2560"
+     inkscape:window-height="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g41" />
+     inkscape:current-layer="g41"
+     showgrid="false"
+     inkscape:export-bgcolor="#00000000" />
   <defs
      id="defs1">
-    <rect
-       x="-155.23177"
-       y="-89.258263"
-       width="893.55286"
-       height="352.18207"
-       id="rect1" />
     <linearGradient
        id="linearGradient44"
        inkscape:collect="always">
@@ -108,10 +104,10 @@
        style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
        id="filter31"
-       x="-0.044215187"
-       y="-0.29351648"
-       width="1.0884304"
-       height="1.587033">
+       x="-0.075007977"
+       y="-0.36688347"
+       width="1.150016"
+       height="1.7337669">
       <feFlood
          result="flood"
          in="SourceGraphic"
@@ -146,10 +142,10 @@
        style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
        id="filter41"
-       x="-0.052659936"
-       y="-0.59188495"
-       width="1.1053199"
-       height="2.1837699">
+       x="-0.099470518"
+       y="-0.63438341"
+       width="1.198941"
+       height="2.2687668">
       <feFlood
          result="flood"
          in="SourceGraphic"
@@ -203,7 +199,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-67.704207,-86.300348)">
+     transform="translate(-65.981143,-84.425299)">
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -218,32 +214,33 @@
        y="0" />
     <g
        id="g41">
-      <text
-         xml:space="preserve"
-         transform="matrix(0.26458333,0,0,0.26458333,96.328559,102.92352)"
-         id="text23"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';text-align:center;letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect23);display:inline;fill:url(#linearGradient45);fill-opacity:1;filter:url(#filter31)"
-         x="240.84236"
-         y="0"><tspan
-           x="45.71377"
-           y="64.573869"
-           id="tspan1">Collective</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:0.669396px;word-spacing:-2.00025px;writing-mode:lr-tb;direction:ltr;fill:url(#linearGradient43);fill-opacity:1;stroke-width:0.264583;filter:url(#filter41)"
-         x="74.341171"
-         y="102.99786"
-         id="text31"><tspan
-           sodipodi:role="line"
-           id="tspan31"
-           style="fill:url(#linearGradient43);fill-opacity:1;stroke-width:0.264583"
+      <g
+         id="g1"
+         transform="matrix(2.5787082,0.80199169,-0.81035862,2.5665343,-17.223674,-193.48102)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,47.555874,102.66682)"
+           id="text23"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56px;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';text-align:center;letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect23);display:inline;fill:url(#linearGradient45);fill-opacity:1;filter:url(#filter31)"
+           x="240.84236"
+           y="0"><tspan
+             x="126.18078"
+             y="50.224121"
+             id="tspan4"><tspan
+               dx="0 -7.5599995"
+               id="tspan3"> Member</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.8167px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:0.669396px;word-spacing:-2.00025px;writing-mode:lr-tb;direction:ltr;fill:url(#linearGradient43);fill-opacity:1;stroke-width:0.264583;filter:url(#filter41)"
            x="74.341171"
-           y="102.99786">The Student Study</tspan></text>
-      <text
-         xml:space="preserve"
-         transform="matrix(0.26458333,0,0,0.26458333,61.303968,85.783375)"
-         id="text1"
-         style="font-size:56px;line-height:0;font-family:'Earwig Factory';-inkscape-font-specification:'Earwig Factory';letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#a792b3" />
+           y="102.99786"
+           id="text31"><tspan
+             sodipodi:role="line"
+             id="tspan31"
+             style="fill:url(#linearGradient43);fill-opacity:1;stroke-width:0.264583"
+             x="74.341171"
+             y="102.99786">Become A</tspan></text>
+      </g>
     </g>
     <text
        xml:space="preserve"

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="186.60081mm"
+   height="52.845924mm"
+   viewBox="0 0 186.6008 52.845925"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="testfont4.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.98973765"
+     inkscape:cx="315.23505"
+     inkscape:cy="361.20683"
+     inkscape:window-width="2560"
+     inkscape:window-height="1366"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient16"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#fcfcfc;stop-opacity:1;"
+         offset="0"
+         id="stop15" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="1"
+         id="stop16" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient14"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop13" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="1"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#d25d57;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+      <stop
+         style="stop-color:#fceade;stop-opacity:1;"
+         offset="1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#6a0ba2;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#e2b8d1;stop-opacity:1;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <rect
+       x="-58.601387"
+       y="-47.487331"
+       width="825.47125"
+       height="369.79498"
+       id="rect5" />
+    <rect
+       x="1.0103688"
+       y="232.38481"
+       width="744.64178"
+       height="247.54034"
+       id="rect4" />
+    <rect
+       x="-34.352539"
+       y="247.54034"
+       width="746.66254"
+       height="204.09448"
+       id="rect3" />
+    <rect
+       x="82.850235"
+       y="279.87213"
+       width="597.12793"
+       height="151.55531"
+       id="rect2" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter52"
+       x="-0.042994104"
+       y="-0.37010283"
+       width="1.0994605"
+       height="1.8542854">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.447059"
+         flood-color="rgb(0,0,0)"
+         id="feFlood51" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="3.040406"
+         id="feGaussianBlur51" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.286525"
+         dy="2.249204"
+         id="feOffset51" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite51" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite52" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter52-7"
+       x="-0.066209335"
+       y="-0.37899994"
+       width="1.1531655"
+       height="1.874822">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.447059"
+         flood-color="rgb(0,0,0)"
+         id="feFlood51-5" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="3.040406"
+         id="feGaussianBlur51-3" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.286525"
+         dy="2.249204"
+         id="feOffset51-5" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite51-6" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite52-2" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="95.021294"
+       y1="58.529488"
+       x2="89.140099"
+       y2="95.088715"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.0693068,0.26732688)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7"
+       id="linearGradient8"
+       x1="133.78366"
+       y1="138.10081"
+       x2="120.95198"
+       y2="174.1972"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(9.7236208,-62.821782)" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter52-2"
+       x="-0.042994104"
+       y="-0.37010283"
+       width="1.0994605"
+       height="1.8542854">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.447059"
+         flood-color="rgb(0,0,0)"
+         id="feFlood51-6" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="3.040406"
+         id="feGaussianBlur51-1" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.286525"
+         dy="2.249204"
+         id="feOffset51-8" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite51-7" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite52-9" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter52-7-2"
+       x="-0.066209335"
+       y="-0.37899994"
+       width="1.1531655"
+       height="1.874822">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.447059"
+         flood-color="rgb(0,0,0)"
+         id="feFlood51-5-3" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="3.040406"
+         id="feGaussianBlur51-3-7" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="2.286525"
+         dy="2.249204"
+         id="feOffset51-5-5" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite51-6-9" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite52-2-2" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9"
+       id="linearGradient10"
+       x1="118.01139"
+       y1="204.59608"
+       x2="106.51633"
+       y2="219.21945"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16"
+       id="linearGradient12"
+       gradientUnits="userSpaceOnUse"
+       x1="118.01139"
+       y1="204.59608"
+       x2="106.51633"
+       y2="219.21945" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14"
+       id="linearGradient13"
+       gradientUnits="userSpaceOnUse"
+       x1="118.01139"
+       y1="204.59608"
+       x2="106.51633"
+       y2="219.21945" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter27"
+       x="-0.085311266"
+       y="-0.4026628"
+       width="1.1840782"
+       height="1.8677987">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.278431"
+         flood-color="rgb(255,255,255)"
+         id="feFlood26" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="3.000000"
+         id="feGaussianBlur26" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="-0.000000"
+         dy="0.000000"
+         id="feOffset26" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite26" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite27" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.951978,-58.529489)">
+    <g
+       id="g16"
+       style="filter:url(#filter27)">
+      <g
+         id="g9"
+         style="fill:url(#linearGradient10);fill-opacity:1"
+         transform="translate(0.8019802,-124.0396)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Airmole Antique';-inkscape-font-specification:'Airmole Antique';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:url(#linearGradient12);fill-opacity:1;stroke-width:0.264583;filter:url(#filter52-2)"
+           x="190.40199"
+           y="204.59608"
+           id="text1-9"><tspan
+             sodipodi:role="line"
+             id="tspan1-73"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:url(#linearGradient12);fill-opacity:1;stroke-width:0.264583"
+             x="190.40198"
+             y="204.59608">The Student Study</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:url(#linearGradient12);fill-opacity:1;stroke-width:0.264583"
+             x="190.40199"
+             y="229.29059"
+             id="tspan2-6" /></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Airmole Antique';-inkscape-font-specification:'Airmole Antique';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:url(#linearGradient13);fill-opacity:1;stroke-width:0.264583;filter:url(#filter52-7-2)"
+           x="183.39601"
+           y="195.73769"
+           id="text1-2-1"><tspan
+             sodipodi:role="line"
+             id="tspan1-7-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:url(#linearGradient13);fill-opacity:1;stroke-width:0.264583"
+             x="183.39601"
+             y="195.73769" /><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:url(#linearGradient13);fill-opacity:1;stroke-width:0.264583"
+             x="183.39601"
+             y="225.45195"
+             id="tspan2-0-9">Collective</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Airmole Antique';-inkscape-font-specification:'Airmole Antique';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:url(#linearGradient6);fill-opacity:1;stroke-width:0.264583;filter:url(#filter52)"
+         x="191.41399"
+         y="80.732666"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:url(#linearGradient6);fill-opacity:1;stroke-width:0.264583"
+           x="191.41397"
+           y="80.732666">The Student Study</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:url(#linearGradient6);fill-opacity:1;stroke-width:0.264583"
+           x="191.41399"
+           y="105.42717"
+           id="tspan2" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Airmole Antique';-inkscape-font-specification:'Airmole Antique';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:url(#linearGradient8);fill-opacity:1;stroke-width:0.264583;filter:url(#filter52-7)"
+         x="184.77519"
+         y="71.606949"
+         id="text1-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:url(#linearGradient8);fill-opacity:1;stroke-width:0.264583"
+           x="184.77519"
+           y="71.606949" /><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;fill:url(#linearGradient8);fill-opacity:1;stroke-width:0.264583"
+           x="184.77519"
+           y="101.32121"
+           id="tspan2-0">Collective</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#efb1d6;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#efb1d6;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Coolvetica;-inkscape-font-specification:Coolvetica;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#efb1d6;fill-opacity:1" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,12.951979,58.529489)"
+       id="text5"
+       style="font-size:48px;line-height:0;font-family:Baveuse;-inkscape-font-specification:Baveuse;letter-spacing:2.53px;word-spacing:-7.56px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:inline;opacity:0.373498;fill:#a792b3;fill-opacity:1" />
+  </g>
+</svg>
