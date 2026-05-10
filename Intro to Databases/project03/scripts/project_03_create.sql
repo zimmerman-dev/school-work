@@ -1,6 +1,8 @@
 -- Created by Redgate Data Modeler (https://datamodeler.redgate-platform.com)
 -- Last modification date: 2026-05-09 19:42:27.467
 
+-- Schema: jzimmerman3_project_3_artwork
+
 -- tables
 -- Table: artist
 CREATE TABLE artist (

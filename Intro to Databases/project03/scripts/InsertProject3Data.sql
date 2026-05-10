@@ -1,18 +1,19 @@
-/******************************************************************************/
-/*											                                    */
-/*		Introduction to Databases - Project 3 INSERT STATEMENTS					*/
-/* 																				*/
-/*		Depending on your exact implmentation you may need to modify 			*/
-/*	    some of these statements to insert them into your Project 3 tables.	    */
-/*																				*/
-/*		Artist and Artwork information sourced from Dane Arts Buy Local 		*/
-/*		website: https://dablmarket.com/ 										*/
-/*																				*/
-/*																				*/
-/******************************************************************************/
+/************************************************************************************************/
+/*												*/
+/*		Introduction to Databases - Project 3 INSERT STATEMENTS				*/
+/*												*/
+/*		Depending on your exact implmentation you may need to modify			*/
+/*	    some of these statements to insert them into your Project 3 tables.			*/
+/*												*/
+/*		Artist and Artwork information sourced from Dane Arts Buy Local			*/
+/*		website: https://dablmarket.com/						*/
+/*												*/
+/*												*/
+/************************************************************************************************/
 
+-- schema jzimmerman3_project_3_artwork
 
-/*****   ARTIST	DATA   ********************************************************/
+/*****   ARTIST	DATA   **************************************************************************/
 
 INSERT INTO artist (artist_id, first_name, last_name, website, email) VALUES(
 	 NULL, 'Shandra', 'Bjyrd', 'bjyrdceramics.com', NULL);
@@ -23,13 +24,13 @@ INSERT INTO artist (artist_id, first_name, last_name, website, email) VALUES(
 INSERT INTO artist (artist_id, first_name, last_name, website, email) VALUES(
 	 NULL, 'Wendy', 'Schneider', 'www.wendyschneider.com', NULL);
 
-/*****   MEDIUM	DATA   ******************************************************/
+/*****   MEDIUM	DATA   **************************************************************************/
 
 INSERT INTO medium (medium_id, medium_name) VALUES(1, 'Ceramics');
 INSERT INTO medium (medium_id, medium_name) VALUES(2, 'Painting');
 INSERT INTO medium (medium_id, medium_name) VALUES(3, 'Drawing');
 
-/*****   ARTWORK DATA   ****************************************************/
+/*****   ARTWORK DATA   **************************************************************************/
 
 INSERT INTO artwork (artwork_id, title, years_to_produce, medium_id, artist_id) 
 	VALUES(100, 'AHAF', 0.1, 1, 1);
@@ -57,7 +58,7 @@ INSERT INTO artwork (artwork_id, title, years_to_produce, medium_id, artist_id)
 	VALUES(1200, 'Girl Dancing on Elephant No Sunny', 0.9, 3, 4);       
     
     
-/*****   MUSEUM DATA   *********************************************************/
+/*****   MUSEUM DATA    **************************************************************************/
 
 INSERT INTO museum (museum_id, museum_name, country, state, city, phone, director_last_name) 
 	VALUES(3001, 'Monona Terrace Art Gallery', 'United States', 'Wisconsin', 'Madison', '608-999-0293', 'Wright');
@@ -67,7 +68,7 @@ INSERT INTO museum (museum_id, museum_name, country, state, city, phone, directo
 	VALUES(3003, 'Milwaukee Museum of Art', 'United States', 'Wisconsin', 'Milwaukee', '414-392-2938', 'Miller');
 
 
-/*****   DISPLAY DATA   ******************************************************/
+/*****   DISPLAY DATA    **************************************************************************/
 
 INSERT INTO display (artwork_id, museum_id, start_date, end_date) 
 	VALUES(100, 3001, '2009-04-04', '2009-09-30');
@@ -101,4 +102,6 @@ INSERT INTO display (artwork_id, museum_id, start_date, end_date)
 INSERT INTO display (artwork_id, museum_id, start_date, end_date) 
 	VALUES(700, 3003, '2012-01-01', '2015-12-31');
     
-/****************************************************************************************/
+/**************************************************************************************************/
+
+-- end of file
