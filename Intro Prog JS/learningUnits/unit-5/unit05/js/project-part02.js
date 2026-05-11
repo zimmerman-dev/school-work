@@ -1,13 +1,66 @@
+// Global variables
+let names = [];
+
+// Make table
+function createTable(outputTable) {
+    let index;
+
+    // Clear the table
+    outputTable.innerHTML = "";
+
+    // Table header
+    outputTable.innerHTML += "<tr>";
+    outputTable.innerHTML += "<td>Name</td>";
+    outputTable.innerHTML += "</tr>";
+
+    for (index = 0; index < names.length; index++) {
+        outputTable.innerHTML += "<tr>";
+        outputTable.innerHTML += "<td>" + names[index] + "</td>";
+        outputTable.innerHTML += "</tr>";
+    }
+}
+
+// Validation
+function validName(enteredName) {
+    
+    if (enteredName.trim() === "") {
+        return false;
+    }
+    return true;
+}
+
+function outputTotal() {
+
+    // output total
+    document.getElementById("totalOutput").innerHTML = "Total Names: " + names.length;
+}
+
 function part02() {
     "use strict";
 
-    // YOUR CODE STARTS AFTER THIS LINE:
+    // Variable Declarations
+    let enteredName;
+    let outputTable;
+    let form;
 
-    // Delete this line before starting (for testing purposes)
-    let output;
+    // Get form and table objects
+    form = document.getElementById("formId");
+    outputTable = document.getElementById("outputTable");
 
-    output = document.getElementById("part02Output");
+    // Get enteredName from form
+    enteredName = form.enteredName.value;
 
-    output.innerHTML = "Part 2";
-    
+    // Validation for empty form
+    if (validName(enteredName) === false) {
+        return;
+    }
+
+    // Add entered name to array
+    names.push(enteredName);
+
+    // total counter function
+    outputTotal();
+
+    // Display table
+    createTable(outputTable);
 }

@@ -79,16 +79,26 @@
     <h2>Your Form</h2>
     <div class="studentOutput">
       <!--  Add your form below this line-->
-      <form id="lab05Form"
-            action="#"
-            onsubmit="return displayFormattedAddress();">
+      <form id="lab05FormId" action="#" onsubmit="return displayFormattedAddress();">
 
-            <label for="">City</label>
-            <input type="text">
-            <br>
+        <label for="addressId">Address:</label>
+        <input type="text" name="address" id="addressId">
 
+        <label for="cityId">City:</label>
+        <input type="text" name="city" id="cityId">
 
+        <label for="stateId">State:</label>
+        <input type="text" name="state" id="stateId">
+        
+        <label for="zipCodeId">Zip Code:</label>
+        <input type="text" name="zipCode" id="zipCodeId">
+        <br>
+
+        <input type="submit" name="submit" value="Submit Address">
+        <input type="reset" name="reset" value="Clear">
       </form>
+
+      <div id="lab05OutputId" class="addressOutput"></div>
     </div>
   </section>
 

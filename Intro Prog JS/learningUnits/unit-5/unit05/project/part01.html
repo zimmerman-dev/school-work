@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <link href="../styles/css.css" rel="stylesheet"/>
-  <link href="../styles/prism.css" rel="stylesheet"/>
+  <link href="../styles/css.css" rel="stylesheet" />
+  <link href="../styles/prism.css" rel="stylesheet" />
   <script src="../js/prism.js"></script>
   <script src="../js/project-part01.js"></script>
   <script src="../js/unitData.js"></script>
@@ -20,29 +20,38 @@
     <a href="../index.html" class="homeLink">Home</a>
     <h1>Project 5 | Part 1</h1>
   </header>
-    
+
 
   <main>
     <section class="studentInfo">
-        <h2>Student Information:</h2>
-        <ul>
-            <li>Name:</li>
-            <li>Section:</li>
-            <li>Email:</li>
-        </ul>
+      <h2>Student Information:</h2>
+      <ul>
+        <li>Name: John Zimmerman</li>
+        <li>Section: Mo/We</li>
+        <li>Email: jzimmerman3@madisoncollege.edu</li>
+      </ul>
     </section>
 
     <section class="steps noPrint">
       <h2>Project Steps</h2>
-      <p>Write a program that will find all the <span class="important">unique zip codes</span> in the <strong>Zip Code Study Record Set</strong>. The program must access the record set and extract the unique zip codes and store them. Then output the unique zip codes from storage and display them as an <strong>ordered list</strong>. The program <strong>must</strong> use methods for all identifiable tasks.</p>
+      <p>Write a program that will find all the <span class="important">unique zip codes</span> in the <strong>Zip Code
+          Study Record Set</strong>. The program must access the record set and extract the unique zip codes and store
+        them. Then output the unique zip codes from storage and display them as an <strong>ordered list</strong>. The
+        program <strong>must</strong> use methods for all identifiable tasks.</p>
 
-      <p>The program must be set up using <strong>at least two</strong> other methods in addition to the controller function.</p>
-      
+      <p>The program must be set up using <strong>at least two</strong> other methods in addition to the controller
+        function.</p>
+
       <h3>Testing Tip</h3>
-      <p>The sample program in the Zip Code Study Records lecture notes illustrates accessing the first 25 records by stopping the loop early. This is an excellent way to test a sub-set of data, since the actual file contains many more records. It also makes working with the data more manageable. I recommend taking this approach while working on this program and then removing IF statement that stops the loop once done. <strong>Your program must work with all of the records in the file, and not just the first 25 records.</strong></p>
-      
+      <p>The sample program in the Zip Code Study Records lecture notes illustrates accessing the first 25 records by
+        stopping the loop early. This is an excellent way to test a sub-set of data, since the actual file contains many
+        more records. It also makes working with the data more manageable. I recommend taking this approach while
+        working on this program and then removing IF statement that stops the loop once done. <strong>Your program must
+          work with all of the records in the file, and not just the first 25 records.</strong></p>
+
       <h3>Clarification on unique zip codes</h3>
-      <p>The term unique can mean different things in English depending on the context. Make sure you understand what the phrase unique zip codes means for this application.</p>
+      <p>The term unique can mean different things in English depending on the context. Make sure you understand what
+        the phrase unique zip codes means for this application.</p>
       <p>Example: The following set of zip codes (53703, 53702, 53708, 53702) have three unique zip codes.</p>
     </section>
 
@@ -50,42 +59,57 @@
       <h2>Restrictions</h2>
       <ul>
         <li>No hard-coded zip code values are allowed within the program.</li>
-        <li>The program must function without knowing in advance how many unique zip codes exist in the record set, nor what the values of these unique zip codes are.</li>
+        <li>The program must function without knowing in advance how many unique zip codes exist in the record set, nor
+          what the values of these unique zip codes are.</li>
         <li>The program can only loop through the record set once.</li>
         <li>Any arrays used in this program must be empty at the time the program begins to run.</li>
-        <li>Use of <code class="language-js">document.write()</code> is not allowed. Use the techniques learned in unit 5 for manipulating the DOM, innerHTML etc.</li>
-        <li>You are only allowed to use concepts discussed in this course. Using methods like <code class="language-js">indexOf()</code> or <code class="language-js">contains()</code> in your solution will not be accepted.</li>
+        <li>Use of <code class="language-js">document.write()</code> is not allowed. Use the techniques learned in unit
+          5 for manipulating the DOM, innerHTML etc.</li>
+        <li>You are only allowed to use concepts discussed in this course. Using methods like <code
+            class="language-js">indexOf()</code> or <code class="language-js">contains()</code> in your solution will
+          not be accepted.</li>
       </ul>
     </section>
 
 
     <section class="noPrint">
       <h2>Extra Credit - 5 points</h2>
-      <p>To earn extra credit points on this project, also output the count of each zip code. For each zip code you will need to count the occurrences and store the value in something (Maybe a parallel array?)</p>
-      <p>If the extra credit is attempted, the output must be displayed as a table with two columns, one for each zip code, and one for the number of times that zip code occurs in the record set.</p>
+      <p>To earn extra credit points on this project, also output the count of each zip code. For each zip code you will
+        need to count the occurrences and store the value in something (Maybe a parallel array?)</p>
+      <p>If the extra credit is attempted, the output must be displayed as a table with two columns, one for each zip
+        code, and one for the number of times that zip code occurs in the record set.</p>
     </section>
 
     <section class="planning">
       <h2>Planning List</h2>
       <h3>Input Variables</h3>
       <div class="inputVars">
-        <!-- Enter Input Variables within the <ul> as <li> elements --> 
+        <!-- Enter Input Variables within the <ul> as <li> elements -->
         <ul>
-
+          <li>records - dataset containing zipcode records</li>
+          <li>zipcode = current zipcodes from the dataset</li>
+          <li></li>
         </ul>
       </div>
       <h3>Output Variables</h3>
       <div class="outputVars">
-        <!-- Enter Output Variables within the <ul> as <li> elements --> 
+        <!-- Enter Output Variables within the <ul> as <li> elements -->
         <ul>
-
+          <li>output - webpage area where results are displayed.</li>
+          <li>tableHTML - displays the table html</li>
         </ul>
       </div>
       <h3>Process Checklist</h3>
       <div class="checklist">
-        <!-- Enter the Checklist within the <ul> as <li> elements --> 
+        <!-- Enter the Checklist within the <ul> as <li> elements -->
         <ol>
-
+          <li>Declare Variables</li>
+          <li>assigned variables initial values</li>
+          <li>loop through the records</li>
+          <li>Check each zipcode for its uniqueness</li>
+          <li>if zipcode is unique return it's index</li>
+          <li>if index is returned, append both the zip code array and the count array</li>
+          <li>display table data</li>
         </ol>
       </div>
     </section>
@@ -98,21 +122,35 @@
       ------------------------->
       <h3>Test Case 1</h3>
       <div class="testCase">
-        <p><span class="testHeader">Expected Input:</span>
-            <!-- Enter expected input here-->
+        <p><span class="testHeader">Expected Input:</span><br>
+          I shortened the record set to 25 to check the results.
         </p>
-        <p><span class="testHeader">Expected Output:</span>
-              <!-- Enter expected output here-->
+        <p><span class="testHeader">Expected Output:</span><br>
+          91343 2<br>
+          91342 2<br>
+          75211 1<br>
+          10024 2<br>
+          75214 2<br>
+          10023 3<br>
+          55410 2<br>
+          55412 1<br>
+          10021 2<br>
+          55411 3<br>
+          10022 1<br>
+          55414 1<br>
+          91344 2<br>
+          10020 1<br>
         </p>
-      </div>    
+      </div>
     </section>
-  
+
 
 
     <section>
       <h2>Your Output</h2>
       <div class="studentOutput" id="part01Output">
-        
+
+
       </div>
       <script language="JavaScript" type="text/javascript">part01();</script>
     </section>
