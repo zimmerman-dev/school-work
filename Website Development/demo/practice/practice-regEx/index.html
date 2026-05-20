@@ -17,7 +17,7 @@
 
         <main>
             <form name="flowerForm" action="http://itins3.madisoncollege.edu/echo.php" method="post">
-                <label>What type of flower whould you like?</label>
+                <label>What type of flower would you like?</label>
                 <select name="flower">
                     <option value="none">--Select a Flower--</option>
                     <option value="rose">Roses</option>
@@ -27,25 +27,25 @@
                 </select>
 
                 <label for="quantity">How many flowers?</label>
-                <input type="text" name="quantity" id="quantity" required>
+                <input type="text" name="quantity" id="quantity" required pattern="\d{1,2}" title="Enter a number, 1-99">
 
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required>
 
                 <label for="phone">Phone</label>
-                <input type="text" name="phone" id="phone" required>
+                <input type="text" name="phone" id="phone" required pattern="\d{3}-\d{3}-\d{4}" title="Required format: xxx-xxx-xxxx">
 
                 <label for="street">Street Address</label>
                 <input type="text" name="street" id="street" required>
 
                 <label for="state">State</label>
-                <input type="text" name="state" id="state" required>
+                <input type="text" name="state" id="state" required pattern="[A-Za-z]{2}" title="Ex: WI or wi">
 
                 <label for="city">City</label>
                 <input type="text" name="city" id="city" required>
 
                 <label for="zip">Zip</label>
-                <input type="text" name="zip" id="zip" required>
+                <input type="text" name="zip" id="zip" required pattern="\d{5}" title="Required format: xxxxxx">
 
                 <div id="buttonContainer">
                     <input type="submit">

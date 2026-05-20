@@ -36,11 +36,7 @@ function lab09() {
 
     // Loop through scores
     for (index = 0; index < scores.length; index++) {
-        
-        // assign values to outputItems if scores are greater than or equal to 88
         if (scores[index] >= SCORE_UPPER_THRESHOLD) {
-
-            // Index is used for both data sets
             outputItems += "<tr><td>" + names[index] + "</td><td>" + scores[index] + "</td></tr>";
         }
     }
